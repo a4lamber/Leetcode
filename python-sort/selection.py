@@ -1,6 +1,9 @@
 def selectionSort(array):
     """
     Sort an array in ascending order with selection sort.
+    算法开始前，假设第一个element为最小.
+    每一个外循环, 寻找出整体最小值，用打擂台的方法.
+    每一个内循环，比较当前值a和整体最小值min, 如果a<min, min = a
     Args:
         array (_type_): unsorted array
 

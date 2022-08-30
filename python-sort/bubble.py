@@ -1,6 +1,8 @@
 def bubbleSort(array):
     """
-    Implementation of bubble sort in python.
+    Implementation of bubble sort in python in ascending order.
+    每一个外循环,把一个最大的数，移到最右边.
+    每一个内循环,比较相邻的两个数，如果左>右，则换.
     Args:
         array (_type_): unsorted array
 

@@ -1,4 +1,14 @@
 def insertionSort(array):
+    """
+    sort an array with insertion sort in ascending.
+    At the begining of the algorithm, assuming the 1st element is sorted and it's the minimum.
+    
+    Args:
+        array (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     for i in range(1,len(array)):
         # item as the key
         key = array[i]
@@ -8,6 +18,7 @@ def insertionSort(array):
         
         # 循环比较key和sorted portion of the array until max # of comparison reached(placed at zero) 
         # or it's smaller than any array
+        # worst case 循环 i 次, best case 1次
         while j >= 0 and key < array[j]:
             # 挪动一下sorted array的顺序
             array[j+1] = array[j]
