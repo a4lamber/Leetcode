@@ -2,7 +2,7 @@
 
 ---
 
-- [recustion](notes/divideAndConquer.ipynb)
+- [recursion](notes/recursion.ipynb)
 
 
 
