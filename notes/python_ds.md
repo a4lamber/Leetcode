@@ -38,5 +38,17 @@ Let's see a diagram with different abstract data type with some implementation.
     - Set
       - Sorted set
 
-### 1.2 
+
+## Chap 2. Arrays and Linked Structures
+
+Outline:
+- implement an `Array` concrete data structure
+- implement an `Grid` concrete data structure
+
+### 2.1 The Array
+
+### 2.2 Two-Dimensional Arrays (Grids)
+
+### 2.3 Linked Structures
+
 
