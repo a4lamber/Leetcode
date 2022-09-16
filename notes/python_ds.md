@@ -47,6 +47,8 @@ Outline:
 
 ### 2.1 The Array
 
+> dunder method: dunder is short for double under score method such as ``__init__`` and ``__setitem__``. It doesn't explicitly call the method but implicitly called by other ways.
+
 ### 2.2 Two-Dimensional Arrays (Grids)
 
 ### 2.3 Linked Structures
