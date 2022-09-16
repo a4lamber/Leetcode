@@ -53,4 +53,5 @@ Outline:
 
 ### 2.3 Linked Structures
 
+If you recall operation on arrays are already index-based. It is a popular and more human-friendly way of organizing things. Therefore, we need to implement index-based operation like traversal, search 
 
