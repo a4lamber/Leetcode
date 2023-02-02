@@ -30,7 +30,7 @@ class Solution:
         right = len(nums) - 1
 
         # iterative solution of binary search
-        while left <= right:
+         while left <= right:
             # get mid index by floor division
             mid = (right + left) //2
             

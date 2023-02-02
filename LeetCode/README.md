@@ -10,3 +10,5 @@
 
 
 # Hash
+
+[1-two-sum](./1-two-sum/)

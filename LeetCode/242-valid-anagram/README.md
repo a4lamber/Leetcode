@@ -59,7 +59,7 @@ class Solution:
             if s[i] in hashtable.keys():
                 hashtable[s[i]] += 1
             else:
-                # 该char第一次出现
+                # 该char第一次出现 
                 hashtable[s[i]] = 1
 
         for j in range(len(t)):
