@@ -190,33 +190,35 @@ class SLinkedList:
 
         Raises:
             Exception: input index is not valid;
+            
+        没有dummy header row, 太繁琐了，各种分类讨论;
         """
         # 检查index是否不符合标准
-        if index<0 or index>= self.get_length():
+        if index<0 or index> self.get_length():
             raise Exception("invalid index")
-        
-        # 直接在beginning插入的情况
-        if index == 0:
+        elif index == 0:
+            # 直接在beginning插入的情况
             self.insert_at_begining(newItem)
-            return
-        
-        # shallow copy of linkedlist
-        probe = self.head
-        counter = 0
-        
-        
-        while probe!= None:    
-            if counter == index - 1:
-                break
+        elif index == self.get_length():    
+            self.insert_at_end(newItem)
+        else:
+            # shallow copy of linkedlist
+            probe = self.head
+            counter = 0
             
-            probe = probe.next
-            counter += 1
             
-        # 现在位置在要插入的index, i前一个,做以下两个操作
-        # 1: point new node with node[i]
-        # 2: point node[i-1] to the new node
-        newNode = Node(newItem,probe.next)
-        probe.next = newNode
+            while probe!= None:    
+                if counter == index - 1:
+                    break
+                
+                probe = probe.next
+                counter += 1
+            
+            # 现在位置在要插入的index, i前一个,做以下两个操作
+            # 1: point new node with node[i]
+            # 2: point node[i-1] to the new node
+            newNode = Node(newItem,probe.next)
+            probe.next = newNode
         
     def insert_values(self,dataList):
         """
@@ -286,17 +288,18 @@ if __name__ == "__main__":
     """
     Just a bunch of random testing code
     """
-    ll = SLinkedList()
-    ll.insert_values(["banana","mango","grapes","orange"])
-    ll.print()
-    ll.insert_after_value("mango","apple") # insert apple after mango
-    ll.print()
-    ll.remove_by_value("orange") # remove orange from linked list
-    ll.print()
-    # ll.remove_by_value("figs")
-    ll.print()
-    ll.remove_by_value("banana")
-    ll.remove_by_value("mango")
-    ll.remove_by_value("apple")
-    ll.remove_by_value("grapes")
-    ll.print()
+
+    # ll = SLinkedList()
+    # ll.insert_values(["banana","mango","grapes","orange"])
+    # ll.print()
+    # ll.insert_after_value("mango","apple") # insert apple after mango
+    # ll.print()
+    # ll.remove_by_value("orange") # remove orange from linked list
+    # ll.print()
+    # # ll.remove_by_value("figs")
+    # ll.print()
+    # ll.remove_by_value("banana")
+    # ll.remove_by_value("mango")
+    # ll.remove_by_value("apple")
+    # ll.remove_by_value("grapes")
+    # ll.print()
