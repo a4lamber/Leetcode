@@ -11,6 +11,7 @@ class Node:
 
 class SLinkedList:
     def __init__(self):
+        # construct an empty linked list
         self.head = None
         
     def insert_at_begining(self,newItem):
@@ -219,17 +220,83 @@ class SLinkedList:
         
     def insert_values(self,dataList):
         """
-        erase the current linked list, insert 
+        erase the current linked list, insert.
+        Since the data is inserted at end of the linkedlist,
+        for a size n input list, the time complexity is O(n^2) 
         Args:
             dataList (_type_): _description_
         """
         # erase the previous linked list
         self.head = None
         for data in dataList:
+            # insert the data to the end of it
             self.insert_at_end(data)
+    
+    # exercise 1 
+    def insert_after_value(self,targetItem,dataItem):
+        """
+        search for data_after within the linked list, if exists, insert after the node
         
+            targetItem (type): 你需要寻找的数
+            dataItem (type): 你想要插入的数
+        """
+        
+        probe = self.head
+        
+        # traverse and search for whether target within the 
+        while probe!= None and probe.data != targetItem:
+            probe = probe.next
+        
+        if probe != None:
+            # 说明search到targetItem, 假设targetnode为node[i]
+            # 1. 创建一个new node, 指向node[i+1]
+            # 2. 将target node指向new node
+            newNode = Node(dataItem,probe.next)
+            probe.next = newNode
+        else:    
+            # 遇到none, 也就是运行到end of linked list也没找到
+            raise Exception("targetItem not found")
+        
+    # exercise 2 
+    def remove_by_value(self,targetItem):
+        """
+        search for dataItem, if exists remove it.
+        注意corner cases, 第一个item和最后一个item
+        Args:
+            dataItem (_type_): _description_
+        """
+        
+        # 判断第一个item是不是target Item
+        if self.head.data == targetItem and self.head != None:
+            self.head = self.head.next
+            return
+        
+        probe = self.head     
+        # traverse the linked list 
+        while probe.next != None and probe.next.data != targetItem:
+            probe = probe.next
+        
+        if probe.next != None:
+            # 找到数据,在probe.next.data = targetItem
+            probe.next = probe.next.next
+        else:
+            raise Exception("item not found, can't remove")
         
 if __name__ == "__main__":
     """
     Just a bunch of random testing code
     """
+    ll = SLinkedList()
+    ll.insert_values(["banana","mango","grapes","orange"])
+    ll.print()
+    ll.insert_after_value("mango","apple") # insert apple after mango
+    ll.print()
+    ll.remove_by_value("orange") # remove orange from linked list
+    ll.print()
+    # ll.remove_by_value("figs")
+    ll.print()
+    ll.remove_by_value("banana")
+    ll.remove_by_value("mango")
+    ll.remove_by_value("apple")
+    ll.remove_by_value("grapes")
+    ll.print()

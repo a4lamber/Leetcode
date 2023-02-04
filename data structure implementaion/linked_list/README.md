@@ -37,7 +37,7 @@ to check the result
 
 
 ## Exercise 2
-Implement doubly linked list. The only difference with regular linked list is that double linked has prev node reference as well. That way you can iterate in forward and backward direction. Your node class will look this this
+Implement doubly linked list. The only difference with singly linked list is that double linked has prev node reference as well. That way you can iterate in forward and backward direction. Your node class will look this this
 ```python
 class Node:
     def __init__(self, data=None, next=None, prev=None):
@@ -53,4 +53,4 @@ def print_forward(self):
 def print_backward(self):
     # Print linked list in reverse direction. Use node.prev for this.
 ```
-Implement all ohter methods like the singular linked list class and make necessary changes for doubly linked list you need to populate node.prev in all those methods).
+Implement all ohter methods like the singly linked list class and make necessary changes for doubly linked list you need to populate node.prev in all those methods).
