@@ -16,7 +16,7 @@ $(a+b+c)$为:
 - pointer A从head of linked list A开始走，走到头后，再从linked list B的开头走，再走到交点的距离.
 - pointer B从head of linked list B开始走，走到头后，再从linked list A的开头走，再走到交点的距离.
 
-基于这个我们就可以
+基于这个我们理解，我们就可以写算法了
 
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
@@ -27,6 +27,16 @@ $(a+b+c)$为:
 
 > Note: in python, `None` is stored at a specific location. `None == None`是恒成立的
 
+
+## Algorithm:
+- set two pointers `pA` and `pB` at the start of linked list A and B, respectively
+- while `pA != pB`, `pA` and `pB` traverse down linked A and linked list B, if one of pointer reaches the `None`, redirect to another linked list (走完A的走B, 走完B的走A)
+- 三种情况:
+  - linked list A and B相交，在第二圈交点相遇
+  - linked list A and B不相交且长度不等, 在第二圈终点相遇
+  - linked list A and B不相交且长度相等, 在第一圈终点相遇, 由于`None== None` returns true.
+  
+  
 ## Complexity
 - Time complexity: $O(2m+2n)\approx O(m+n)$ where m and n are length of linekd list A and B, respectively.如果俩linked list相交，那么需要traverse每个linked list至少两次(a+b+c)次 to be exact. 但如果俩不相交，且长度不等，2m+2n次. 但如果不相交且长度相等m+n次.
 
@@ -63,22 +73,30 @@ class Solution:
         # if intersect, both at same place
         return probeA
             
-            
 ```
 
 
 # Approach 2: normal two pointer solution
 <!-- Describe your approach to solving the problem. -->
 
-## Intuition
+如果两个linked list相交, 那把这俩linekd list, 在tail侧对齐后，所有的可能性如下图所示
+
+![](img2.png)
+
+我们只需要比较较短的链表中的每个node with its corresponding node (叫做node pair), 进行比较，就可以获得答案了;
+
+## Algorithm
 <!-- Describe your first thoughts on how to solve this problem. -->
 
+- 设置俩指针at the start of linked list A and B
+- traverse down both linekd list to find their length m and n, assuming n is the smaller length
+- compare every node within the shorter linked list with length n starting from top with n-m th node from the longer linked list to the end. 
 
 ## Complexity
-- Time complexity:
+- Time complexity: $O(m+n)$, with m and n are length of the two input linked list, respectively
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
-- Space complexity:
+- Space complexity: $O(1)$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 ## Code
@@ -140,13 +158,15 @@ class Solution:
 
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
+这也是我做的时候想出来的解法, 只需要把一个linked list中所有node存入hash, 然后再traverse down another linked list to see whether any node in the key space of the hash
 
+> Note: in python, `set()` is a hash with only key space, unlike dictionary. 功能上`set()`是`{}`的子集，且`set()`保证每个key都unique
 
 ## Complexity
-- Time complexity:
+- Time complexity: $O(m+n)$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
-- Space complexity:
+- Space complexity: $O(m)$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 ## Code
