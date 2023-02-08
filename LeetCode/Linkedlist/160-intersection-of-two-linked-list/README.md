@@ -5,6 +5,7 @@
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 
+![hello](https://github.com/a4lamber/Leetcode/blob/master/LeetCode/Linkedlist/160-intersection-of-two-linked-list/160-linked-list-intersection.gif)
 
 ## Complexity
 - Time complexity:
@@ -43,7 +44,6 @@ class Solution:
             
             
 ```
-
 
 
 # Approach 2: normal two pointer solution
