@@ -1,17 +1,38 @@
 # Approach 1: smart two-pointer solution 
 <!-- Describe your approach to solving the problem. -->
-这个解法很漂亮
+这个解法很漂亮, 假设俩linked list A and B, A的长度为m, B的长度为n, 我们设置俩指针`pointerA` and `pointer B` traverse both linked list, 当其中任意一个pointer走完那个linked list之后，我们loop back to another linked list, 假设linked list A and B相交，那么当这俩指针相遇的点，必然是交点
+
+![](img1.png)
+
+可能有些费解的话看上图, 假设链表A长度为m 链表B长度为n, 假设链表A与链表B相交，那么exclusive to 链表A的长度为a, exclusive to链表B的长度为b, 共享长度为c, 那么以下等式必满足:
+$$
+\begin{align}
+(a+b) + (b+c) &= (b+c) + (a+c)\\
+(a+b+c) + c &= (a+b+c) +c
+\end{align} 
+$$
+
+$(a+b+c)$为:
+- pointer A从head of linked list A开始走，走到头后，再从linked list B的开头走，再走到交点的距离.
+- pointer B从head of linked list B开始走，走到头后，再从linked list A的开头走，再走到交点的距离.
+
+基于这个我们就可以
 
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 
-![hello](https://github.com/a4lamber/Leetcode/blob/master/LeetCode/Linkedlist/160-intersection-of-two-linked-list/160-linked-list-intersection.gif)
+做了一张gif, 来很好的诠释了这个算法
+
+![animation here](https://github.com/a4lamber/Leetcode/blob/master/LeetCode/Linkedlist/160-intersection-of-two-linked-list/160-linked-list-intersection.gif)
+
+> Note: in python, `None` is stored at a specific location. `None == None`是恒成立的
 
 ## Complexity
-- Time complexity:
+- Time complexity: $O(2m+2n)\approx O(m+n)$ where m and n are length of linekd list A and B, respectively.如果俩linked list相交，那么需要traverse每个linked list至少两次(a+b+c)次 to be exact. 但如果俩不相交，且长度不等，2m+2n次. 但如果不相交且长度相等m+n次.
+
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
-- Space complexity:
+- Space complexity: $O(1)$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 ## Code
