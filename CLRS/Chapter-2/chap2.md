@@ -9,6 +9,7 @@
     - [Exercises](#exercises)
   - [2.2 Analyzing algorithms](#22-analyzing-algorithms)
   - [2.3 Designing algorithms](#23-designing-algorithms)
+    - [2.3.1 divide and conquer method](#231-divide-and-conquer-method)
 
 
 # Chapter 1 The Role of Algorithms in Computing
@@ -47,4 +48,7 @@ correct. Make sure that your loop invariant fulûlls the three necessary propert
 
 
 ## 2.3 Designing algorithms
+Insertion sort used `incremental method`. 
 
+
+### 2.3.1 divide and conquer method
