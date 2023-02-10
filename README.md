@@ -46,20 +46,21 @@ flowchart LR
 
 
 ---
-## Notes
+<!-- ## Notes
 - [recursion](notes/recursion.ipynb)
 
+ -->
 
 
 
 
-
-## Resources for regex
+<!-- ## Resources for regex
 - https://ihateregex.io
 - https://regex101.com/r/1paXsy/1
-- https://github.com/ziishaned/learn-regex
+- https://github.com/ziishaned/learn-regex -->
 
 
 ## Other resources
 - https://runestone.academy/ns/books/published/pythonds/index.html
 - https://blog.csdn.net/Holmofy/article/details/76401074
+- [dictionary of algorithms and data structure](https://xlinux.nist.gov/dads/) This site has many definition for terminology used in data structure, especially u r confused about data structure in an academic setting.

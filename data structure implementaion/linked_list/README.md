@@ -1,7 +1,7 @@
 # Readme
 ---
 
-I implement the singly linked list following the textbook by Prof Kenneth and codebasics. The code is in the hyperlink here [SLinkedList class](SLinkedList.py).
+I implemented the singly linked list following the textbook by Prof Kenneth and codebasics tutorial. The code is in the hyperlink here [SLinkedList class](SLinkedList.py).
 
 
 ## Problem 1 (from codebasics youtuber)
