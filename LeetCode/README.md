@@ -6,7 +6,13 @@
 - binary search
 
 
-
+```mermaid
+---
+title: Node
+---
+flowchart LR
+    id
+```
 
 
 # Hash
@@ -17,7 +23,7 @@
 
 
 ## in-place algorithm
-generally speaking, in-place algorithm performs better in terms of space and time complexitity, but it suffers in concurrent setting. When `inpuy` has been modified during function written with in-place algo, other functions in other thread can't access it and have to wait for the function finishes.
+generally speaking, in-place algorithm performs better in terms of space and time complexitity, but it suffers in concurrent setting. When `input` has been modified during function written with in-place algo, other functions in other thread can't access it and have to wait for the function finishes.
 
 
 ## recursive vs iterative 
