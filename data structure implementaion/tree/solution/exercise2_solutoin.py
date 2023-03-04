@@ -127,5 +127,5 @@ def build_product_tree():
     return root
 
 root = build_product_tree()
-root.print_tree(3)
+root.print_tree(1)
 
