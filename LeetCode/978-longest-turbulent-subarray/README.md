@@ -48,7 +48,7 @@ flowchart TD
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 ## Code
-```
+```python
 class Solution:
     def maxTurbulenceSize(self, arr: List[int]) -> int:
         # DP[i]: length of maximum turbulent subarray ending on arr[i]
