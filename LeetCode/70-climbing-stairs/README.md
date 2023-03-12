@@ -1,9 +1,11 @@
 # Readme
 
+## Walkthrough
 这一题是dynamic programming的入门题目，现在有n节台阶，你每次只能爬1或者2节，你现在这个state i的可能性，只取决于i-1, i-2, 也就是
 $$
 dp[i] = dp[i-1] + dp[i-2]
 $$
+
 我们来看看前面几步就很方便理解了
 ```python
 dp = [1,2]
