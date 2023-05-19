@@ -1,66 +1,109 @@
-# Readme
+# LeetCode Grind Journey
 
+> Need a systematic way to grind LC so i have more time to work on other interesting stuff.
+
+
+*Table of contents*
+- [LeetCode Grind Journey](#leetcode-grind-journey)
+- [Tree](#tree)
+  - [Traversal](#traversal)
+  - [Level first](#level-first)
+  - [Others](#others)
+  - [Binary Search Tree Problems](#binary-search-tree-problems)
+  - [Path Problems](#path-problems)
+  - [Construct BT \& BST](#construct-bt--bst)
+- [Reference](#reference)
+
+
+
+# Tree
+
+Tree problems on LC are categorized into two fold
+- depth first approach
+- breadth first approach
+
+## Traversal
+
+The good old tree traversal
+
+ - [ ] [94 Binary Tree Inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+	- [x] recursion
+	- [x] stack
+	- [ ] morris
+- [ ] [144 Binary Tree Preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+	- [x] recursion
+	- [x] stack
+	- [ ] morris
+- [ ] [145 Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+	- [x] recursion
+	- [ ] stack
+		- stack post-reversal是最难的一个, 由于是要最后一次visit node才append, 有点tricky的, LC上一半iteration做法，都是解出答案后, reverse一下; 也有不reverse的方法，但对我来说有点难理解，不如stack template, pushing to stack twice.
+	- [ ] morris
+
+## Level first
+
+- [ ] [102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] [103 Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+	- trick在于有一种方法计算在目前在哪一层，for a perfect tree, 1 --> 2 --> 4, 可以每一次append完children之后，求一下总数;
+- [ ] [107 Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+
+
+## Others
 ---
-
-Data structure and algorithm is the bread and butter for any programmer. 如下图所示，数据结构，实际上分成三层概念，
-- 基础层
-  - 定义：这一层主要由`逻辑结构`和`储存结构`组成
-  - 逻辑结构:数据与数据之间的关系.
-  - 储存结构:在计算机中怎么储存的.
-- 抽象层 Abstract Data Type (ADT)
-  - 定义: 通常由一种逻辑结构+一种储存结构组成
-  - 例子_1: Array: 线性结构(逻辑结构) + 顺序储存(储存结构)组成;
-  - 例子_2: Singly linked: 线性结构(逻辑结构) + 链式储存(储存结构)组成;
-- 实现层 Concrete Data Type (CDT)
-  - 定义: 将上述的抽象出来的数据结构，具现化的过程;
-  - 例子_1: Python `List()` 是一种线性+顺序的数据结构.
-
-```mermaid
-flowchart LR
-    a0("数据结构")
-    b1("逻辑结构")
-    b2("存储结构")
-    b3("运算")
-    c1_1("集合")
-    c1_2("线性结构")
-    c1_3("树")
-    c1_4("图")
-
-    c2_1("顺序储存")
-    c2_2("链式储存")
-    c2_3("散列储存")
-    c2_4("索引储存")
-
-    a0 --> b1
-    a0 --> b2
-    a0 --> b3
-    b1 --> c1_1
-    b1 --> c1_2
-    b1 --> c1_3
-    b1 --> c1_4
-    b2 --> c2_1
-    b2 --> c2_2
-    b2 --> c2_3
-    b2 --> c2_4
-```
+- [ ]  [100 Same Tree](https://leetcode.com/problems/same-tree/)
+	- [x] recursion
+	- [x] BFS with queue
+	- [ ] DFS with stack
+- [ ]  [101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+	- [x] DFS with queue 
+	- DFS with queue解法，比较完node后，插入children node时候控制一下顺序即可
+- [ ]  [104 Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+	- [x] BFS
+		-  BFS solution is easier，不需要反复改变current depth和打擂台找maximum depth
+	- [ ] recursion
+	- [ ] DFS to really work with ur brain on tracking depth. 
+- [ ]  [110 Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+- [ ]  [111 Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+- [ ]  [617 Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)
+- [ ]  [543 Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+- [ ]  [563 Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt)
+- [ ]  [226 Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 
+## Binary Search Tree Problems
 ---
-<!-- ## Notes
-- [recursion](notes/recursion.ipynb)
+- [ ] [700 Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
+- [ ] [653 Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
+- [ ] [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+- [ ] [938 Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+- [ ] [450 Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+- [ ] [669 Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree)
+- [ ] [701 Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)
+- [ ] [230 Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
+- [ ] [1305 All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees)
 
- -->
+## Path Problems
+---
+- [ ] [257 Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+- [ ] [112 Path Sum](https://leetcode.com/problems/path-sum)
+- [ ] [113 Path Sum II](https://leetcode.com/problems/path-sum-ii)
+- [ ] [129 Sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+- [ ] [124 Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- [ ] [\*437 Path Sum III](https://leetcode.com/problems/path-sum-iii)
+- [ ] [\*1457 Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree)
+
+## Construct BT & BST
+- [ ] [105 Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
+- [ ] [106 Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
+- [ ] [889 Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)
+- [ ] [108 Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)
+- [ ] [1008 Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)
 
 
 
 
-<!-- ## Resources for regex
-- https://ihateregex.io
-- https://regex101.com/r/1paXsy/1
-- https://github.com/ziishaned/learn-regex -->
 
-
-## Other resources
+# Reference
 - https://runestone.academy/ns/books/published/pythonds/index.html
 - https://blog.csdn.net/Holmofy/article/details/76401074
 - [dictionary of algorithms and data structure](https://xlinux.nist.gov/dads/) This site has many definition for terminology used in data structure, especially u r confused about data structure in an academic setting.
