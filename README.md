@@ -6,12 +6,12 @@
 *Table of contents*
 - [LeetCode Grind Journey](#leetcode-grind-journey)
 - [Tree](#tree)
-  - [Traversal](#traversal)
-  - [Level first](#level-first)
-  - [Others](#others)
-  - [Binary Search Tree Problems](#binary-search-tree-problems)
-  - [Path Problems](#path-problems)
-  - [Construct BT \& BST](#construct-bt--bst)
+	- [Traversal](#traversal)
+	- [Level first](#level-first)
+	- [Others](#others)
+	- [Binary Search Tree Problems](#binary-search-tree-problems)
+	- [Path Problems](#path-problems)
+	- [Construct BT \& BST](#construct-bt--bst)
 - [Reference](#reference)
 
 
@@ -24,18 +24,21 @@ Tree problems on LC are categorized into two fold
 
 ## Traversal
 
-The good old tree traversal
+Tree traversal is summarized as:
+- recursive solution is the easiest
+- iteration solution relies on auxillary data structure `stack`
+
 
  - [ ] [94 Binary Tree Inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-	- [x] recursion
-	- [x] stack
+	- [ ] recursion
+	- [x] [iteration with stack](https://github.com/a4lamber/Leetcode/blob/b96a7605041de343edc81c71fb0d9e07212d2f1f/LeetCode/94-binary-tree-inorder-traversal)
 	- [ ] morris
 - [ ] [144 Binary Tree Preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
-	- [x] recursion
-	- [x] stack
+	- [ ] recursion
+	- [ ] stack
 	- [ ] morris
 - [ ] [145 Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-	- [x] recursion
+	- [ ] recursion
 	- [ ] stack
 		- stack post-reversal是最难的一个, 由于是要最后一次visit node才append, 有点tricky的, LC上一半iteration做法，都是解出答案后, reverse一下; 也有不reverse的方法，但对我来说有点难理解，不如stack template, pushing to stack twice.
 	- [ ] morris
