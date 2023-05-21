@@ -29,18 +29,18 @@ Tree traversal is summarized as:
 - iteration solution relies on auxillary data structure `stack`
 
 
- - [ ] [94 Binary Tree Inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+ - [x] [94 Binary Tree Inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 	- [ ] recursion
-	- [x] [iteration with stack](https://github.com/a4lamber/Leetcode/blob/b96a7605041de343edc81c71fb0d9e07212d2f1f/LeetCode/94-binary-tree-inorder-traversal)
+	- [x] [iteration with stack](https://github.com/a4lamber/Leetcode/blob/d006a304d8d861819ee1e5f1a02eb30988e51d89/LeetCode/94-binary-tree-inorder-traversal)
 	- [ ] morris
-- [ ] [144 Binary Tree Preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+- [x] [144 Binary Tree Preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 	- [ ] recursion
-	- [ ] stack
+	- [x] [iteration with stack](https://github.com/a4lamber/Leetcode/blob/d04c98fa7e2d0f752301b4bee262be8799d2e996/LeetCode/144-binary-tree-preorder-traversal)
 	- [ ] morris
-- [ ] [145 Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+- [x] [145 Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 	- [ ] recursion
-	- [ ] stack
-		- stack post-reversal是最难的一个, 由于是要最后一次visit node才append, 有点tricky的, LC上一半iteration做法，都是解出答案后, reverse一下; 也有不reverse的方法，但对我来说有点难理解，不如stack template, pushing to stack twice.
+	- [x] iterative solution
+		- [approach1: reverse modified pre-order](LeetCode/145-binary-tree-postorder-traversal/145-iteration-flip-modified-pre-order.py): post-order traversal (left, right, root) if we reverse it, it's (root, right, left). This becomes "modified" pre-order. Merge the solution to the some knowledge we already know. 
 	- [ ] morris
 
 ## Level first
