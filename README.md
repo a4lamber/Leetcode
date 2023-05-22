@@ -6,8 +6,8 @@
 *Table of contents*
 - [LeetCode Grind Journey](#leetcode-grind-journey)
 - [Tree](#tree)
-	- [Traversal](#traversal)
-	- [Level first](#level-first)
+	- [Depth-first Traversal](#depth-first-traversal)
+	- [Level-first Traversal](#level-first-traversal)
 	- [Others](#others)
 	- [Binary Search Tree Problems](#binary-search-tree-problems)
 	- [Path Problems](#path-problems)
@@ -22,11 +22,11 @@ Tree problems on LC are categorized into two fold
 - depth first approach
 - breadth first approach
 
-## Traversal
+## Depth-first Traversal
 
-Tree traversal is summarized as:
+Tree depth-first traversal is summarized as:
 - recursive solution is the easiest
-- iteration solution relies on auxillary data structure `stack`
+- iteration solution relies on auxillary data structure `stack` to store the nodes in a order that corresponds to the visiting order
 
 
  - [x] [94 Binary Tree Inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
@@ -43,11 +43,16 @@ Tree traversal is summarized as:
 		- [approach1: reverse modified pre-order](LeetCode/145-binary-tree-postorder-traversal/145-iteration-flip-modified-pre-order.py): post-order traversal (left, right, root) if we reverse it, it's (root, right, left). This becomes "modified" pre-order. Merge the solution to the some knowledge we already know. 
 	- [ ] morris
 
-## Level first
+## Level-first Traversal
 
-- [ ] [102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- [ ] [103 Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+level-first traversal typically,
+- uses `queue` as auxillary data structure to temporarily store nodes in the current level
+
+- [x] [102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+  - [solution with queue](LeetCode/102-binary-tree-level-order-traversal/102-queue.py)
+- [x] [103 Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 	- trick在于有一种方法计算在目前在哪一层，for a perfect tree, 1 --> 2 --> 4, 可以每一次append完children之后，求一下总数;
+	- [solution](LeetCode/103-binary-tree-zigzag-level-order-traversal/103-queue.py)
 - [ ] [107 Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 
 
