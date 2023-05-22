@@ -49,11 +49,11 @@ level-first traversal typically,
 - uses `queue` as auxillary data structure to temporarily store nodes in the current level
 
 - [x] [102 Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-  - [solution with queue](LeetCode/102-binary-tree-level-order-traversal/102-queue.py)
+  - BFS, something you should mark in your head. [solution here](LeetCode/102-binary-tree-level-order-traversal/102-queue.py)
 - [x] [103 Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-	- trick在于有一种方法计算在目前在哪一层，for a perfect tree, 1 --> 2 --> 4, 可以每一次append完children之后，求一下总数;
-	- [solution](LeetCode/103-binary-tree-zigzag-level-order-traversal/103-queue.py)
-- [ ] [107 Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+	- trick在于有一种方法计算在目前在哪一层，for a perfect tree, 1 --> 2 --> 4, 可以每一次append完children之后，求一下总数, [solution](LeetCode/103-binary-tree-zigzag-level-order-traversal/103-queue.py) is here
+- [x] [107 Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+  - Using regular DFS, but we use deque for output `res = deque()`. We `appendleft` at the end of each layer. [Solution](./LeetCode/107-binary-tree-level-order-traversal-II/107_double_queue.py) and [note](./LeetCode/107-binary-tree-level-order-traversal-II/README.md) are here.
 
 
 ## Others
