@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 from collections import deque
+
+# Approach 1
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         # DFS, tuple in list
@@ -24,4 +26,24 @@ class Solution:
         return True
 
 
-                
+# Approach 2  
+class Solution:
+    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        queue = deque([p,q])
+        
+        # pass
+        while queue:
+            a = queue.popleft()
+            b = queue.popleft()
+
+            if a is None and b is None: continue
+            if a is None or b is None: return False
+            if a.val != b.val: return False
+
+            # when gets here, a and b are both TreeNode
+            queue.append(a.left)
+            queue.append(b.left)
+            queue.append(a.right)
+            queue.append(b.right)
+
+        return True
