@@ -31,7 +31,7 @@ If order to do that, we need to do some sort of traversal to examine the above t
 - if one of them not None while the other is None, **condition 1 not met.**
 - if value is not same, **condition 2 not met.**
 
-Now, you should have a clearer picture on the thought process.
+Now, you should have a clearer picture on the thought process. 
 
 ![](./100_same_tree.excalidraw.png)
 

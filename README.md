@@ -58,13 +58,11 @@ level-first traversal typically,
 
 ## Others
 ---
-- [ ]  [100 Same Tree](https://leetcode.com/problems/same-tree/)
+- [x]  [100 Same Tree](https://leetcode.com/problems/same-tree/)
 	- [x] recursion
-	- [x] BFS with queue
-	- [ ] DFS with stack
-- [ ]  [101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
-	- [x] DFS with queue 
-	- DFS with queue解法，比较完node后，插入children node时候控制一下顺序即可
+	- [x] [BFS with queue](./LeetCode/100-same-tree/README.md)
+- [x]  [101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+	- [x] [BFS solution](./LeetCode/101-symmetric-tree/README.md), symmetric tree is very similar with same tree. Just remember comparing medial sides then lateral side.
 - [ ]  [104 Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 	- [x] BFS
 		-  BFS solution is easier，不需要反复改变current depth和打擂台找maximum depth

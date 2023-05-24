@@ -1,40 +1,52 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-from collections import deque
-class Solution:
-    def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        # 思路1: in order travelsal后，结果reverse则是symmertirc, 反例[1,2,2,2,null,2]
-        # 思路2: 同时BFS两个tree: root.left, root.right
-        # 能满足性质left正常BFS, right在append数据的时候，先加入右边再加入左边
-        p = root.left
-        q = root.right
+# Problem
 
-        queue = deque([(p,q)])
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
 
-        while queue:
-            p,q = queue.popleft()
+Example
+![](https://assets.leetcode.com/uploads/2021/02/19/symtree1.jpg)
 
-            if p is None and q is None:
-                continue
+```
+output: True
+```
 
-            if p is None or q is None:
-                return False
+# Thought process
+Two tree are the same tree if and only if
+- same structure
+- same value
 
-            if p.val != q.val:
-                return False
+For symmetric tree, the equivalent conditions are:
+- same mirrored structure
+- same mirrored
 
-            # 俩是一定相等了
-            queue.extend([(p.left,q.right),(p.right,q.left)])
-        
-        return True
+From the template of the BFS, we just need to rearrange the order we insert the node in.
+```
+       e
+     /   \
+    a     b
+   / \   / \
+  b   c  d  e
+```
 
 
-             
+```python
+# order to compare same tree
+queue.appendleft(a.left)
+queue.appendleft(b.left)
+queue.appendleft(a.right)
+queue.appendleft(b.right)
 
+# order to compare similar tree
+queue.appendleft(a.left)
+queue.appendleft(b.right)
+queue.appendleft(a.right)
+queue.appendleft(b.left)
+```
+
+> Note: for symmetry, compare the medial side with the lateral side for those into anatomy!
+
+# Code
+
+```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -72,10 +84,4 @@ class Solution:
             
             
         return True
-
-
-
-
-
-        
-
+```
