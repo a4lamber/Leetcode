@@ -63,9 +63,8 @@ level-first traversal typically,
 	- [x] [BFS with queue](./LeetCode/100-same-tree/README.md)
 - [x]  [101 Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 	- [x] [BFS solution](./LeetCode/101-symmetric-tree/README.md), symmetric tree is very similar with same tree. Just remember comparing medial sides then lateral side.
-- [ ]  [104 Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-	- [x] BFS
-		-  BFS solution is easier，不需要反复改变current depth和打擂台找maximum depth
+- [x]  [104 Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+	- [x] [BFS solution. It's easier with BFS. Just set a counter](./LeetCode/104-maximum-depth-of-binary-tree/104-BFS.py)
 	- [ ] recursion
 	- [ ] DFS to really work with ur brain on tracking depth. 
 - [ ]  [110 Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
@@ -95,8 +94,8 @@ level-first traversal typically,
 - [ ] [113 Path Sum II](https://leetcode.com/problems/path-sum-ii)
 - [ ] [129 Sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [124 Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-- [ ] [\*437 Path Sum III](https://leetcode.com/problems/path-sum-iii)
-- [ ] [\*1457 Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree)
+- [ ] [437 Path Sum III](https://leetcode.com/problems/path-sum-iii)
+- [ ] [1457 Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree)
 
 ## Construct BT & BST
 - [ ] [105 Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)

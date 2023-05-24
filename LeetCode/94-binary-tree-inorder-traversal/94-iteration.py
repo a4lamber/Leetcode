@@ -11,6 +11,7 @@ class Solution:
         curr = root
         res = []
 
+        # it only stops when the right-most leaf node's right children node is None and just pops out
         while stack or curr:
             # keep going left
             while curr:
