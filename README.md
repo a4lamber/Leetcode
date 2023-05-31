@@ -68,24 +68,37 @@ level-first traversal typically,
 	- [ ] recursion
 	- [ ] DFS to really work with ur brain on tracking depth. 
 - [ ]  [110 Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
-- [ ]  [111 Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
-- [ ]  [617 Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)
+  - [ ] bottom-up
+  - [ ] top-down  
+- [x]  [111 Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+  - First thought: BFS with auxillary DS (stack) to track all leaf node's height. [Solution](./LeetCode/111-minimum-depth-of-binary-tree/111-BFS.py).
+  - optimized: If we use BFS, the first encounter of leaf node will have the minimum depth, [solution here](./LeetCode/111-minimum-depth-of-binary-tree/111-BFS-optimized.py).
+- [x]  [617 Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)
+  - BFS on left tree. Left tree absorb right tree. The control flow is kinda tricky. [Solution here](./LeetCode/617-merge-two-binary-trees/README.md).  
 - [ ]  [543 Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [ ]  [563 Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt)
-- [ ]  [226 Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- [x]  [226 Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+  - [BFS but insert right node first at each level](./LeetCode/226-invert-binary-tree/README.md)
 
 
 ## Binary Search Tree Problems
 ---
-- [ ] [700 Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
-- [ ] [653 Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
-- [ ] [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
-- [ ] [938 Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+- [x] [700 Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
+  - very basic BST, [solution](./LeetCode/700-search-in-a-binary-search-tree/700.py)
+- [x] [653 Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
+  - two sum variation. Instead of array + hash --> tree + hash; instead of iteration to traverse array, we do inorder traversal (or others). [Solution here](./LeetCode/653-two-sum-IV-input-is-a-BST/653-two-sum-BST.py) 
+- [x] [530 Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+  - trick is to use the property of BST. in-order depth first DFS on BST will output sorted list. [Solution here](./LeetCode/530-minimum-absolute-difference-in-BST/530-DFS-inorder.py)
+- [x] [938 Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+  - DFS to a list, then traverse. [solution here](./LeetCode/938-range-sum-of-BST/938.py). 
 - [ ] [450 Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
 - [ ] [669 Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree)
 - [ ] [701 Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)
-- [ ] [230 Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
+- [x] [230 Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)
+  - in order traversal, [solution here](./LeetCode/230-kth-smallest-element-in-BST/230-in-order-DFS.py)
 - [ ] [1305 All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees)
+  - $O\left((m+n)log(m+n)\right)$ in time and $O(m+n)$ in space by in-order traversal twice then merge with quick sort, kinda dumb but solution is [here](./LeetCode/1305-all-elements-in-two-binary-search-trees/1305-dumb-solution.py)
+  - [ ] this question must be solved with optimal solution. Go back to this when i have more time.
 
 ## Path Problems
 ---
