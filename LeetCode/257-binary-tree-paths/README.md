@@ -58,6 +58,7 @@ As for the reason why the `str()` has been designed as immutable, there are two 
 - In multi thread process, two thread may access the same string variables and do modification on it. If it's mutable, the state of string thread A accessing might not be the same as what thread B has seen.
 - Also, it simplifies the implementation of certain operations, such as string concatenation and substring operations. Because strings are immutable, the original string can be left unchanged while a new string is created with the desired modifications.
 
+但也不是所有时候都必须要用`.join(iterable)`, 随着join性能好，但是`+`它readability更高，如果是one-time use, 不妨用`+`. I choose readability over performance 99% of the case
 
 # Code
 ```python

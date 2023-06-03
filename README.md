@@ -102,9 +102,13 @@ level-first traversal typically,
 
 ## Path Problems
 ---
-- [ ] [257 Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
-- [ ] [112 Path Sum](https://leetcode.com/problems/path-sum)
-- [ ] [113 Path Sum II](https://leetcode.com/problems/path-sum-ii)
+- [x] [257 Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+  - [DFS, iterative solution with a stack of tuple](./LeetCode/257-binary-tree-paths/257-iterative.py). Also avoid overclustering heap with intermediate string causes by `+`, use `join()` instead, reason [here](./LeetCode/257-binary-tree-paths/README.md).
+- [x] [112 Path Sum](https://leetcode.com/problems/path-sum)
+  - DFS solution with a stack of tuple, the tuple carries (node, currSum), node is for traversing and providing value for this iteration, currSum carries the state variable of path sum until this current node. [Solution here](./LeetCode/112-path-sum/112-DFS.py).
+  - [ ] Alternatively, you could use BFS to solve.
+- [x] [113 Path Sum II](https://leetcode.com/problems/path-sum-ii)
+  - [DFS solution here](./LeetCode/113-path-sum-II/113_DFS.py), a tuple again but tracking three state 
 - [ ] [129 Sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [124 Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [ ] [437 Path Sum III](https://leetcode.com/problems/path-sum-iii)
