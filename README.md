@@ -12,6 +12,7 @@
 	- [Binary Search Tree Problems](#binary-search-tree-problems)
 	- [Path Problems](#path-problems)
 	- [Construct BT \& BST](#construct-bt--bst)
+	- [Tree Summary and Reference](#tree-summary-and-reference)
 - [Reference](#reference)
 
 
@@ -106,13 +107,16 @@ level-first traversal typically,
   - [DFS, iterative solution with a stack of tuple](./LeetCode/257-binary-tree-paths/257-iterative.py). Also avoid overclustering heap with intermediate string causes by `+`, use `join()` instead, reason [here](./LeetCode/257-binary-tree-paths/README.md).
 - [x] [112 Path Sum](https://leetcode.com/problems/path-sum)
   - DFS solution with a stack of tuple, the tuple carries (node, currSum), node is for traversing and providing value for this iteration, currSum carries the state variable of path sum until this current node. [Solution here](./LeetCode/112-path-sum/112-DFS.py).
-  - [ ] Alternatively, you could use BFS to solve.
+  - [ ] Alternatively, you could use BFS to solve. Put a placeholder here.
 - [x] [113 Path Sum II](https://leetcode.com/problems/path-sum-ii)
   - [DFS solution here](./LeetCode/113-path-sum-II/113_DFS.py), a tuple again but tracking three state 
-- [ ] [129 Sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+- [x] [129 Sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+  - [DFS solution](./LeetCode/129-sum-root-to-leaf-numbers/129-DFS.py). Tuple contains current state info about node and a string representation of root-to-leaf path. 
 - [ ] [124 Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-- [ ] [437 Path Sum III](https://leetcode.com/problems/path-sum-iii)
+  - placeholder. 
+- [ ] [437 Path Sum III](https://leetcode.com/problems/path-sum-iii) 
 - [ ] [1457 Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree)
+  - not palindromic again! 
 
 ## Construct BT & BST
 - [ ] [105 Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
@@ -122,10 +126,20 @@ level-first traversal typically,
 - [ ] [1008 Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)
 
 
+## Tree Summary and Reference
+
+> Note: Tree can be implemented by list of lists or nodes and reference.
+
+Some good reference here to consolidate your understanding:
+- [CSDN post: BST, AVL, 红黑树和伸展树](https://holmofy.blog.csdn.net/article/details/79692613?spm=1001.2014.3001.5502)
+- [知乎: BST, 链表和数组的折中](https://www.zhihu.com/question/37381035)
+- [知乎: BST入门](https://zhuanlan.zhihu.com/p/136758152)
 
 
 
 # Reference
-- https://runestone.academy/ns/books/published/pythonds/index.html
+- [Runestone Python Data Structure](https://runestone.academy/ns/books/published/pythonds/index.html)
+  - very detailed with follow along examples.
 - https://blog.csdn.net/Holmofy/article/details/76401074
-- [dictionary of algorithms and data structure](https://xlinux.nist.gov/dads/) This site has many definition for terminology used in data structure, especially u r confused about data structure in an academic setting.
+- [dictionary of algorithms and data structure](https://xlinux.nist.gov/dads/) 
+  - This site has many definition for terminology used in data structure, especially u r confused about data structure in an academic setting.
