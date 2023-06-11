@@ -14,6 +14,7 @@
   - [Construct BT \& BST](#construct-bt--bst)
   - [Tree Summary and Reference](#tree-summary-and-reference)
 - [Linked List](#linked-list)
+    - [Cycle detection](#cycle-detection)
     - [Cache Series](#cache-series)
   - [Linked List reference](#linked-list-reference)
 - [Reference](#reference)
@@ -154,10 +155,12 @@ Well, it's time to systematically do linked list!
 - [ ] [24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/?envType=list&envId=oqasfzsm)
 - [ ] [25 Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=list&envId=oqasfzsm)
 - [ ] [83 Remove Duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/?envType=list&envId=oqasfzsm)
-- [ ] [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/editorial/) 
+- [x] [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/editorial/) 
+  - Neetcode讲的很好，三部曲, [video here](https://www.youtube.com/watch?v=RF_M9tX4Eag&ab_channel=NeetCode) and [my explanation here](./LeetCode/92-reverse-linked-list-II/README.md).
+    - advance till left node, `left - 1`
+    - reverse `right - left + 1` 
+    - reorganize which node points to which
 - [ ] [138 Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/?envType=list&envId=oqasfzsm)
-- [x] [141 Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/?envType=list&envId=oqasfzsm)
-  - floyd's turtle and hare, classic question, [solution here](./LeetCode/141-linked-list-cycle/141-linked-list-cycle.py). 
 - [ ] 143
 - [ ] [147 Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/?envType=list&envId=oqasfzsm)
 - [ ] [148 Sort List](https://leetcode.com/problems/sort-list/?envType=list&envId=oqasfzsm)
@@ -173,6 +176,15 @@ Well, it's time to systematically do linked list!
 - [ ] [1171 Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/?envType=list&envId=oqasfzsm)
 - [ ] [1721 Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/?envType=list&envId=oqasfzsm)
 - [ ] [1832 Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=list&envId=oqasfzsm)
+### Cycle detection
+Cycle detection by flord's turtle and hare实际上是two pointer, same direction with different speed, 可以归纳为two pointer类型.
+
+- [x] [141 Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/?envType=list&envId=oqasfzsm)
+  - floyd's turtle and hare, classic question, [solution here](./LeetCode/141-linked-list-cycle/141-linked-list-cycle.py). 
+- [ ] Follow-up Can you find the length of the cycle if it exists? 
+- [x] [142 Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+  - [Youtuber Nikhil Lohia](https://www.youtube.com/watch?v=95ZfuoSAUPI&ab_channel=NikhilLohia)的思路最清楚, 这题最优解用兔八哥，王八和龙来解，[solution here](./LeetCode/142-linked-list-cycle-II/README.md), 空间非最优解可以放一个hashset来做.
+- [ ] [202 Happy Number](https://leetcode.com/problems/happy-number/)
 
 ### Cache Series
 Linked list在很多数据结构中，起部分作用，比如database b+ tree中的leaf nodes, 之间都用doubly linked list连接。
