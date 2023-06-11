@@ -21,7 +21,7 @@ Set up two pointer `curr` and `prev`, which set to be the first node and null, r
 
 > 在这里并不是设置了dummy header node, 只是设置了`null` which will be the tail node for the reversed linked list.
 
-由于pointer`curr`和`prev`做same direction scan, 有以下几个问题:
+由于pointer `curr`和`prev`做same direction scan, 有以下几个问题:
 - 你肯定需要`curr.next = prev`将current node指向previous node, 但你会丢失next node在哪, 所以你需啊建立一个指针`temp`来指向next code (idea is exactly like int value swapping with `temp`)
 
 第一个循环如下图:

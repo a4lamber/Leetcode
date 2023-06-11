@@ -6,13 +6,16 @@
 *Table of contents*
 - [LeetCode Grind Journey](#leetcode-grind-journey)
 - [Tree](#tree)
-	- [Depth-first Traversal](#depth-first-traversal)
-	- [Level-first Traversal](#level-first-traversal)
-	- [Others](#others)
-	- [Binary Search Tree Problems](#binary-search-tree-problems)
-	- [Path Problems](#path-problems)
-	- [Construct BT \& BST](#construct-bt--bst)
-	- [Tree Summary and Reference](#tree-summary-and-reference)
+  - [Depth-first Traversal](#depth-first-traversal)
+  - [Level-first Traversal](#level-first-traversal)
+  - [Others](#others)
+  - [Binary Search Tree Problems](#binary-search-tree-problems)
+  - [Path Problems](#path-problems)
+  - [Construct BT \& BST](#construct-bt--bst)
+  - [Tree Summary and Reference](#tree-summary-and-reference)
+- [Linked List](#linked-list)
+    - [Cache Series](#cache-series)
+  - [Linked List reference](#linked-list-reference)
 - [Reference](#reference)
 
 
@@ -134,6 +137,54 @@ Some good reference here to consolidate your understanding:
 - [CSDN post: BST, AVL, 红黑树和伸展树](https://holmofy.blog.csdn.net/article/details/79692613?spm=1001.2014.3001.5502)
 - [知乎: BST, 链表和数组的折中](https://www.zhihu.com/question/37381035)
 - [知乎: BST入门](https://zhuanlan.zhihu.com/p/136758152)
+
+
+# Linked List
+
+Well, it's time to systematically do linked list!
+
+![](https://www.section.io/engineering-education/linked-list-data-structure-python/thanosll.jpg)
+
+
+- [x] [2 Add Two Numbers](https://leetcode.com/problems/add-two-numbers/?envType=list&envId=oqasfzsm)
+  - the use of floor division for carry and tenary operation to make the code neater. Recommend neetcode for this question. [Solution here](./LeetCode/2-add-two-numbers/2-traverse-reverse.py)
+- [ ] [19 Remove Nth Node From Rnd of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/?envType=list&envId=oqasfzsm)
+- [ ] [21 Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/?envType=list&envId=oqasfzsm)
+- [ ] [23 Merge k Sortd Lists](https://leetcode.com/problems/merge-k-sorted-lists/?envType=list&envId=oqasfzsm)
+- [ ] [24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/?envType=list&envId=oqasfzsm)
+- [ ] [25 Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=list&envId=oqasfzsm)
+- [ ] [83 Remove Duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/?envType=list&envId=oqasfzsm)
+- [ ] [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/editorial/) 
+- [ ] [138 Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/?envType=list&envId=oqasfzsm)
+- [x] [141 Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/?envType=list&envId=oqasfzsm)
+  - floyd's turtle and hare, classic question, [solution here](./LeetCode/141-linked-list-cycle/141-linked-list-cycle.py). 
+- [ ] 143
+- [ ] [147 Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/?envType=list&envId=oqasfzsm)
+- [ ] [148 Sort List](https://leetcode.com/problems/sort-list/?envType=list&envId=oqasfzsm)
+- [ ] [160 Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/?envType=list&envId=oqasfzsm)
+- [x] [206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/?envType=list&envId=oqasfzsm)
+  - joma meme, reverse linked list 必须会的. 
+- [ ] [234 Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/?envType=list&envId=oqasfzsm)
+- [ ] [237 Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/?envType=list&envId=oqasfzsm)
+- [ ] [328 Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/?envType=list&envId=oqasfzsm)
+- [ ] [725 Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/?envType=list&envId=oqasfzsm)
+- [ ] [707 Design Linked List](https://leetcode.com/problems/design-linked-list/?envType=list&envId=oqasfzsm)
+- [ ] [876 Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/?envType=list&envId=oqasfzsm)
+- [ ] [1171 Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/?envType=list&envId=oqasfzsm)
+- [ ] [1721 Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/?envType=list&envId=oqasfzsm)
+- [ ] [1832 Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/?envType=list&envId=oqasfzsm)
+
+### Cache Series
+Linked list在很多数据结构中，起部分作用，比如database b+ tree中的leaf nodes, 之间都用doubly linked list连接。
+
+这一个系列LC题目是linked list在cache中的运用，难度不低，且比较冗长, 建议以理解为主，熟练度靠频率刷上去.
+- [ ] [146 LRU Cache](https://leetcode.com/problems/lru-cache/?envType=list&envId=oqasfzsm)
+- [ ] [460 LFU Cache](https://leetcode.com/problems/lfu-cache/?envType=list&envId=oqasfzsm)
+
+## Linked List reference
+The list generated here is from Neetcode Linkedlist playlist and a linkedlist post.
+
+- [3 hour linked list with java bootcamp from Kunal Kushwaha](https://www.youtube.com/watch?v=70tx7KcMROc&ab_channel=KunalKushwaha)
 
 
 
