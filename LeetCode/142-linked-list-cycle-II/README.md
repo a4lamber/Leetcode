@@ -86,7 +86,16 @@ $$
 $$
 where $k-1\geq0$
 
-Let's recall this graph, if now, there is a dragon starting from `head` and moving at the same speed as the turtle. Since the distance from `head` to start of cycle, $x$ will always satisfy the equation 9, then dragon and the turtle will meet at the start of the cycle.
+As we know, $x$ is defined as the distance from the `head` to the start of the cycle. If dragon and turtle moving at the same speed, this means that the dragon will
+- dragon travels $x = \left(k-1\right)L + \left(L - y\right)$ to get to the start of the linked list
+
+Let's look at the turtle, if we generalize when the turtle will travel from A (turtle met bug bunnys) to B (the start of the cycle), then
+$$
+s_{turtle} = NL + (L-y)
+$$
+where $N\geq0$ and $N\in Z$ 
+
+You realize that distance traveled by turtle $s_{turtle}$ and dragon $x$ is the same.Then dragon and the turtle will meet at the start of the cycle.
 
 ![](142-4.png)
 
