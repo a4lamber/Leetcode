@@ -183,7 +183,7 @@ Cycle detection by flord's turtle and hare实际上是two pointer, same directio
   - floyd's turtle and hare, classic question, [solution here](./LeetCode/141-linked-list-cycle/141-linked-list-cycle.py). 
 - [ ] Follow-up Can you find the length of the cycle if it exists? 
 - [x] [142 Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
-  - [Youtuber Nikhil Lohia](https://www.youtube.com/watch?v=95ZfuoSAUPI&ab_channel=NikhilLohia)的思路最清楚, 这题最优解用兔八哥，王八和龙来解，[solution here](./LeetCode/142-linked-list-cycle-II/README.md), 空间非最优解可以放一个hashset来做.
+  - [Youtuber Nikhil Lohia](https://www.youtube.com/watch?v=95ZfuoSAUPI&ab_channel=NikhilLohia)的思路最清楚, 这题最优解用兔八哥，王八和龙来解，[solution here](./LeetCode/142-linked-list-cycle-II/README.md), 空间非最优解brute force solution可以放一个hashset来做.
 - [ ] [202 Happy Number](https://leetcode.com/problems/happy-number/)
 
 ### Cache Series

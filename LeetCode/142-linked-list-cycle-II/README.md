@@ -50,7 +50,7 @@ d_{1} = x + y + n_1\times L \\
 d_{2} = x + y + n_2\times L
 \end{align}
 $$
-where $d_{1}$ and $d_{1}$ are the distance covered by the turtle and the hare, respectively, and $n_1$ and $n_2$ are the distance number of cycles taken by the turtle and hare, respectively.
+where $d_{1}$ and $d_{2}$ are the distance covered by the turtle and the hare, respectively, and $n_1$ and $n_2$ are the distance number of cycles taken by the turtle and hare, respectively.
 
 Since we know that the speed of hare is two times faster than the turtle and they start their racing at the `head` simultaneously. Then the distance traveled by the hare will be exactly two-times the distance traveled by the turtle, which means
 $$
@@ -93,6 +93,8 @@ Let's recall this graph, if now, there is a dragon starting from `head` and movi
 
 # Solution
 
+## Optimal
+
 ```python
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
@@ -111,5 +113,30 @@ class Solution:
 
 
         # no cycle at all
+        return None
+```
+
+## Brute force
+
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        hashset = set()
+
+        curr = head
+
+        while curr:
+            if curr not in hashset:
+                hashset.add(curr)
+            else:
+                return curr
+            curr = curr.next
+
         return None
 ```
