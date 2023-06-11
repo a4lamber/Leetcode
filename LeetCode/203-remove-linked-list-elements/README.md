@@ -66,8 +66,5 @@ class Solution:
             
             curr = curr.next
             
-
-
-
         return dummy_node.next
 ```

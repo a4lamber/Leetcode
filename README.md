@@ -16,6 +16,7 @@
 - [Linked List](#linked-list)
     - [Basic Linked List](#basic-linked-list)
     - [排序节点](#排序节点)
+    - [删除节点](#删除节点)
     - [Reverse Linked list](#reverse-linked-list)
     - [Cycle detection](#cycle-detection)
     - [Cache Series](#cache-series)
@@ -169,6 +170,24 @@ The questions are mainly categorized into:
 - [ ] [86 Partition List](https://leetcode.com/problems/partition-list/)
 
 
+### 删除节点
+
+delete nodes in linked list has two tricks:
+- dummy header node
+- `prev.next` = `curr.next`
+
+These two tricks should be good enough
+
+
+- [ ] [237 delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+- [x] [203 remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements/)
+  - dummy header node + delete a node; [solution here](./LeetCode/203-remove-linked-list-elements/README.md)
+- [x] [83 remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+  - hashset + delete node. [solution here](./LeetCode/83-remove-duplicates-from-sorted-list/83-hash-approach.py)
+- [x] [19 remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+  - [two pass solution here](./LeetCode/19-remove-nth-node-from-end-of-list/19-two-pass.py)
+  - [ ] one pass solution is also possible. Wait for next visit of this question. 
+
 ### Reverse Linked list
 - [x] [206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/?envType=list&envId=oqasfzsm)
   - joma meme, reverse linked list 必须会的. 
@@ -178,7 +197,8 @@ The questions are mainly categorized into:
     - advance till left node, `left - 1`
     - reverse `right - left + 1` 
     - reorganize which node points to which
-- [ ] [61 Rotate List](https://leetcode.com/problems/rotate-list/)
+- [x] [61 Rotate List](https://leetcode.com/problems/rotate-list/)
+  - 多看看给予的条件, it will give you hint. [Solution here](./LeetCode/61-rotate-list/README.md). 
 
 
 
@@ -190,7 +210,8 @@ Cycle detection by flord's turtle and hare实际上是two pointer, same directio
 - [ ] Follow-up Can you find the length of the cycle if it exists? 
 - [x] [142 Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
   - [Youtuber Nikhil Lohia](https://www.youtube.com/watch?v=95ZfuoSAUPI&ab_channel=NikhilLohia)的思路最清楚, 这题最优解用兔八哥，王八和龙来解，[solution here](./LeetCode/142-linked-list-cycle-II/README.md), 空间非最优解brute force solution可以放一个hashset来做.
-- [ ] [160 Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/?envType=list&envId=oqasfzsm)
+- [x] [160 Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/?envType=list&envId=oqasfzsm)
+  - 勉强并入cycle in linked list, [hashset solution here](./LeetCode/160-intersection-of-two-linked-list/160-hash-approach.py), the optimal solution is connect the tail of list A to head to B, and do the same thing for the tail of list B and head of A, [explanation here](./LeetCode/160-intersection-of-two-linked-list/README.md).
 - [ ] [202 Happy Number](https://leetcode.com/problems/happy-number/)
 
 ### Cache Series
