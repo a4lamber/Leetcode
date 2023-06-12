@@ -199,7 +199,8 @@ These two tricks should be good enough
     - reorganize which node points to which
 - [x] [61 Rotate List](https://leetcode.com/problems/rotate-list/)
   - 多看看给予的条件, it will give you hint. [Solution here](./LeetCode/61-rotate-list/README.md). 
-
+- [ ] [25 Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=list&envId=oqasfzsm)
+  - 2023/06/11, 11:18pm，花了43分钟，第一次不看答案，做出了Leetcode Hard, Solution and tear here.
 
 
 ### Cycle detection
@@ -225,7 +226,7 @@ Linked list在很多数据结构中，起部分作用，比如database b+ tree�
 - [x] [2 Add Two Numbers](https://leetcode.com/problems/add-two-numbers/?envType=list&envId=oqasfzsm)
   - the use of floor division for carry and tenary operation to make the code neater. Recommend neetcode for this question. [Solution here](./LeetCode/2-add-two-numbers/2-traverse-reverse.py)
 - [ ] [24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/?envType=list&envId=oqasfzsm)
-- [ ] [25 Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=list&envId=oqasfzsm)
+
 - [ ] [138 Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/?envType=list&envId=oqasfzsm)
 
 - [ ] [328 Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/?envType=list&envId=oqasfzsm)
