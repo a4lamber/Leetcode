@@ -22,6 +22,8 @@
     - [Cache Series](#cache-series)
     - [未分类Linked List](#未分类linked-list)
   - [Linked List reference](#linked-list-reference)
+- [Binary Search](#binary-search)
+  - [Search In Array](#search-in-array)
 - [Reference](#reference)
 
 
@@ -199,9 +201,10 @@ These two tricks should be good enough
     - reorganize which node points to which
 - [x] [61 Rotate List](https://leetcode.com/problems/rotate-list/)
   - 多看看给予的条件, it will give you hint. [Solution here](./LeetCode/61-rotate-list/README.md). 
-- [ ] [25 Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=list&envId=oqasfzsm)
-  - 2023/06/11, 11:18pm，花了43分钟，第一次不看答案，做出了Leetcode Hard, Solution and tear here.
-
+- [x] [25 Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/?envType=list&envId=oqasfzsm)
+  - 2023/06/11, 11:18pm，花了43分钟，第一次不看答案，做出了Leetcode Hard, [Solution and tear here](./LeetCode/25-reverse-nodes-in-k-groups/README.md).
+- [x] [24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/?envType=list&envId=oqasfzsm)
+  - 看似swap nodes, 但实际上是25题k=2时的一个case, generalize到25就好，[solution here](./LeetCode/24-swap-nodes-in-pairs/24-generalize-to-k-for-LC25.py). 
 
 ### Cycle detection
 Cycle detection by flord's turtle and hare实际上是two pointer, same direction with different speed, 可以归纳为two pointer类型.
@@ -225,10 +228,7 @@ Linked list在很多数据结构中，起部分作用，比如database b+ tree�
 ### 未分类Linked List
 - [x] [2 Add Two Numbers](https://leetcode.com/problems/add-two-numbers/?envType=list&envId=oqasfzsm)
   - the use of floor division for carry and tenary operation to make the code neater. Recommend neetcode for this question. [Solution here](./LeetCode/2-add-two-numbers/2-traverse-reverse.py)
-- [ ] [24 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/?envType=list&envId=oqasfzsm)
-
 - [ ] [138 Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/?envType=list&envId=oqasfzsm)
-
 - [ ] [328 Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/?envType=list&envId=oqasfzsm)
 - [ ] [725 Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/?envType=list&envId=oqasfzsm)
 - [ ] [707 Design Linked List](https://leetcode.com/problems/design-linked-list/?envType=list&envId=oqasfzsm)
@@ -243,6 +243,32 @@ The list generated here is from Neetcode Linkedlist playlist and a linkedlist po
 - [3 hour linked list with java bootcamp from Kunal Kushwaha](https://www.youtube.com/watch?v=70tx7KcMROc&ab_channel=KunalKushwaha)
 - [csdn链表题型分类, 最后basic模版，然后自己往上分类](https://blog.csdn.net/pushup8/article/details/85757763)
 - [similar summary for linked list](https://juejin.cn/post/6855865111354851335)
+
+
+# Binary Search
+
+<!-- flowchart TD
+root(binary search)
+a("有明确target")
+b("无明确target")
+c("无明确target, 可以越界")
+root a & b & c -->
+ 
+
+Binary search follows the study guide by leetcode. 
+
+## Search In Array
+- [ ] [704 Binary Search](https://leetcode.com/problems/binary-search/?envType=study-plan-v2&envId=binary-search)
+- [ ] [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=binary-search)
+- [ ] [744 Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/?envType=study-plan-v2&envId=binary-search)
+- [ ] [1351 Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/?envType=study-plan-v2&envId=binary-search)
+- [ ] [34 Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/?envType=study-plan-v2&envId=binary-search)
+- [ ] [436 Find Right Interval](https://leetcode.com/problems/find-right-interval/?envType=study-plan-v2&envId=binary-search)
+- [ ] [981 Time Based Key-value Store](https://leetcode.com/problems/time-based-key-value-store/?envType=study-plan-v2&envId=binary-search)
+- [ ] [1146 Snapshot Array](https://leetcode.com/problems/snapshot-array/?envType=study-plan-v2&envId=binary-search)
+
+
+
 
 
 # Reference
