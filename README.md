@@ -24,6 +24,7 @@
   - [Linked List reference](#linked-list-reference)
 - [Binary Search](#binary-search)
   - [Search In Array](#search-in-array)
+- [Backtracking](#backtracking)
 - [Reference](#reference)
 
 
@@ -267,6 +268,13 @@ Binary search follows the study guide by leetcode.
 - [ ] [981 Time Based Key-value Store](https://leetcode.com/problems/time-based-key-value-store/?envType=study-plan-v2&envId=binary-search)
 - [ ] [1146 Snapshot Array](https://leetcode.com/problems/snapshot-array/?envType=study-plan-v2&envId=binary-search)
 
+
+
+# Backtracking
+
+Backtracking is a methodology where we mark the current path of exploration, if the path does not lead to a solution, we backtrack and try another path.
+
+- [ ] [79 Word Search](https://leetcode.com/problems/word-search/?envType=list&envId=rlvk36h3)
 
 
 
