@@ -272,13 +272,18 @@ Binary search follows the study guide by leetcode.
 
 # Backtracking
 
-Backtracking is a methodology where we mark the current path of exploration, if the path does not lead to a solution, we backtrack and try another path. Here, we use the template of **Neetcode** to crack the 9 backtracking problem to learn the methodology.
+Backtracking is a technique used for exhausitively searching a given search space when you can write off the cost associated with exploring bad paths without needing to memoize them.
+
+
+Here, we use the template of **Neetcode** to crack the 9 backtracking problem to learn the methodology.
 
 - [x] [79 Word Search](https://leetcode.com/problems/word-search/?envType=list&envId=rlvk36h3)
   - classic question, good trick is how to prevent you from revisiting the node. The snake analogy is so good, please check [here](./LeetCode/79-word-search/README.md).
 - [x] [46 Permutations](https://leetcode.com/problems/permutations/description/)
-  - 得再刷
-- [ ] [78 Subsets](https://leetcode.com/problems/subsets/)
+  - 每一层添加一个不在当前path里面的数字, state variable is `curr` 用来keep track现在路径下的路过了几个数字了.
+- [x] [78 Subsets](https://leetcode.com/problems/subsets/)
+  - 每一层决定是否include `nums[i]`, state variable is `i`.
+- [x] [77 Combinations](https://leetcode.com/problems/combinations/)
 - [ ] [39 Combination Sum](https://leetcode.com/problems/combination-sum/)
 - [ ] [40 Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 - [ ] [90 Subsets II](https://leetcode.com/problems/subsets-ii/)
