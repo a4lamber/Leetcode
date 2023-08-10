@@ -274,6 +274,7 @@ Binary search follows the study guide by leetcode.
 
 Backtracking is a technique used for exhausitively searching a given search space when you can write off the cost associated with exploring bad paths without needing to memoize them.
 
+> Note: finding partial solution and then explore!
 
 Here, we use the template of **Neetcode** to crack the 9 backtracking problem to learn the methodology.
 
