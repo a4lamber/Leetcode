@@ -291,6 +291,7 @@ Here, we use the template of **Neetcode** to crack the 9 backtracking problem to
 - [ ] [131 Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 - [ ] [17 Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [ ] [51 N-Queens](https://leetcode.com/problems/n-queens/)
+  - 8皇后问题 
 
 # Reference
 - [Runestone Python Data Structure](https://runestone.academy/ns/books/published/pythonds/index.html)
