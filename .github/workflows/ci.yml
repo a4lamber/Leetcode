@@ -1,4 +1,5 @@
-name: ci 
+name: CI
+
 on:
   push:
     branches:
@@ -7,20 +8,37 @@ on:
 permissions:
   contents: write
 
+# define jobs
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v3
+
+      - name: Set cache_id
+        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-blogging-plugin
+          pip install mkdocs-rss-plugin
+          pip install mkdocs-pymdownx-material-extras
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
