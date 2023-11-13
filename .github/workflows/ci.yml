@@ -41,5 +41,8 @@ jobs:
           pip install mkdocs-rss-plugin
           pip install mkdocs-pymdownx-material-extras
 
+      # need to move the directory with the mkdocs.yml file to deploy
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+        run: |
+          cd leetcode_with_adam
+          mkdocs gh-deploy --force
