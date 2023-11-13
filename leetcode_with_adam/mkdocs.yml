@@ -1,0 +1,49 @@
+
+
+# Project information
+site_name: Leetcode with Adam
+site_author: Adam Zhang
+site_description: >-
+  A blog about DSA and Leetcode
+
+
+theme: 
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.prefetch
+    - search.suggest
+plugins:
+  - search
+  - blog:
+      enabled: true
+      # blog_dir: blog
+      # blog_toc: true
+      # categories: true
+      # categories_name: Categories
+  - rss:
+      match_path: blog/posts/.*  # Only include blog posts in the RSS feed
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+
+# markdown extensions        
+markdown_extensions: 
+  - pymdownx.arithmatex:
+      generic: true 
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# page tree
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
