@@ -3,6 +3,8 @@ draft: true
 date: 2023-01-27
 authors:
   - adam
+description: >
+    two sum, where the dream begins
 categories:
   - hash
   - easy

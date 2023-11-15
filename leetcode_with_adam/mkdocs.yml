@@ -22,13 +22,13 @@ plugins:
       # blog_toc: true
       # categories: true
       # categories_name: Categories
-  - rss:
-      match_path: blog/posts/.*  # Only include blog posts in the RSS feed
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags 
+  # - rss:
+  #     match_path: blog/posts/.*  # Only include blog posts in the RSS feed
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags 
 
 # markdown extensions        
 markdown_extensions: 
@@ -47,3 +47,7 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
+  - Algorithm:
+    - algorithm/index.md
+    - 1 Two Sum : algorithm/test.md
+    - 2 Three Sum : algorithm/test2.md 
