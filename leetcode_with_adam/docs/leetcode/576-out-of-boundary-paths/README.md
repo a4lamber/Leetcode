@@ -21,14 +21,14 @@ We can decompose the problem to,
 - number of ways to go out of boundary with `maxMove` moves allowed
 
 If a football goes out of boundary with 2 moves, then it needs to be at the boundary of the grid with 1 move. Therefore, we can transfer this question into,
-- After a total of `0` moves, the ball is at boundary. Calculate the total number of ways to go out of bounda after 1 more move.
-- After a total of `1` moves, the ball is at boundary. Calculate the total number of ways to go out of bounda after 1 more move.
-...
-- After a total of `maxMove - 1` moves, the ball is at boundary. Calculate the total number of ways to go out of bounda after 1 more move.
+- Given after a total of `0` moves, the ball is at boundary. Calculate the total number of ways to go out of bound after 1 more move.
+- Given after a total of `1` moves, the ball is at boundary. Calculate the total number of ways to go out of bound after 1 more move.
+- ...
+- Given after a total of `maxMove - 1` moves, the ball is at boundary. Calculate the total number of ways to go out of bound after 1 more move.
 
 After decompose the problem into its subproblem and rephrase each sub-problem, we need to
 - construct a DP definition that figure out number of ways to reach boundary nodes
-- figure out a way to determine what's boundary nodes and interior nodes effecively. 
+- figure out a way to determine what's boundary nodes and interior nodes effectively. 
 
 # Approach
 <!-- Describe your approach to solving the problem. -->
