@@ -6,7 +6,8 @@ authors:
 description: >
     two sum, where the dream begins
 tags:
-  - hashmap
+  - Array
+  - Hash Table
 ---
 
 # 1 two sum

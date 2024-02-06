@@ -74,6 +74,13 @@ extra_javascript:
 nav:
   - Home: 
     - index.md
+  - contest:
+    - contest/index.md
+    - biweekly:
+      - biweekly 222: contest/biweekly/biweekly_222.md
+    - weekly:
+      - weekly 382: contest/weekly/weekly_382.md
+      - weekly 383: contest/weekly/weekly_383.md
   - Leetcode:
       - leetcode/index.md
       - 1 two sum: leetcode/1-two-sum/index.md
@@ -88,7 +95,9 @@ nav:
       - 21 merge two sorted lists: leetcode/21-merge-two-sorted-lists/index.md
       - 24 swap nodes in pairs: leetcode/24-swap-nodes-in-pairs/index.md
       - 25 reverse nodes in k groups: leetcode/25-reverse-nodes-in-k-groups/index.md
+      - 26 remove duplicates from sorted array: leetcode/26-remove-duplicates-from-sorted-array/index.md
       - 34 find first and last position of element in sorted array: leetcode/34-find-first-and-last-position-of-element-in-sorted-array/index.md
+      - 36 valid sudoku: leetcode/36-valid-sudoku/index.md
       - 35 search insert position: leetcode/35-search-insert-position/index.md
       - 46 permutations: leetcode/46-permutations/index.md
       - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
@@ -147,6 +156,7 @@ nav:
       - 230 kth smallest element in BST: leetcode/230-kth-smallest-element-in-BST/index.md
       - 232 implement queue using stacks: leetcode/232-implement-queue-using-stacks/index.md
       - 234 palindrome linked list: leetcode/234-palindrome-linked-list/index.md
+      - 238 product of array except self: leetcode/238-product-of-array-except-self/index.md
       - 242 valid anagram: leetcode/242-valid-anagram/index.md
       - 243 shortest word distance: leetcode/243-shortest-word-distance/index.md
       - 252 meeting rooms: leetcode/252-meeting-rooms/index.md
