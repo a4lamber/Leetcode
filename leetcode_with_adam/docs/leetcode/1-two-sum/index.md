@@ -5,9 +5,8 @@ authors:
   - adam
 description: >
     two sum, where the dream begins
-categories:
-  - hash
-  - easy
+tags:
+  - hashmap
 ---
 
 # 1 two sum

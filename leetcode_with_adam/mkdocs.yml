@@ -17,15 +17,16 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
+    # nav bar的设置 
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.instant.prefetch
-    # - navigation.instant.progress
+    - navigation.instant.progress
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
+    # - navigation.expand
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -51,8 +52,13 @@ theme:
 
 plugins:
   - search
+  - tags
   
 # markdown extensions        
+extra:
+  generator: True
+copyright: © 2023 - 2024 Adam Zhang. All rights reserved.
+
 markdown_extensions: 
   - pymdownx.arithmatex:
       generic: true 
@@ -63,6 +69,165 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+nav:
+  - Home: 
+    - index.md
+  - Leetcode:
+      - leetcode/index.md
+      - 1 two sum: leetcode/1-two-sum/index.md
+      - 2 add two numbers: leetcode/2-add-two-numbers/index.md
+      - 3 longest substring without repeating characters: leetcode/3-longest-substring-without-repeating-characters/index.md
+      - 5 longest palindromic substring: leetcode/5-longest-palindromic-substring/index.md
+      - 9 palindrome number: leetcode/9-palindrome-number/index.md
+      - 13 roman to integer: leetcode/13-roman-to-integer/index.md
+      - 14 longest common prefix: leetcode/14-longest-common-prefix/index.md
+      - 19 remove nth node from end of list: leetcode/19-remove-nth-node-from-end-of-list/index.md
+      - 20 valid parentheses: leetcode/20-valid-parentheses/index.md
+      - 21 merge two sorted lists: leetcode/21-merge-two-sorted-lists/index.md
+      - 24 swap nodes in pairs: leetcode/24-swap-nodes-in-pairs/index.md
+      - 25 reverse nodes in k groups: leetcode/25-reverse-nodes-in-k-groups/index.md
+      - 34 find first and last position of element in sorted array: leetcode/34-find-first-and-last-position-of-element-in-sorted-array/index.md
+      - 35 search insert position: leetcode/35-search-insert-position/index.md
+      - 46 permutations: leetcode/46-permutations/index.md
+      - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
+      - 59 group anagrams: leetcode/59-group-anagrams/index.md
+      - 61 rotate list: leetcode/61-rotate-list/index.md
+      - 62 unique paths: leetcode/62-unique-paths/index.md
+      - 63 unique paths II: leetcode/63-unique-paths-II/index.md
+      - 64 minimum path sum: leetcode/64-minimum-path-sum/index.md
+      - 69 binary search: leetcode/69-binary-search/index.md
+      - 70 climbing stairs: leetcode/70-climbing-stairs/index.md
+      - 72 edit distance: leetcode/72-edit-distance/index.md
+      - 76 minimum window substring: leetcode/76-minimum-window-substring/index.md
+      - 77 combinations: leetcode/77-combinations/index.md
+      - 78 subsets: leetcode/78-subsets/index.md
+      - 79 word search: leetcode/79-word-search/index.md
+      - 83 remove duplicates from sorted list: leetcode/83-remove-duplicates-from-sorted-list/index.md
+      - 92 reverse linked list II: leetcode/92-reverse-linked-list-II/index.md
+      - 94 binary tree inorder traversal: leetcode/94-binary-tree-inorder-traversal/index.md
+      - 100 same tree: leetcode/100-same-tree/index.md
+      - 101 symmetric tree: leetcode/101-symmetric-tree/index.md
+      - 102 binary tree level order traversal: leetcode/102-binary-tree-level-order-traversal/index.md
+      - 103 binary tree zigzag level order traversal: leetcode/103-binary-tree-zigzag-level-order-traversal/index.md
+      - 104 maximum depth of binary tree: leetcode/104-maximum-depth-of-binary-tree/index.md
+      - 107 binary tree level order traversal II: leetcode/107-binary-tree-level-order-traversal-II/index.md
+      - 111 minimum depth of binary tree: leetcode/111-minimum-depth-of-binary-tree/index.md
+      - 112 path sum: leetcode/112-path-sum/index.md
+      - 113 path sum II: leetcode/113-path-sum-II/index.md
+      - 118 pascal triangle: leetcode/118-pascal-triangle/index.md
+      - 119 pascal triangle II: leetcode/119-pascal-triangle-II/index.md
+      - 120 triangle: leetcode/120-triangle/index.md
+      - 121 best time to buy and sell stock: leetcode/121-best-time-to-buy-and-sell-stock/index.md
+      - 122 best time to buy and sell stock II: leetcode/122-best-time-to-buy-and-sell-stock-II/index.md
+      - 125 valid palindrome: leetcode/125-valid-palindrome/index.md
+      - 129 sum root to leaf numbers: leetcode/129-sum-root-to-leaf-numbers/index.md
+      - 136 single number: leetcode/136-single-number/index.md
+      - 141 linked list cycle: leetcode/141-linked-list-cycle/index.md
+      - 142 linked list cycle II: leetcode/142-linked-list-cycle-II/index.md
+      - 144 binary tree preorder traversal: leetcode/144-binary-tree-preorder-traversal/index.md
+      - 145 binary tree postorder traversal: leetcode/145-binary-tree-postorder-traversal/index.md
+      - 146 lru cache: leetcode/146-lru-cache/index.md
+      - 150 evaluate reverse polish notation: leetcode/150-evaluate-reverse-polish-notation/index.md
+      - 152 maximum product subarray: leetcode/152-maximum-product-subarray/index.md
+      - 160 intersection of two linked list: leetcode/160-intersection-of-two-linked-list/index.md
+      - 161 one edit distance: leetcode/161-one-edit-distance/index.md
+      - 167 two sum II input array is sorted: leetcode/167-two-sum-II-input-array-is-sorted/index.md
+      - 169 majority element: leetcode/169-majority-element/index.md
+      - 198 house robber: leetcode/198-house-robber/index.md
+      - 202 happy number: leetcode/202-happy-number/index.md
+      - 203 remove linked list elements: leetcode/203-remove-linked-list-elements/index.md
+      - 205 isomorphic strings: leetcode/205-isomorphic-strings/index.md
+      - 206 reverse linked list: leetcode/206-reverse-linked-list/index.md
+      - 213 house robber II: leetcode/213-house-robber-II/index.md
+      - 217 contains duplicate: leetcode/217-contains-duplicate/index.md
+      - 221 maximum square: leetcode/221-maximum-square/index.md
+      - 226 invert binary tree: leetcode/226-invert-binary-tree/index.md
+      - 230 kth smallest element in BST: leetcode/230-kth-smallest-element-in-BST/index.md
+      - 232 implement queue using stacks: leetcode/232-implement-queue-using-stacks/index.md
+      - 234 palindrome linked list: leetcode/234-palindrome-linked-list/index.md
+      - 242 valid anagram: leetcode/242-valid-anagram/index.md
+      - 243 shortest word distance: leetcode/243-shortest-word-distance/index.md
+      - 252 meeting rooms: leetcode/252-meeting-rooms/index.md
+      - 257 binary tree paths: leetcode/257-binary-tree-paths/index.md
+      - 266 palindrome permutation: leetcode/266-palindrome-permutation/index.md
+      - 278 first bad version: leetcode/278-first-bad-version/index.md
+      - 283 Move Zeros: leetcode/283-Move-Zeros/index.md
+      - 300 longest increasing subsequence: leetcode/300-longest-increasing-subsequence/index.md
+      - 328 odd even linked list: leetcode/328-odd-even-linked-list/index.md
+      - 344 reverse string: leetcode/344-reverse-string/index.md
+      - 346 moving average from data stream: leetcode/346-moving-average-from-data-stream/index.md
+      - 347 top k frequent elements: leetcode/347-top-k-frequent-elements/index.md
+      - 374 guess number higher or lower: leetcode/374-guess-number-higher-or-lower/index.md
+      - 383 ransom note: leetcode/383-ransom-note/index.md
+      - 387 first unique character in a string: leetcode/387-first-unique-character-in-a-string/index.md
+      - 409 longest palindrome: leetcode/409-longest-palindrome/index.md
+      - 412 fizz buzz: leetcode/412-fizz-buzz/index.md
+      - 441 arranging coins: leetcode/441-arranging-coins/index.md
+      - 442 find all duplicates in an array: leetcode/442-find-all-duplicates-in-an-array/index.md
+      - 509 fibonacci number: leetcode/509-fibonacci-number/index.md
+      - 530 minimum absolute difference in BST: leetcode/530-minimum-absolute-difference-in-BST/index.md
+      - 560 subarray sum equals k: leetcode/560-subarray-sum-equals-k/index.md
+      - 576 out of boundary paths: leetcode/576-out-of-boundary-paths/index.md
+      - 577 reverse words in a string III: leetcode/577-reverse-words-in-a-string-III/index.md
+      - 617 merge two binary trees: leetcode/617-merge-two-binary-trees/index.md
+      - 622 design circular queue: leetcode/622-design-circular-queue/index.md
+      - 629 k inverse pair array: leetcode/629-k-inverse-pair-array/index.md
+      - 643 maximum average subarray I: leetcode/643-maximum-average-subarray-I/index.md
+      - 645 set mismatch: leetcode/645-set-mismatch/index.md
+      - 653 two sum IV input is a BST: leetcode/653-two-sum-IV-input-is-a-BST/index.md
+      - 673 number of longest increasing subsequence: leetcode/673-number-of-longest-increasing-subsequence/index.md
+      - 680 valid palindrome: leetcode/680-valid-palindrome/index.md
+      - 692 top k frequent words: leetcode/692-top-k-frequent-words/index.md
+      - 700 search in a binary search tree: leetcode/700-search-in-a-binary-search-tree/index.md
+      - 704 binary search: leetcode/704-binary-search/index.md
+      - 718 maximum length of repeated subarray: leetcode/718-maximum-length-of-repeated-subarray/index.md
+      - 724 find pivot index: leetcode/724-find-pivot-index/index.md
+      - 739 daily temperatures: leetcode/739-daily-temperatures/index.md
+      - 740 delete and earn: leetcode/740-delete-and-earn/index.md
+      - 746 min cost climbing stairs: leetcode/746-min-cost-climbing-stairs/index.md
+      - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
+      - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
+      - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
+      - 918 maximum sum circular subarray: leetcode/918-maximum-sum-circular-subarray/index.md
+      - 931 minimum falling path sum: leetcode/931-minimum-falling-path-sum/index.md
+      - 938 range sum of BST: leetcode/938-range-sum-of-BST/index.md
+      - 941 valid mountain array: leetcode/941-valid-mountain-array/index.md
+      - 953 verifying an alien dictionary: leetcode/953-verifying-an-alien-dictionary/index.md
+      - 978 longest turbulent subarray: leetcode/978-longest-turbulent-subarray/index.md
+      - 983 minimum cost for tickets: leetcode/983-minimum-cost-for-tickets/index.md
+      - 1014 best sightseeing pair: leetcode/1014-best-sightseeing-pair/index.md
+      - 1025 divisor game: leetcode/1025-divisor-game/index.md
+      - 1043 partition array for maximum sum: leetcode/1043-partition-array-for-maximum-sum/index.md
+      - 1074 number of submatrices that sum to target: leetcode/1074-number-of-submatrices-that-sum-to-target/index.md
+      - 1086 high five: leetcode/1086-high-five/index.md
+      - 1108 defanging an ip address: leetcode/1108-defanging-an-ip-address/index.md
+      - 1119 remove vowels from a string: leetcode/1119-remove-vowels-from-a-string/index.md
+      - 1133 largest unique number: leetcode/1133-largest-unique-number/index.md
+      - 1134 Armstrong Number: leetcode/1134-Armstrong Number/index.md
+      - 1137 N th Tribonacci number: leetcode/1137-N-th-Tribonacci-number/index.md
+      - 1143 longest common subsequence: leetcode/1143-longest-common-subsequence/index.md
+      - 1150 check if a number is majority element in a sorted array: leetcode/1150-check-if-a-number-is-majority-element-in-a-sorted-array/index.md
+      - 1165 single row keyboard: leetcode/1165-single-row-keyboard/index.md
+      - 1180 count substrings with only one distinct letter: leetcode/1180-count-substrings-with-only-one-distinct-letter/index.md
+      - 1186 maximum subarray sum with one deletion: leetcode/1186-maximum-subarray-sum-with-one-deletion/index.md
+      - 1191 k concatenation maximum sum: leetcode/1191-k-concatenation-maximum-sum/index.md
+      - 1196 how many apples can you put into the basket: leetcode/1196-how-many-apples-can-you-put-into-the-basket/index.md
+      - 1213 intersection of three sorted array: leetcode/1213-intersection-of-three-sorted-array/index.md
+      - 1290 convert binary number in a linked list to integer: leetcode/1290-convert-binary-number-in-a-linked-list-to-integer/index.md
+      - 1305 all elements in two binary search trees: leetcode/1305-all-elements-in-two-binary-search-trees/index.md
+      - 1385 find the distance value between two arrays: leetcode/1385-find-the-distance-value-between-two-arrays/index.md
+      - 1457 pseudo palindrome paths in a binary tree: leetcode/1457-pseudo-palindrome-paths-in-a-binary-tree/index.md
+      - 1474 delete N nodes after M nodes of a linked list: leetcode/1474-delete-N-nodes-after-M-nodes-of-a-linked-list/index.md
+      - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
+      - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
+      - 1876 substring of size three with distinct characters: leetcode/1876-substring-of-size-three-with-distinct-characters/index.md
+      - 1971 find if path exists in graph: leetcode/1971-find-if-path-exists-in-graph/index.md
+      - 2108 find the first palindromic string in the array: leetcode/2108-find-the-first-palindromic-string-in-the-array/index.md
+      - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
+      - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
+      - 2966 divide array into arrays with max difference: leetcode/2966-divide-array-into-arrays-with-max-difference/index.md
 
 
   

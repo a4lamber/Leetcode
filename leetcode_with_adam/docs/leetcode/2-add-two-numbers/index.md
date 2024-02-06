@@ -5,8 +5,12 @@ authors:
   - adam
 categories:
   - python
+tags:
+  - linked list
+  - dummy node
+  - carry
 ---
-# Problem
+# Approach 1: 
 
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
@@ -20,7 +24,7 @@ Output: [7,0,8]
 Explanation: 342 + 465 = 807.
 ```
 
-# Intuition
+## Intuition
 
 在构造一个linked list时，一般会加一个dummy header node, 保证boundary nodes和internal nodes有一样的处理方法
 
@@ -33,7 +37,7 @@ Explanation: 342 + 465 = 807.
 
 
 
-# Code
+## Code
 
 ```python
 # Definition for singly-linked list.

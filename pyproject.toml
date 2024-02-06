@@ -1,17 +1,21 @@
 [build-system]
-requires = ["setuptools ~= 65.5.0"]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+# requires = ["setuptools ~= 65.5.0"]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
 
 [project]
 name = "leetcode-blog"
 description = "Personal blog for leetcode"
 version = "0.0.1"
+requires-python = ">=3.8"
 dependencies = [
-    "mkdocs==1.5.3",
-    "mkdocs-material==9.4.8",
-    "mkdocs-blogging-plugin==2.2.11", # mkdoc blog plugin
-    "mkdocs-rss-plugin==1.8.0", # mkdoc rss plugin
-    "mkdocs-pymdownx-material-extras==2.5.5"
-    ]
+    "mkdocs>=1.5.3",
+    "mkdocs-material>=9.4.8",
+    "mkdocs-pymdownx-material-extras==2.5.5",
+    "mkdocs-include-dir-to-nav>=1.2.0",
+]
 
 [project.optional-dependencies]
 dev = [

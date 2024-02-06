@@ -1,6 +1,6 @@
 # DSA 
 
-The study of DSA is painful for most of the people, including me. As long as it's still going to be a part of the interview process, I have to keep learning it.
+The study of DSA is painful for most of the people, including me. As long as it's still going to be a part of the interview process, We have to keep learning it. You can think of it as a game, and you are trying to get better at it.
 
 !!! note Note
     This is still a work in progress
