@@ -132,6 +132,7 @@ nav:
       - 121 best time to buy and sell stock: leetcode/121-best-time-to-buy-and-sell-stock/index.md
       - 122 best time to buy and sell stock II: leetcode/122-best-time-to-buy-and-sell-stock-II/index.md
       - 125 valid palindrome: leetcode/125-valid-palindrome/index.md
+      - 128 longest consecutive sequence: leetcode/128-longest-consecutive-sequence/index.md
       - 129 sum root to leaf numbers: leetcode/129-sum-root-to-leaf-numbers/index.md
       - 136 single number: leetcode/136-single-number/index.md
       - 141 linked list cycle: leetcode/141-linked-list-cycle/index.md
