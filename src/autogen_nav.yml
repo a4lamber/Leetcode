@@ -91,6 +91,7 @@
 - 412 fizz buzz: leetcode/412-fizz-buzz/index.md
 - 441 arranging coins: leetcode/441-arranging-coins/index.md
 - 442 find all duplicates in an array: leetcode/442-find-all-duplicates-in-an-array/index.md
+- 451 sort characters by frequency: leetcode/451-sort-characters-by-frequency/index.md
 - 509 fibonacci number: leetcode/509-fibonacci-number/index.md
 - 530 minimum absolute difference in BST: leetcode/530-minimum-absolute-difference-in-BST/index.md
 - 560 subarray sum equals k: leetcode/560-subarray-sum-equals-k/index.md
