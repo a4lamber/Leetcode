@@ -16,4 +16,4 @@ We all have been tortured by Leetcode to some extent in our coding journey. I ha
 - [OI Wiki](https://oi-wiki.org/) 不用说了吧，信息学奥赛的wiki, 也是用的mkdoc
 - [落谷刷题](https://www.luogu.com.cn/)
 - https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months
-
+- [残酷刷题群, Huifeng Guan](https://www.youtube.com/watch?v=hrwP6I5v1XY&ab_channel=HuifengGuan)

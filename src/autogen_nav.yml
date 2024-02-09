@@ -80,12 +80,14 @@
 - 257 binary tree paths: leetcode/257-binary-tree-paths/index.md
 - 266 palindrome permutation: leetcode/266-palindrome-permutation/index.md
 - 278 first bad version: leetcode/278-first-bad-version/index.md
+- 279 perfect squares: leetcode/279-perfect-squares/index.md
 - 283 Move Zeros: leetcode/283-Move-Zeros/index.md
 - 300 longest increasing subsequence: leetcode/300-longest-increasing-subsequence/index.md
 - 328 odd even linked list: leetcode/328-odd-even-linked-list/index.md
 - 344 reverse string: leetcode/344-reverse-string/index.md
 - 346 moving average from data stream: leetcode/346-moving-average-from-data-stream/index.md
 - 347 top k frequent elements: leetcode/347-top-k-frequent-elements/index.md
+- 368 largest divisible subset: leetcode/368-largest-divisible-subset/index.md
 - 374 guess number higher or lower: leetcode/374-guess-number-higher-or-lower/index.md
 - 383 ransom note: leetcode/383-ransom-note/index.md
 - 387 first unique character in a string: leetcode/387-first-unique-character-in-a-string/index.md
