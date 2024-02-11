@@ -106,6 +106,7 @@
 - 629 k inverse pair array: leetcode/629-k-inverse-pair-array/index.md
 - 643 maximum average subarray I: leetcode/643-maximum-average-subarray-I/index.md
 - 645 set mismatch: leetcode/645-set-mismatch/index.md
+- 647 palindromic substrings: leetcode/647-palindromic-substrings/index.md
 - 653 two sum IV input is a BST: leetcode/653-two-sum-IV-input-is-a-BST/index.md
 - 673 number of longest increasing subsequence: leetcode/673-number-of-longest-increasing-subsequence/index.md
 - 680 valid palindrome: leetcode/680-valid-palindrome/index.md
@@ -151,6 +152,7 @@
 - 1457 pseudo palindrome paths in a binary tree: leetcode/1457-pseudo-palindrome-paths-in-a-binary-tree/index.md
 - 1474 delete N nodes after M nodes of a linked list: leetcode/1474-delete-N-nodes-after-M-nodes-of-a-linked-list/index.md
 - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
+- 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
 - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
 - 1876 substring of size three with distinct characters: leetcode/1876-substring-of-size-three-with-distinct-characters/index.md
 - 1971 find if path exists in graph: leetcode/1971-find-if-path-exists-in-graph/index.md
