@@ -97,8 +97,8 @@ nav:
       - 25 reverse nodes in k groups: leetcode/25-reverse-nodes-in-k-groups/index.md
       - 26 remove duplicates from sorted array: leetcode/26-remove-duplicates-from-sorted-array/index.md
       - 34 find first and last position of element in sorted array: leetcode/34-find-first-and-last-position-of-element-in-sorted-array/index.md
-      - 36 valid sudoku: leetcode/36-valid-sudoku/index.md
       - 35 search insert position: leetcode/35-search-insert-position/index.md
+      - 36 valid sudoku: leetcode/36-valid-sudoku/index.md
       - 46 permutations: leetcode/46-permutations/index.md
       - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
       - 58 length of last word: leetcode/58-length-of-last-word/index.md
@@ -191,6 +191,7 @@ nav:
       - 629 k inverse pair array: leetcode/629-k-inverse-pair-array/index.md
       - 643 maximum average subarray I: leetcode/643-maximum-average-subarray-I/index.md
       - 645 set mismatch: leetcode/645-set-mismatch/index.md
+      - 647 palindromic substrings: leetcode/647-palindromic-substrings/index.md
       - 653 two sum IV input is a BST: leetcode/653-two-sum-IV-input-is-a-BST/index.md
       - 673 number of longest increasing subsequence: leetcode/673-number-of-longest-increasing-subsequence/index.md
       - 680 valid palindrome: leetcode/680-valid-palindrome/index.md
@@ -202,6 +203,7 @@ nav:
       - 739 daily temperatures: leetcode/739-daily-temperatures/index.md
       - 740 delete and earn: leetcode/740-delete-and-earn/index.md
       - 746 min cost climbing stairs: leetcode/746-min-cost-climbing-stairs/index.md
+      - 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
       - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
       - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
       - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
@@ -234,8 +236,10 @@ nav:
       - 1305 all elements in two binary search trees: leetcode/1305-all-elements-in-two-binary-search-trees/index.md
       - 1385 find the distance value between two arrays: leetcode/1385-find-the-distance-value-between-two-arrays/index.md
       - 1457 pseudo palindrome paths in a binary tree: leetcode/1457-pseudo-palindrome-paths-in-a-binary-tree/index.md
+      - 1463 cherry pickup II: leetcode/1463-cherry-pickup-II/index.md
       - 1474 delete N nodes after M nodes of a linked list: leetcode/1474-delete-N-nodes-after-M-nodes-of-a-linked-list/index.md
       - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
+      - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
       - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
       - 1876 substring of size three with distinct characters: leetcode/1876-substring-of-size-three-with-distinct-characters/index.md
       - 1971 find if path exists in graph: leetcode/1971-find-if-path-exists-in-graph/index.md
@@ -243,6 +247,3 @@ nav:
       - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
       - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
       - 2966 divide array into arrays with max difference: leetcode/2966-divide-array-into-arrays-with-max-difference/index.md
-
-
-  

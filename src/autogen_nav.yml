@@ -118,6 +118,7 @@
 - 739 daily temperatures: leetcode/739-daily-temperatures/index.md
 - 740 delete and earn: leetcode/740-delete-and-earn/index.md
 - 746 min cost climbing stairs: leetcode/746-min-cost-climbing-stairs/index.md
+- 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
 - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
 - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
 - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
@@ -150,6 +151,7 @@
 - 1305 all elements in two binary search trees: leetcode/1305-all-elements-in-two-binary-search-trees/index.md
 - 1385 find the distance value between two arrays: leetcode/1385-find-the-distance-value-between-two-arrays/index.md
 - 1457 pseudo palindrome paths in a binary tree: leetcode/1457-pseudo-palindrome-paths-in-a-binary-tree/index.md
+- 1463 cherry pickup II: leetcode/1463-cherry-pickup-II/index.md
 - 1474 delete N nodes after M nodes of a linked list: leetcode/1474-delete-N-nodes-after-M-nodes-of-a-linked-list/index.md
 - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
 - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
