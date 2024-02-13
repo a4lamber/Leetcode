@@ -8,7 +8,8 @@ tags:
 ---
 # [169 Majority Element](https://leetcode.com/problems/majority-element/description/)
 
-重点是approach 2 Boyer-Moore Voting Algorithm，学习它throw away prefix的思想
+
+重点是approach 2 Boyer-Moore Voting Algorithm，学习它throw away prefix的思想. 但局限性还是需要majority element存在于数组中，所以记住特例价值并不大. 
 
 ## Approach 1 Hash Solution
 
