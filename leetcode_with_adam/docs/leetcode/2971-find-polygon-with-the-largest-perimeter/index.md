@@ -8,6 +8,10 @@ tags:
 
 # [2971 Find Polygon With The Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/description/?envType=daily-question&envId=2024-02-15)
 
+!!! warning 贪心算法
+    这题对我的最大收获在于理解why greedy works.
+
+这个问题的的solution, 必然会存在于以$num[i]$为最长边的 $where\quad i = 0,1,2,...,n-1$最大周长的多边形之中. 抛开以$nums[0]$ and $nums[1]$ 为ending element(如果sorted, 最后的也是最长的)的base case的话, 那一共就有n-2个子问题.
 
 ## Approach 1 Sorting + Prefix Sum
 
