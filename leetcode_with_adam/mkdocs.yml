@@ -243,6 +243,7 @@ nav:
       - 1463 cherry pickup II: leetcode/1463-cherry-pickup-II/index.md
       - 1474 delete N nodes after M nodes of a linked list: leetcode/1474-delete-N-nodes-after-M-nodes-of-a-linked-list/index.md
       - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
+      - 1481 least number of unique intergers after K removals: leetcode/1481-least-number-of-unique-intergers-after-K-removals/index.md
       - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
       - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
       - 1768 merge strings alternately: leetcode/1768-merge-strings-alternately/index.md
