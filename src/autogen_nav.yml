@@ -120,6 +120,7 @@
 - 724 find pivot index: leetcode/724-find-pivot-index/index.md
 - 739 daily temperatures: leetcode/739-daily-temperatures/index.md
 - 740 delete and earn: leetcode/740-delete-and-earn/index.md
+- 744 find smallest letter greater than target: leetcode/744-find-smallest-letter-greater-than-target/index.md
 - 746 min cost climbing stairs: leetcode/746-min-cost-climbing-stairs/index.md
 - 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
 - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md

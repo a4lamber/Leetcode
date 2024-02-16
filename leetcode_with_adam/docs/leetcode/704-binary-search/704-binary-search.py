@@ -1,8 +1,6 @@
-
-nums = [-1,0,3,5,9,12]
+nums = [-1, 0, 3, 5, 9, 12]
 
 target = 9
-
 
 
 def dummy():
@@ -11,7 +9,7 @@ def dummy():
 
     while left <= right:
         # floor division
-        mid = (right - left)//2
+        mid = (right - left) // 2
 
         if nums[mid] == target:
             return nums[mid]
@@ -25,6 +23,7 @@ def dummy():
         print(left)
         # if operation reaches here, target not in the array
     return -1
-    
+
+
 # print(dummy())
 print(len(nums))
