@@ -1,12 +1,18 @@
+---
+tags:
+    - Array
+    - Hash Table
+    - Greedy
+    - Sorting
+    - Counting
+    - Bucket Sort
 
+---
 # [1481 Least Number Of Unique Integers After K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/description/?envType=daily-question&envId=2024-02-16)
 
 ## Approach 1 Bucket Sort
 
 这题我的思路是, 
-
-### Intuition 
-
 Step 1, 必须要先统计每个数字出现的次数, 自然想到的是用hashmap. Hashmap的长度就是unique number的个数.
 
 Step 2, we sort by occurrence, 然后我们要删除k个数字, 并且求least number of unique, 那肯定是有一个按频率出现的统计分布的, 我们要从最小的频率开始删除, 直到k为0.
