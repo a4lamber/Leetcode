@@ -73,6 +73,7 @@
 - 221 maximum square: leetcode/221-maximum-square/index.md
 - 226 invert binary tree: leetcode/226-invert-binary-tree/index.md
 - 230 kth smallest element in BST: leetcode/230-kth-smallest-element-in-BST/index.md
+- 231 power of two: leetcode/231-power-of-two/index.md
 - 232 implement queue using stacks: leetcode/232-implement-queue-using-stacks/index.md
 - 234 palindrome linked list: leetcode/234-palindrome-linked-list/index.md
 - 238 product of array except self: leetcode/238-product-of-array-except-self/index.md
