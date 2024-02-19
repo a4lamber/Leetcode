@@ -80,8 +80,10 @@ nav:
     - index.md
   - Algorithm:
     - algorithm/index.md
-    - binary search: algorithm/binary_search/index.md
-    - bit manipulation: algorithm/bit_manipulation/index.md
+    - Binary Search: algorithm/binary_search/index.md
+    - Bit Manipulation: 
+        - algorithm/bit_manipulation/index.md
+        - tricks: algorithm/bit_manipulation/tricks.md
   - Contest:
     - contest/index.md
     - biweekly:
