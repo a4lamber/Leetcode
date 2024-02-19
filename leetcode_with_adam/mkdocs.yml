@@ -80,10 +80,12 @@ nav:
   - Contest:
     - contest/index.md
     - biweekly:
-      - biweekly 222: contest/biweekly/biweekly_222.md
+      - biweekly 123: contest/biweekly/biweekly_123.md
+      - biweekly 124: contest/biweekly/biweekly_124.md
     - weekly:
       - weekly 382: contest/weekly/weekly_382.md
       - weekly 383: contest/weekly/weekly_383.md
+      - weekly 385: contest/weekly/weekly_385.md
   - Leetcode:
       - leetcode/index.md
       - 1 two sum: leetcode/1-two-sum/index.md
