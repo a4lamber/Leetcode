@@ -65,6 +65,10 @@ markdown_extensions:
   - admonition
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -77,6 +81,7 @@ nav:
   - Algorithm:
     - algorithm/index.md
     - binary search: algorithm/binary_search/index.md
+    - bit manipulation: algorithm/bit_manipulation/index.md
   - Contest:
     - contest/index.md
     - biweekly:
