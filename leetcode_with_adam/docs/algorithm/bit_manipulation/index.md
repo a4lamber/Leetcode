@@ -2,10 +2,13 @@
 
 In this section, we will try to understand the following:
 
-- base
+- base, conversion between bases
 - representing integers (optional)
 - bit operators
 
+这一章结束之后，你可以回答, 
+
+- how to convert between base 10 to base Y (Y can be 2, 8, 16 etc)?
 
 ## 1. Base
 

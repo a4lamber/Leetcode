@@ -13,17 +13,19 @@ tags:
 - recursion
 - bit manipulation
 
+利用的性质是，如果一个数`n`能被表示成$2^x$, where $x\in \mathbb{N^*}$, 那么除了x = 0, 其它x都满足`n & (n-1) == 0`. 这个性质可以用来判断一个数是否是2的幂次方。
+
 ## Approach 1 loop
 
 判断对于一个integer `n`, 是否存在另一个interger `x` 使得 $2^x = n$，那么你的solution就只能是,
 
 $$
-2^x \quad x\in \mathbb{N*0} 
+2^x \quad x\in \mathbb{N^{*}} 
 $$
 where $\mathbb{N}^{*}$ is 正整数.
 
 !!! tip tip
-    注意，在计算机和集合论中，$\mathbb{N}$ 定义为包括0的正整数. 但在数论中，$\mathbb{N}$ 定义为不包括0的正整数. 所以在这里做了区分。Conventionally, $\mathbb{N_0}$ is used to denote the set of non-negative integers, $\mathbb{N}^{*}$ for positive integers. 如果你想严谨一些的话.
+    注意，在计算机和集合论中，$\mathbb{N}$ 定义为包括0的正整数. 但在数论中，$\mathbb{N}$ 定义为不包括0的正整数. 所以在这里做了区分。Conventionally, $\mathbb{N^0}$ is used to denote the set of non-negative integers, $\mathbb{N}^{*}$ for positive integers. 如果你想严谨一些的话.
 
 既然结果肯定是, `{1, 2, 4, 8, 16...}`, 我的思路是设计一个从0不断乘以2的循环，直到找到一个数等于n，或者超过n.
 

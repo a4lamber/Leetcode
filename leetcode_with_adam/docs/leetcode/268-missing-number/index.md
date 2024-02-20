@@ -9,6 +9,17 @@ tags:
 
 # 268 Missing Number
 
+这题解法很多,
+
+- sorting
+- hashmap
+- bit manipulation (optimal)
+- rolling sum (optimal)
+
+重点理解bit manipulation的解法，因为这个解法是O(n) time, O(1) space的解法. 这题利用的性质是XOR的性质 `a^a=0`, `a^0=a`. 和自然数 `0,1,2,...,n`存在array之中后，index和value是一样的性质. 这个想法可以generalize到更广义的array情况.
+
+
+
 
 ## Approach 1: Hash Table
 
@@ -126,5 +137,10 @@ class Solution:
 ```
 
 
+## 思考: XOR
 
+除了`index == val`时, 任何val能用index表示出来的形式，都可以. 如下图所示, 
 
+![](./assets/2.excalidraw.png)
+
+你只需要写出反函数，把val转化为index就好了.

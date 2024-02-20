@@ -84,6 +84,8 @@ nav:
     - Bit Manipulation: 
         - algorithm/bit_manipulation/index.md
         - tricks: algorithm/bit_manipulation/tricks.md
+        - 1. xor in array: leetcode/268-missing-number/index.md
+        - 2. power of two: leetcode/231-power-of-two/index.md
   - Contest:
     - contest/index.md
     - biweekly:
