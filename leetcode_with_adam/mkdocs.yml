@@ -83,7 +83,7 @@ nav:
     - Binary Search: algorithm/binary_search/index.md
     - Bit Manipulation: 
         - algorithm/bit_manipulation/index.md
-        - tricks: algorithm/bit_manipulation/tricks.md
+        - Tricks with Bit: algorithm/bit_manipulation/tricks.md
         - 1. xor in array: leetcode/268-missing-number/index.md
         - 2. power of two: leetcode/231-power-of-two/index.md
   - Contest:
@@ -162,7 +162,9 @@ nav:
       - 164 maximum gap: leetcode/164-maximum-gap/index.md
       - 167 two sum II input array is sorted: leetcode/167-two-sum-II-input-array-is-sorted/index.md
       - 169 majority element: leetcode/169-majority-element/index.md
+      - 191 number of 1 bits: leetcode/191-number-of-1-bits/index.md
       - 198 house robber: leetcode/198-house-robber/index.md
+      - 201 bitwise and of numbers range: leetcode/201-bitwise-and-of-numbers-range/index.md
       - 202 happy number: leetcode/202-happy-number/index.md
       - 203 remove linked list elements: leetcode/203-remove-linked-list-elements/index.md
       - 205 isomorphic strings: leetcode/205-isomorphic-strings/index.md

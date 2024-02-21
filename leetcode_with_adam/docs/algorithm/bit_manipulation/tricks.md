@@ -1,6 +1,6 @@
 # Bit Tricks for CP
 
-这一章我们来看一些bit manipulation的tricks, 这些tricks可以帮助我们快速的解决一些问题，要注意的是以下这些trick, 就像等价数列的求和公式一样，作为一个数学工具让我们加速做一些计算, 对于某些需要recursion或者loop的题目，我们假设知道这些tricks, 就可以不用error-prone的recursion或者loop来解决问题. 但这一部分知识的学习对于DSA并没有必要,因为:
+这一章我们来看一些bit manipulation的tricks, 这些tricks可以帮助我们快速的解决一些问题，要注意的是以下这些trick, 就像等价数列的求和公式一样，作为一个数学工具让我们加速做一些计算, 对于某些需要recursion或者loop的题目，我们假设知道这些tricks, 就可以不用error-prone的recursion或者loop来解决问题. 但这一部分知识的学习纯粹只是为了解puzzle,因为:
 
 - 牺牲了readability
 - 有些trick可能会导致overflow. handle overflow的问题
@@ -35,6 +35,13 @@ is_odd = lambda x: x&1 == 1
 ```
 
 
+??? note "[Leetcode 191 Number of Bits](https://leetcode.com/problems/number-of-1-bits/description/)"
+    Given an unsigned integer, calculate the number of '1' bits it has (also known as the Hamming weight). For example, the 32-bit integer `11` has binary representation `00000000000000000000000000001011`, so the function should return `3`. 
+    
+    Solution [here](../../leetcode/191-number-of-1-bits/index.md).
+
+
+
 
 ## 2. Power of Two
 
@@ -51,7 +58,10 @@ if n & (n-1) == 0:
 return False
 ```
 
-可以看[231 power of two](https://leetcode.com/problems/power-of-two/description/?envType=daily-question&envId=2024-02-19), 或者我的notes [here](../../leetcode/231-power-of-two/index.md).
+??? note "[Leetcode 231 Power of Two](https://leetcode.com/problems/power-of-two/description/?envType=daily-question&envId=2024-02-19)"
+    Given an integer `n`, write a function to determine if it is a power of two. Let's say `n=16`, then `16=2**4`, so it's a power of 2.
+
+    Solution [here](../../leetcode/231-power-of-two/index.md)
 
 
 ## 3. Play with kth Bits
