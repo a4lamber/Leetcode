@@ -209,6 +209,7 @@ nav:
       - 441 arranging coins: leetcode/441-arranging-coins/index.md
       - 442 find all duplicates in an array: leetcode/442-find-all-duplicates-in-an-array/index.md
       - 451 sort characters by frequency: leetcode/451-sort-characters-by-frequency/index.md
+      - 456 132 pattern: leetcode/456-132-pattern/index.md
       - 496 next greater element I: leetcode/496-next-greater-element-I/index.md
       - 509 fibonacci number: leetcode/509-fibonacci-number/index.md
       - 530 minimum absolute difference in BST: leetcode/530-minimum-absolute-difference-in-BST/index.md
@@ -272,6 +273,7 @@ nav:
       - 1463 cherry pickup II: leetcode/1463-cherry-pickup-II/index.md
       - 1464 maximum product of two elements in an array: leetcode/1464-maximum-product-of-two-elements-in-an-array/index.md
       - 1474 delete N nodes after M nodes of a linked list: leetcode/1474-delete-N-nodes-after-M-nodes-of-a-linked-list/index.md
+      - 1475 final prices with a special discount in a shop: leetcode/1475-final-prices-with-a-special-discount-in-a-shop/index.md
       - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
       - 1481 least number of unique intergers after K removals: leetcode/1481-least-number-of-unique-intergers-after-K-removals/index.md
       - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
