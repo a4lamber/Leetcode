@@ -131,6 +131,7 @@ nav:
       - 69 binary search: leetcode/69-binary-search/index.md
       - 70 climbing stairs: leetcode/70-climbing-stairs/index.md
       - 72 edit distance: leetcode/72-edit-distance/index.md
+      - 74 search a 2D matrix: leetcode/74-search-a-2D-matrix/index.md
       - 76 minimum window substring: leetcode/76-minimum-window-substring/index.md
       - 77 combinations: leetcode/77-combinations/index.md
       - 78 subsets: leetcode/78-subsets/index.md
