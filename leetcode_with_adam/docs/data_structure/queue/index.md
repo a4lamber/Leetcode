@@ -2,10 +2,12 @@
 
 Queue作为一种linear data structure, 一般有以下几种implementation方式:
 
-- `Array-based queue`: 一般的实现方法，有一个drawback. 就是当queue满了之后，你dequeue from the top, 你就会有一个空间浪费的问题. 这时候你有两个选择，要么你增大array的size, 要么你shift整个array, 这两种方法都不是很好, 为了这个问题，引入了 [622 Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/), 所以这种实现方式，有时候也叫做**Circular Array-based Queue**.
-- `Linked List-based Queue`
-- `two stack emulation`
-  - 用俩stack, 颠来倒去, 一个stack用来push, 一个stack用来pop, 这样就可以实现queue的FIFO特性了. 想象成一个spring coil or [tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi). 这题可以看这里
+- `Array-based queue`: 一般的实现方法，有一个drawback. 就是当queue满了之后，你dequeue from the top, 你就会有一个空间浪费的问题. 这时候你有两个选择，要么你增大array的size, 要么你shift整个array, 这两种方法都不是很好, 为了解决这个问题，引入了双指针来manipulate array创造所谓的**Circular Array-based Queue**.
+    - [LC 622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/).
+- `Linked List-based Queue`: 略
+- `two stack emulation`: 用俩stack, 颠来倒去, 一个stack用来push, 一个stack用来pop, 这样就可以实现queue的FIFO特性了. 想象成一个spring coil or [tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi). 这题可以看这里.
+    - [LC 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
+
 
 这三种方式的复杂度如下表:
 
@@ -15,6 +17,8 @@ Queue作为一种linear data structure, 一般有以下几种implementation方�
 | Dequeue   | O(n)               | O(1)                     | O(n)                |
 | Peek      | O(1)               | O(1)                     | O(n)                |
 
+
+这里我们主要细讲一下`Array-based Queue`的实现方法.
 
 ## Circular Array-based Queue
 
@@ -104,13 +108,7 @@ class MyCircularQueue:
 
     def isFull(self) -> bool:
         return self.count == self.capacity
-        
-# Your MyCircularQueue object will be instantiated and called as such:
-# obj = MyCircularQueue(k)
-# param_1 = obj.enQueue(value)
-# param_2 = obj.deQueue()
-# param_3 = obj.Front()
-# param_4 = obj.Rear()
-# param_5 = obj.isEmpty()
-# param_6 = obj.isFull()
 ```
+
+## Reference
+

@@ -1,8 +1,29 @@
-# Approach 1: Brute Force
+---
+tags:
+    - Array
+    - Stack
+    - Monotonic Stack
+---
+
+# [739 Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+
+这题有三种解法，
+
+- Brute Force
+- Monotonic Stack (optimal)
+- Array, Space optimized (不会)
+
+## Approach 1: Brute Force
 
 最简单的方法是使用两个指针，一个指针指向当前的温度，另一个指针指向当前温度的下一个温度。如果下一个温度比当前温度高，那么就找到了答案。如果没有找到，就继续移动指针。我想出来了这个，可惜time limit exceeded了。
 
-$O(n^2)$ time complexity, $O(n)$ space complexity.
+!!! note    "复杂度"
+    $O(n^2)$ time complexity, $O(n)$ space complexity.
+
+
+### Code Implementation
+
+可惜TLE了
 
 ```python
 class Solution:
@@ -30,7 +51,7 @@ class Solution:
         return ans
 ```
 
-# Approach 2 Monotonic Stack
+## Approach 2 Monotonic Stack
 
 Monotonic stack is a stack that is either strictly increasing or strictly decreasing. 也就是严格单调递增或者递减的一种数据结构.
 
@@ -38,6 +59,7 @@ Monotonic stack is a stack that is either strictly increasing or strictly decrea
     Monotonic stack is good for finding the nearest biggest or nearest smallest element in an array, 因为其严格的单调性. 类似的还有monotonic queue.
 
 这里我们可以用monotonic stack来储存所有等待寻找比它温度高的温度的index。We traverse the original array, 每当遇到一个新的温度时，我们做以下判断，
+
 - 如果上一个iteration塞进去的, `stack[-1]`所指向的温度比当前温度低，那我们就找到答案了，我们就pop出来，然后记录答案。
 - 如果上一个iteration塞进去的, `stack[-1]`所指向的温度比当前温度高，那我们还没有为`stack[-1]`找到答案，那就把当前温度的index塞进去。
 
@@ -68,7 +90,30 @@ if stack and temperatures[stack[-1]] < curr_temp:
 ![](assets/3_fight.excalidraw.png)
 
 
-# Approach 3: Array, Space optimized
+### Code Implementation
+
+!!! warning "注意"
+    记住，每当我们pop出任何一个元素的时候，我们都找到了the first element in `temperatures` that is greater than it. 
+
+
+```python
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        # a monotonic stack, with hotter temperature at bottom of the stack
+        stack = []
+        ans = [0] * len(temperatures)
+
+        for curr_index, curr_temp in enumerate(temperatures):
+            # we found a match for top of the stack
+            while stack and temperatures[stack[-1]] < curr_temp:
+                prev_index = stack.pop()
+                ans[prev_index] = curr_index - prev_index
+            # cuz every temperature needs to be solved
+            stack.append(curr_index)
+        return ans
+```
+
+## Approach 3: Array, Space optimized
 
 $O(n)$ in time, $O(1)$ in space. 这个解法太牛逼了，以后再学吧. Monotonic stack来找nearest greater 就足够强大了.
 

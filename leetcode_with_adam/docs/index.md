@@ -52,3 +52,4 @@ There are some Leetcode and CP idols that i admire and learn from.
 - [落谷刷题](https://www.luogu.com.cn/)
 - https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months
 - [残酷刷题群, Huifeng Guan](https://www.youtube.com/watch?v=hrwP6I5v1XY&ab_channel=HuifengGuan)
+- [bucket and double bucket](https://stackoverflow.com/questions/42399355/what-is-a-bucket-or-double-bucket-data-structure)
