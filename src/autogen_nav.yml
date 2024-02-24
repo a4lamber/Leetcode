@@ -26,6 +26,7 @@
 - 69 binary search: leetcode/69-binary-search/index.md
 - 70 climbing stairs: leetcode/70-climbing-stairs/index.md
 - 72 edit distance: leetcode/72-edit-distance/index.md
+- 74 search a 2D matrix: leetcode/74-search-a-2D-matrix/index.md
 - 76 minimum window substring: leetcode/76-minimum-window-substring/index.md
 - 77 combinations: leetcode/77-combinations/index.md
 - 78 subsets: leetcode/78-subsets/index.md
@@ -132,6 +133,7 @@
 - 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
 - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
 - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
+- 875 koko eating bananas: leetcode/875-koko-eating-bananas/index.md
 - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
 - 918 maximum sum circular subarray: leetcode/918-maximum-sum-circular-subarray/index.md
 - 931 minimum falling path sum: leetcode/931-minimum-falling-path-sum/index.md
@@ -142,9 +144,11 @@
 - 978 longest turbulent subarray: leetcode/978-longest-turbulent-subarray/index.md
 - 983 minimum cost for tickets: leetcode/983-minimum-cost-for-tickets/index.md
 - 997 find the town judge: leetcode/997-find-the-town-judge/index.md
+- 1011 capacity to ship packages within D days: leetcode/1011-capacity-to-ship-packages-within-D-days/index.md
 - 1014 best sightseeing pair: leetcode/1014-best-sightseeing-pair/index.md
 - 1025 divisor game: leetcode/1025-divisor-game/index.md
 - 1043 partition array for maximum sum: leetcode/1043-partition-array-for-maximum-sum/index.md
+- 1046 last stone weight: leetcode/1046-last-stone-weight/index.md
 - 1074 number of submatrices that sum to target: leetcode/1074-number-of-submatrices-that-sum-to-target/index.md
 - 1086 high five: leetcode/1086-high-five/index.md
 - 1108 defanging an ip address: leetcode/1108-defanging-an-ip-address/index.md

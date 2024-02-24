@@ -253,6 +253,7 @@ nav:
       - 1014 best sightseeing pair: leetcode/1014-best-sightseeing-pair/index.md
       - 1025 divisor game: leetcode/1025-divisor-game/index.md
       - 1043 partition array for maximum sum: leetcode/1043-partition-array-for-maximum-sum/index.md
+      - 1046 last stone weight: leetcode/1046-last-stone-weight/index.md
       - 1074 number of submatrices that sum to target: leetcode/1074-number-of-submatrices-that-sum-to-target/index.md
       - 1086 high five: leetcode/1086-high-five/index.md
       - 1108 defanging an ip address: leetcode/1108-defanging-an-ip-address/index.md
