@@ -238,6 +238,7 @@ nav:
       - 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
       - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
       - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
+      - 875 koko eating bananas: leetcode/875-koko-eating-bananas/index.md
       - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
       - 918 maximum sum circular subarray: leetcode/918-maximum-sum-circular-subarray/index.md
       - 931 minimum falling path sum: leetcode/931-minimum-falling-path-sum/index.md

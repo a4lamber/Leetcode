@@ -54,4 +54,3 @@ There are some Leetcode and CP idols that i admire and learn from.
 - [残酷刷题群, Huifeng Guan](https://www.youtube.com/watch?v=hrwP6I5v1XY&ab_channel=HuifengGuan)
 - [bucket and double bucket](https://stackoverflow.com/questions/42399355/what-is-a-bucket-or-double-bucket-data-structure)
 - [北航软院的人写的LC通关手册](https://algo.itcharge.cn/)
-- 
