@@ -1,4 +1,16 @@
-# Queue Implementation
+# Queue
+
+
+## Queue的定义
+
+> *Queue (队列)*: 一种线性表数据结构，只允许在表的一端进行插入，而在另一端进行删除. 这种数据结构遵循FIFO (First In First Out)的原则. 也就是说，先进入队列的元素，先被删除. 
+
+你可以直接理解成排队，先来的先服务. 你去银行排队，先来的人先办业务，后来的人后办业务. 这就是queue的特性.
+
+
+## Queue的应用
+
+## Queue的实现
 
 Queue作为一种linear data structure, 一般有以下几种implementation方式:
 

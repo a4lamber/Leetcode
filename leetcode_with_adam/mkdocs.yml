@@ -249,6 +249,7 @@ nav:
       - 978 longest turbulent subarray: leetcode/978-longest-turbulent-subarray/index.md
       - 983 minimum cost for tickets: leetcode/983-minimum-cost-for-tickets/index.md
       - 997 find the town judge: leetcode/997-find-the-town-judge/index.md
+      - 1011 capacity to ship packages within D days: leetcode/1011-capacity-to-ship-packages-within-D-days/index.md
       - 1014 best sightseeing pair: leetcode/1014-best-sightseeing-pair/index.md
       - 1025 divisor game: leetcode/1025-divisor-game/index.md
       - 1043 partition array for maximum sum: leetcode/1043-partition-array-for-maximum-sum/index.md
