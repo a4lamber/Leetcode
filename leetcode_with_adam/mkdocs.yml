@@ -92,6 +92,13 @@ nav:
     - queue: data_structure/queue/index.md
     - monotonic queue: data_structure/monotonic_queue/index.md
     - monotonic stack: data_structure/monotonic_stack/index.md
+  - String:
+    - string/index.md
+    - String Fundamental: string/basics/index.md
+    - Pattern Matching: 
+      - string/pattern_matching/index.md
+      - Single Pattern Matching:
+        - brute force: string/pattern_matching/single_pattern_matching/brute_force.md
   - Contest:
     - contest/index.md
     - biweekly:
