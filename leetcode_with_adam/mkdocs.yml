@@ -220,7 +220,9 @@ nav:
       - 456 132 pattern: leetcode/456-132-pattern/index.md
       - 496 next greater element I: leetcode/496-next-greater-element-I/index.md
       - 509 fibonacci number: leetcode/509-fibonacci-number/index.md
+      - 513 find bottom left tree value: leetcode/513-find-bottom-left-tree-value/index.md
       - 530 minimum absolute difference in BST: leetcode/530-minimum-absolute-difference-in-BST/index.md
+      - 543 diameter of binary tree: leetcode/543-diameter-of-binary-tree/index.md
       - 560 subarray sum equals k: leetcode/560-subarray-sum-equals-k/index.md
       - 576 out of boundary paths: leetcode/576-out-of-boundary-paths/index.md
       - 577 reverse words in a string III: leetcode/577-reverse-words-in-a-string-III/index.md
