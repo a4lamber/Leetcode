@@ -59,6 +59,7 @@
 - 146 lru cache: leetcode/146-lru-cache/index.md
 - 150 evaluate reverse polish notation: leetcode/150-evaluate-reverse-polish-notation/index.md
 - 152 maximum product subarray: leetcode/152-maximum-product-subarray/index.md
+- 153 find minimum in rotated sorted array: leetcode/153-find-minimum-in-rotated-sorted-array/index.md
 - 160 intersection of two linked list: leetcode/160-intersection-of-two-linked-list/index.md
 - 161 one edit distance: leetcode/161-one-edit-distance/index.md
 - 164 maximum gap: leetcode/164-maximum-gap/index.md
