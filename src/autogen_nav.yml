@@ -143,6 +143,7 @@
 - 931 minimum falling path sum: leetcode/931-minimum-falling-path-sum/index.md
 - 938 range sum of BST: leetcode/938-range-sum-of-BST/index.md
 - 941 valid mountain array: leetcode/941-valid-mountain-array/index.md
+- 948 bag of tokens: leetcode/948-bag-of-tokens/index.md
 - 953 verifying an alien dictionary: leetcode/953-verifying-an-alien-dictionary/index.md
 - 977 squares of a sorted array: leetcode/977-squares-of-a-sorted-array/index.md
 - 978 longest turbulent subarray: leetcode/978-longest-turbulent-subarray/index.md
@@ -200,3 +201,4 @@
 - 3043 find the length of the longest common prefix: leetcode/3043-find-the-length-of-the-longest-common-prefix/index.md
 - 3044 most frequent prime: leetcode/3044-most-frequent-prime/index.md
 - 3045 count prefix and suffix pairs II: leetcode/3045-count-prefix-and-suffix-pairs-II/index.md
+- 3066 minimum operations to exceed threshold value II: leetcode/3066-minimum-operations-to-exceed-threshold-value-II/index.md
