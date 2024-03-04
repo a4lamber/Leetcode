@@ -127,6 +127,7 @@
 - 680 valid palindrome: leetcode/680-valid-palindrome/index.md
 - 692 top k frequent words: leetcode/692-top-k-frequent-words/index.md
 - 700 search in a binary search tree: leetcode/700-search-in-a-binary-search-tree/index.md
+- 703 kth largest element in a stream: leetcode/703-kth-largest-element-in-a-stream/index.md
 - 704 binary search: leetcode/704-binary-search/index.md
 - 718 maximum length of repeated subarray: leetcode/718-maximum-length-of-repeated-subarray/index.md
 - 724 find pivot index: leetcode/724-find-pivot-index/index.md
