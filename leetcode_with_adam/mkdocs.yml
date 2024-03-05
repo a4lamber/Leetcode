@@ -92,6 +92,9 @@ nav:
     - queue: data_structure/queue/index.md
     - monotonic queue: data_structure/monotonic_queue/index.md
     - monotonic stack: data_structure/monotonic_stack/index.md
+    - heap: 
+      - data_structure/heap/index.md
+      - heapify is linear?: data_structure/heap/heapify.md
   - String:
     - string/index.md
     - String Fundamental: string/basics/index.md
