@@ -39,6 +39,46 @@ To score better during the rubrics, if you only have 20 minutes, you should foll
 
 Now, when you leetcode and practice, you should also follow the structures.
 
+## Roadmap
+
+Stage 1
+
+- [x] complexity analysis
+- [ ] linked list
+- [x] stack
+- [x] queue
+- [ ] recursion
+- [x] enumeration
+- [ ] sorting
+- [ ] binary search
+
+
+Stage 2
+
+- [ ] hashmap
+- [ ] binary tree
+- [x] heap
+- [ ] BF and RK string pattern matching
+- [ ] Trie
+- [ ] DFS and BFS graph traversal
+
+Stage 3
+
+- [ ] 跳表
+- [ ] topological sort
+- [ ] Dijkstra
+- [ ] A*
+- [ ] B+ tree
+
+Stage 4
+
+- [ ] 位图
+- [ ] BM
+- [ ] KMP
+- [ ] AC自动机
+- [ ] 哈希算法
+
+
 
 ## Leetcode Idols
 
