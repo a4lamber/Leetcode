@@ -50,6 +50,29 @@ nums = [1 2 3 4 5 6 7]
     Python doesn't implement max heap by default but the hacky way would be pass in a negative version of the list to the heap and then pop it out and negate it.
 
 
+## Heap找儿子和爸妈
+
+Heap的一个重要性质是，可以用数组来表示heap. 为什么呢？因为heap是complete binary tree, 所以可以用数组来表示, 也就是满足如果你知道parent node's index, you can find its children's index.
+
+
+$$
+\begin{align}
+l_{left} = 2i_p+1 \\
+l_{right} = 2i_p+2
+\end{align}
+$$
+where $i_p$ is the parent's index, $l_{left}$ is the left child's index, and $l_{right}$ is the right child's index.
+
+On the other hand, if you know the child's index, you can find its parent's index by
+
+$$
+\begin{equation}
+i_p = \lfloor \frac{i_c-1}{2} \rfloor
+\end{equation}
+$$
+where $i_c$ is the child's index (can be both left or right child)
+
+
 ## 相关题目
 
 Heap的题目主要有以下几类:
@@ -63,7 +86,7 @@ Heap的题目主要有以下几类:
 
 ## References
 
-这里附上一个全家福, 刷LC只需要知道这些
+这里附上一个全家福, 刷LC只需要知道binary heap就足够了.
 
 ```mermaid
 flowchart TD
