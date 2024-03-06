@@ -83,6 +83,9 @@ Heap的题目主要有以下几类:
 
 或者看见关键词, smallest, largest, minimal or maximal, top k, k-th, 就可以考虑用heap作为备选方案之一.
 
+- [215 Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) and [solution](../../leetcode/215-kth-largest-element-in-an-array/index.md).
+
+
 
 ## References
 
