@@ -36,13 +36,27 @@
 
 ## Memoization (记忆化搜索)
 
+> 递归的inefficiency，它会重复计算一些子问题。这种情况下，我们可以使用memoization来避免重复计算。
+
+如下图所示，recursion就像狗熊吃玉米，吃一个掉一个，之前算过的结果用完就丢了，还得再算一次。我们可以用memoization来避免这种情况。
+
+![](./assets/fibonacci.png)
+
+## Complexity
+
+space complexity has recursion-related or non-recursion-related.
+
+## Summary
+
 
 
 
 ## 相关题目
 
+- [70 climbing stairs](https://leetcode.com/problems/climbing-stairs/description/) and solution.
+- [509 Fibonacci number](https://leetcode.com/problems/fibonacci-number/description/) and solution.
 - [206 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) and solution.
-- 1
+
 
 
 
