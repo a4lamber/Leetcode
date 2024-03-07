@@ -87,7 +87,11 @@ nav:
         - 1. xor in array: leetcode/268-missing-number/index.md
         - 2. power of two: leetcode/231-power-of-two/index.md
     - Enumerate: algorithm/enumerate/index.md
-    - Recursion: algorithm/recursion/index.md
+    - Recursion: 
+        - algorithm/recursion/index.md
+        - recursion: algorithm/recursion/recursion.md
+        - divide and conquer: algorithm/recursion/divide_and_conquer.md
+        - backtracking: algorithm/recursion/backtracking.md
   - Data Structure:
     - data_structure/index.md
     - stack: data_structure/stack/index.md
