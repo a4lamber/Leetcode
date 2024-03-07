@@ -30,8 +30,14 @@ nums = [1 2 3 4 5 6 7]
 
 选择heap的主要原因是其
 
-- `O(1)` to get the max/min value. 对于一些需要频繁获取最大最小值的场景，heap是很好的candidate.
-- `O(logn)` to insert and delete value. 不算最快的，但是是最稳定的。
+- Get the max/min value比较快. 对于一些需要频繁获取最大最小值的场景，heap是很好的candidate. 时间复杂度为$O(1) + O(\log n)\approx O(\log n)$. 属于`heappop()`的时间复杂度。
+- For insertion, it's $O(\log n)$, which is also pretty good.
+
+!!! tip
+    为什么`heappop()`复杂度为O(1) + O(log n)? 因为`heappop()`是先pop出来，然后为了maintain heap property, 再调整heap的结构，后者时间复杂度是$O(\log n)$. 调整heap property是两部曲, 你pop走了，缺个root, 你先
+
+    - replace the root with the last element in the heap
+    - sift down the root node to maintain the heap property $O(h) = O(\log n)$
 
 
 ## Heap的应用场景
@@ -63,6 +69,12 @@ l_{right} = 2i_p+2
 $$
 where $i_p$ is the parent's index, $l_{left}$ is the left child's index, and $l_{right}$ is the right child's index.
 
+!!! warning "思考题"
+    所有的sorted array都是heap吗？所有的heap都是sorted array吗？
+
+??? warning "思考题答案"
+    所有的sorted array都是heap, 但是所有的heap都不是sorted array. 因为sorted array, 肯定满足儿子比爸爸大的性质。sorted array的constrains强一些, 相当于还要求heap的每一层，平辈的，从左到右都是有序的，这个性质不能保证所有的heap都能满足.
+
 On the other hand, if you know the child's index, you can find its parent's index by
 
 $$
@@ -84,8 +96,7 @@ Heap的题目主要有以下几类:
 或者看见关键词, smallest, largest, minimal or maximal, top k, k-th, 就可以考虑用heap作为备选方案之一.
 
 - [215 Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) and [solution](../../leetcode/215-kth-largest-element-in-an-array/index.md).
-
-
+- [973 K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/) and [solution](../../leetcode/973-K-closest-points-to-origin/index.md).
 
 ## References
 

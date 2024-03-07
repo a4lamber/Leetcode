@@ -191,6 +191,7 @@ nav:
       - 205 isomorphic strings: leetcode/205-isomorphic-strings/index.md
       - 206 reverse linked list: leetcode/206-reverse-linked-list/index.md
       - 213 house robber II: leetcode/213-house-robber-II/index.md
+      - 215 kth largest element in an array: leetcode/215-kth-largest-element-in-an-array/index.md
       - 217 contains duplicate: leetcode/217-contains-duplicate/index.md
       - 221 maximum square: leetcode/221-maximum-square/index.md
       - 226 invert binary tree: leetcode/226-invert-binary-tree/index.md
@@ -263,6 +264,7 @@ nav:
       - 941 valid mountain array: leetcode/941-valid-mountain-array/index.md
       - 948 bag of tokens: leetcode/948-bag-of-tokens/index.md
       - 953 verifying an alien dictionary: leetcode/953-verifying-an-alien-dictionary/index.md
+      - 973 K closest points to origin: leetcode/973-K-closest-points-to-origin/index.md
       - 977 squares of a sorted array: leetcode/977-squares-of-a-sorted-array/index.md
       - 978 longest turbulent subarray: leetcode/978-longest-turbulent-subarray/index.md
       - 983 minimum cost for tickets: leetcode/983-minimum-cost-for-tickets/index.md
