@@ -97,7 +97,7 @@ class Solution:
 
 ## Approach 2: recursive solution
 
-和iterative solution的从头往前的思路不同, recursive solution是从尾往前的思路. 
+和iterative solution的从头往前的思路不同, recursive solution是从尾往前的思路. 这题的思路是，把reverse整个linked list的问题转化为reverse一个node的问题, 当把所有子问题解决的时候，整个问题也就解决了.
 
 - `base case`: `head`为`[]` or `[1]` 这两种情况，直接返还`head`即可.
 - `recursive case`: 递归调用`reverseList`函数, 直到`head`指向最后一个node时, 开始pop function from stack.
@@ -128,19 +128,30 @@ class Solution:
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # base cases
+        # 1 --> 2 --> 3 --> 4 --> None
+        #             h
+        # 1 --> 2 --> 3 --> 4 --> 3
+        #             h
+        # 1 --> 2 --> 3 --None  4 --> 3
+        #             h
+        # rearrange
+        # 1 --> 2 --> 3 <-- 4
+        #             h
+        
+        # base case
         if not head:
             return head
-        # 有用的base case其实是这个, 上一个只是为了number of nodes [0,5000]搞的edge case
         if not head.next:
             return head
-        
+        # sub-preblem: reverse a linkedlist that's one node smaller
         p = self.reverseList(head.next)
         head.next.next = head
-        # 斩断关系
         head.next = None
-        return p
+        return p        
 ```
+
+!!! note
+    要注意的是，base case里的`if not head:`, 并没有被用于递归里. 这是因为number of node有可能为0而出的edge case. 
 
 ## Reference
 
