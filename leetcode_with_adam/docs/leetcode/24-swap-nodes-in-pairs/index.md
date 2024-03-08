@@ -1,26 +1,51 @@
 ---
-draft: true
-date: 2023-11-13
-authors:
-  - adam
-categories:
-  - python
+tags:
+    - Linked List
+    - Recursion
 ---
 
-# Approach1: iteration approach (use of three pointer)
+# 24 Swap Nodes in Pairs
+
+## Approach 1: recursion approach
+
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        # base case
+        if not head or not head.next:
+            return head
+        
+        # define node to be swapped
+        first_node = head
+        second_node = head.next
+
+        # swapping
+        first_node.next = self.swapPairs(second_node.next)
+        second_node.next = first_node
+
+        return second_node
+```
+
+
+## Approach 2: iteration approach (use of three pointer)
 <!-- Describe your approach to solving the problem. -->
 
-## 错误分析
 我一开始的写的代码没有考虑到rejoining previous node with newly swapped node.只考虑了用two pointer swap.
 
-## Intuition
+
 swapping elements in array下意识的想到两点：
+
 - two pointer technique
 
 swapping elements in linked list, 要考虑到rejoining,
+
 - 3 pointer technique
 
-## Algorithm
 
 swapping and rejoining phase图解
 
@@ -30,14 +55,13 @@ update pointer图解, 要知道swap node之后，pointer `left` and `right` 还�
 
 ![](img2.png)
 
-## Complexity
-- Time complexity: $O(n)$, you only scan once
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
-- Space complexity: $O(1)$
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+!!! note "complexity"
 
-## Code
+    - Time complexity: $O(n)$, you only scan once
+    - Space complexity: $O(1)$
+
+### Code
 ```python
 # Definition for singly-linked list.
 class ListNode:
@@ -126,19 +150,3 @@ class Solution:
 
 
 
-# Approach2: recursion approach
-<!-- Describe your approach to solving the problem. -->
-
-
-
-
-## Algorithm
-
-## Complexity
-- Time complexity: 
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
-
-- Space complexity:
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
-
-## Code

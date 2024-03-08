@@ -322,6 +322,7 @@ nav:
       - 2966 divide array into arrays with max difference: leetcode/2966-divide-array-into-arrays-with-max-difference/index.md
       - 2971 find polygon with the largest perimeter: leetcode/2971-find-polygon-with-the-largest-perimeter/index.md
       - 2974 minimum number game: leetcode/2974-minimum-number-game/index.md
+      - 3005 count elements with maximum frequency: leetcode/3005-count-elements-with-maximum-frequency/index.md
       - 3042 count prefix and suffix pairs II: leetcode/3042-count-prefix-and-suffix-pairs-II/index.md
       - 3043 find the length of the longest common prefix: leetcode/3043-find-the-length-of-the-longest-common-prefix/index.md
       - 3044 most frequent prime: leetcode/3044-most-frequent-prime/index.md
