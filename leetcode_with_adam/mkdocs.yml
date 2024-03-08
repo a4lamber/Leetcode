@@ -139,6 +139,7 @@ nav:
       - 36 valid sudoku: leetcode/36-valid-sudoku/index.md
       - 46 permutations: leetcode/46-permutations/index.md
       - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
+      - 55 jump game: leetcode/55-jump-game/index.md
       - 58 length of last word: leetcode/58-length-of-last-word/index.md
       - 59 group anagrams: leetcode/59-group-anagrams/index.md
       - 61 rotate list: leetcode/61-rotate-list/index.md
@@ -239,6 +240,7 @@ nav:
       - 576 out of boundary paths: leetcode/576-out-of-boundary-paths/index.md
       - 577 reverse words in a string III: leetcode/577-reverse-words-in-a-string-III/index.md
       - 617 merge two binary trees: leetcode/617-merge-two-binary-trees/index.md
+      - 621 task scheduler: leetcode/621-task-scheduler/index.md
       - 622 design circular queue: leetcode/622-design-circular-queue/index.md
       - 629 k inverse pair array: leetcode/629-k-inverse-pair-array/index.md
       - 643 maximum average subarray I: leetcode/643-maximum-average-subarray-I/index.md
