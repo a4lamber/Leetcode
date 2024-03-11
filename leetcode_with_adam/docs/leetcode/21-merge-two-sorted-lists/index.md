@@ -1,26 +1,28 @@
 ---
-draft: true
-date: 2023-11-13
-authors:
-  - adam
-categories:
-  - python
+tags:
+    - Linked List
+    - Recursion
 ---
 
-# Approach 1: iterative approach
+# 21. Merge Two Sorted Lists
+
+## Approach 1: iterative approach
 <!-- Describe your approach to solving the problem. -->
 merge two sorted list, as one of the most classic problem, 有挺多测试的点的, 需要不断比较两个链表中的最小值,直到一个链表reach null.
 
-假设两个链表，它们的值分别是$a_i$ and $b_i$, respectivelu. 有需要简化的是，将$a_i$ = $b_i$的情况，归入$a_i$<$b_i$ 的情况
+假设两个链表，它们的值分别是$a_i$ and $b_i$, respectively. 有需要简化的是，将$a_i$ = $b_i$的情况，归入$a_i$<$b_i$ 的情况
+
 - $a_i$ = $b_i$ (这种情况可以归入a<b中)
 - $a_i$ < $b_i$
 - $a_i$ > $b_i$
 
 合并后为:
+
 - $a_i\leq$  $b_i$
 - $a_i >$  $b_i$
 
 算法思路如下:
+
 - create a dummy node as the start of result linked list
 - create two pointers, `head` and `tail` which points to the start and end of the linked list respectively.
 - compare $a_i$ and $b_i$ then,
@@ -37,7 +39,7 @@ merge two sorted list, as one of the most classic problem, 有挺多测试的点
 - Space complexity: $O(1)$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
-## Code
+### Code Implementation
 
 ```python
 # Definition for singly-linked list.
@@ -78,4 +80,22 @@ class Solution:
             tail.next = list2
 
         return head.next
+```
+
+
+## Approach 2: recursive approach
+
+```python
+class Solution:
+    def mergeTwoLists(self, l1, l2):
+        if l1 is None:
+            return l2
+        elif l2 is None:
+            return l1
+        elif l1.val < l2.val:
+            l1.next = self.mergeTwoLists(l1.next, l2)
+            return l1
+        else:
+            l2.next = self.mergeTwoLists(l1, l2.next)
+            return l2
 ```

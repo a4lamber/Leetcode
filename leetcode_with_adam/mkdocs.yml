@@ -261,6 +261,7 @@ nav:
       - 746 min cost climbing stairs: leetcode/746-min-cost-climbing-stairs/index.md
       - 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
       - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
+      - 791 custom sort string: leetcode/791-custom-sort-string/index.md
       - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
       - 875 koko eating bananas: leetcode/875-koko-eating-bananas/index.md
       - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
@@ -298,6 +299,7 @@ nav:
       - 1290 convert binary number in a linked list to integer: leetcode/1290-convert-binary-number-in-a-linked-list-to-integer/index.md
       - 1305 all elements in two binary search trees: leetcode/1305-all-elements-in-two-binary-search-trees/index.md
       - 1351 count negative numbers in a sorted matrix: leetcode/1351-count-negative-numbers-in-a-sorted-matrix/index.md
+      - 1365 how many numbers are smaller than the current number: leetcode/1365-how-many-numbers-are-smaller-than-the-current-number/index.md
       - 1385 find the distance value between two arrays: leetcode/1385-find-the-distance-value-between-two-arrays/index.md
       - 1457 pseudo palindrome paths in a binary tree: leetcode/1457-pseudo-palindrome-paths-in-a-binary-tree/index.md
       - 1463 cherry pickup II: leetcode/1463-cherry-pickup-II/index.md
@@ -319,6 +321,7 @@ nav:
       - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
       - 2149 rearrange array elements by sign: leetcode/2149-rearrange-array-elements-by-sign/index.md
       - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
+      - 2540 minimum common value: leetcode/2540-minimum-common-value/index.md
       - 2824 count pairs whose sum is less than target: leetcode/2824-count-pairs-whose-sum-is-less-than-target/index.md
       - 2864 maximum odd binary number: leetcode/2864-maximum-odd-binary-number/index.md
       - 2966 divide array into arrays with max difference: leetcode/2966-divide-array-into-arrays-with-max-difference/index.md
