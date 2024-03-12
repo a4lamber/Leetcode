@@ -124,10 +124,12 @@ nav:
       - 2 add two numbers: leetcode/2-add-two-numbers/index.md
       - 3 longest substring without repeating characters: leetcode/3-longest-substring-without-repeating-characters/index.md
       - 5 longest palindromic substring: leetcode/5-longest-palindromic-substring/index.md
+      - 6 zigzag conversion: leetcode/6-zigzag-conversion/index.md
       - 9 palindrome number: leetcode/9-palindrome-number/index.md
       - 13 roman to integer: leetcode/13-roman-to-integer/index.md
       - 14 longest common prefix: leetcode/14-longest-common-prefix/index.md
       - 15 three sum: leetcode/15-three-sum/index.md
+      - 16 3sum closest: leetcode/16-3sum-closest/index.md
       - 19 remove nth node from end of list: leetcode/19-remove-nth-node-from-end-of-list/index.md
       - 20 valid parentheses: leetcode/20-valid-parentheses/index.md
       - 21 merge two sorted lists: leetcode/21-merge-two-sorted-lists/index.md

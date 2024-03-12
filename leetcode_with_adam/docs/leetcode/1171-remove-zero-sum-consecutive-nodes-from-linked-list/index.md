@@ -85,6 +85,22 @@ class Solution:
 - 天然的deduplication of prefix sum as key space is unique
 - 这样我们就可以在O(1)的时间内找到duplicate prefix sum对应的node。不需要traverse it again.
 
+对于linked list，
+```python
+nums = [1,4,-3,1,2,5,6]
+
+prefix_map = {
+    0: dummy,
+    1: ListNode(1),
+    5: ListNode(2), #原来是5: ListNode(4), 但被覆盖了
+    2: listNode(-3),
+    3: ListNode(1),
+    10: ListNode(5), 
+    16: ListNode(6),
+}
+```
+
+
 ### Code Implementation (two pass)
 
 ```python
@@ -113,7 +129,10 @@ class Solution:
 
         # delete zero sum consecutive sequences
         while curr is not None:
+            # 计算target prefix sum, 再去找怎样能到达这个prefix sum的node
             prefix_sum += curr.val
+            # curr: last node before the zero sum sequence
+            # prefix_sum_to_node[prefix_sum].next: first node after the zero sum sequence
             curr.next = prefix_sum_to_node[prefix_sum].next
             curr = curr.next
         
