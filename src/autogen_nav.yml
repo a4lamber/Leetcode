@@ -116,6 +116,7 @@
 - 496 next greater element I: leetcode/496-next-greater-element-I/index.md
 - 509 fibonacci number: leetcode/509-fibonacci-number/index.md
 - 513 find bottom left tree value: leetcode/513-find-bottom-left-tree-value/index.md
+- 525 contiguous array: leetcode/525-contiguous-array/index.md
 - 530 minimum absolute difference in BST: leetcode/530-minimum-absolute-difference-in-BST/index.md
 - 543 diameter of binary tree: leetcode/543-diameter-of-binary-tree/index.md
 - 560 subarray sum equals k: leetcode/560-subarray-sum-equals-k/index.md

@@ -5,6 +5,11 @@ tags:
 ---
 # 238 Product of Array Except Self
 
+这题requirements太不合理了
+
+- O(n) in time and without using the division operation.
+
+
 ## Approach 1 O(n) in time, O(n) in space
 
 There is a pattern that if the nums contains
