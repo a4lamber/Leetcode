@@ -23,6 +23,7 @@
 - 46 permutations: leetcode/46-permutations/index.md
 - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
 - 55 jump game: leetcode/55-jump-game/index.md
+- 57 insert interval: leetcode/57-insert-interval/index.md
 - 58 length of last word: leetcode/58-length-of-last-word/index.md
 - 59 group anagrams: leetcode/59-group-anagrams/index.md
 - 61 rotate list: leetcode/61-rotate-list/index.md
@@ -105,6 +106,7 @@
 - 347 top k frequent elements: leetcode/347-top-k-frequent-elements/index.md
 - 349 intersection of two arrays: leetcode/349-intersection-of-two-arrays/index.md
 - 368 largest divisible subset: leetcode/368-largest-divisible-subset/index.md
+- 370 range addition: leetcode/370-range-addition/index.md
 - 374 guess number higher or lower: leetcode/374-guess-number-higher-or-lower/index.md
 - 383 ransom note: leetcode/383-ransom-note/index.md
 - 387 first unique character in a string: leetcode/387-first-unique-character-in-a-string/index.md
