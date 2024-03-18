@@ -118,12 +118,12 @@ I made a slight variation and my code is here.
 from collections import Counter
 class Solution:
     def minimumDeletions(self, word: str, k: int) -> int:
-        counter = Counter(word).values()
+        freqs = Counter(word).values()
         res = float('inf')
 
-        for min_freq in counter:
+        for min_freq in freqs:
             cost = 0
-            for freq in counter:
+            for freq in freqs:
                 # less than min_freq, gotta delete them all
                 if freq < min_freq:
                     cost += freq
