@@ -72,3 +72,67 @@ class Solution:
 
 
 
+## Approach 1 but with better explanation
+
+Haha. This is the first time i comment on Lee215's solution. Gonna keep it here.
+
+I am stunned by the clean solution. Legend. It took a normie like me a while to figure out the intuition you explained. So i am dropping my 2 cents here.
+
+If you sort your `word = "dabdcbdcdcd"` by frequency, it looks like,
+```
+0   1   2   3   4   5
+    a   b   c       d
+```
+
+If we have a window spanning from lower to upper frequencies, the size is 4, the intuition by Lee is that
+
+- if we delete left char by 1, our window size increases by 1 (not desirable)
+- if we delete right char by 1, our window size decreases by 1 
+
+We want to minimize the window size so it's within `k`.  Therefore, we can either 
+
+- delete largest frequency by 1 to decrease the window size by 1 
+- completely delete the smallest char so our window size will decrease and shift right till it bumps into another char on the way. 
+
+How to solve is problem relies on brute force (i.e. enumeration) and it's acceptable since we at most have 26 alphabets O(26*26) at most. Our solution must lie in one of the four scenerios,
+
+- `case 1`: don't delete any `a`, and make `a` as the smallest frequencies (left boundary), $cost_a$ to make the window size as 2
+- `case 2`: don't delete any `b`, and make `b` as the smallest frequencies (left boundary), $cost_b$ to make the window size as 2
+- `case 3`: don't delete any `c`, and make `c` as the smallest frequencies (left boundary), $cost_c$ to make the window size as 2
+- `case 4`: don't delete any `d`, and make `d` as the smallest frequencies (left boundary), $cost_d$ to make the window size as 2
+
+Solution must be $\min_{i \in \{a, b, c, d\}} {cost}_i$. Why we can't have solution in like 
+
+- `case 5`: we delete `b` by 1 and `b` has smallest frequency and calculate the cost to make window size as 2
+
+It is because moving smallest frequency by 1 will increase the window by one (with an exception when it only appears once). `case 5` will always be worse than `case 2`. This is the intuition lee is saying that "After deletion,the char with the minimum frequency,must not have been deleted, it's same as its original frequency in word."
+
+Based on this we just need to enumerate all possible cases to keep every distinct char as minimum frequency characters once and 
+
+- delete all freq less than minimum frequency of that char
+- delete all freq that satisfies `freq > min_freq + k`
+
+I made a slight variation and my code is here.
+
+```python
+from collections import Counter
+class Solution:
+    def minimumDeletions(self, word: str, k: int) -> int:
+        counter = Counter(word).values()
+        res = float('inf')
+
+        for min_freq in counter:
+            cost = 0
+            for freq in counter:
+                # less than min_freq, gotta delete them all
+                if freq < min_freq:
+                    cost += freq
+             
+                # greater than min_freq and freq - min_freq > 2，
+                # we have to delete until it is equal to min_freq + k
+                if freq > min_freq + k:
+                    cost += freq - (min_freq + k)
+            res = min(res,cost)
+
+        return res
+```
