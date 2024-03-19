@@ -8,7 +8,7 @@ tags:
 区间型题目，需要考虑的是如何合并区间。这道理给的`intervals`已经sort by starting time了, 这道题目的思路是在保持`intervals` 还是sorted的性质下，插入`newInterval`，然后merge. 最优解是O(n)的时间复杂度.
 
 
-## Approach 1 Sort and Merge
+## Approach 1 Sorting
 
 懒得想怎么insert, 直接暴力sort. 然后merge intervals.
 

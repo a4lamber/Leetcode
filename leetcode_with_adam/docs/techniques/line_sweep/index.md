@@ -38,9 +38,9 @@
 - [252 Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/)
 - [253 Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)
 - intervals 三兄弟
-    - LC 56 Merge Intervals
-    - LC 57 Insert Interval
-    - LC 1272 Remove Interval
+    - [LC 56 Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
+    - [LC 57 Insert Interval](https://leetcode.com/problems/insert-interval/description/)
+    - [LC 1272 Remove Interval](https://leetcode.com/problems/remove-interval/description/)
 - 435 Non-overlapping Intervals
 - 1229 Meeting Scheduler
 - 986 Interval List Intersections

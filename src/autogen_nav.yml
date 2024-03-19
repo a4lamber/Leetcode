@@ -23,6 +23,7 @@
 - 46 permutations: leetcode/46-permutations/index.md
 - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
 - 55 jump game: leetcode/55-jump-game/index.md
+- 56 merge intervals: leetcode/56-merge-intervals/index.md
 - 57 insert interval: leetcode/57-insert-interval/index.md
 - 58 length of last word: leetcode/58-length-of-last-word/index.md
 - 59 group anagrams: leetcode/59-group-anagrams/index.md
@@ -191,6 +192,8 @@
 - 1191 k concatenation maximum sum: leetcode/1191-k-concatenation-maximum-sum/index.md
 - 1196 how many apples can you put into the basket: leetcode/1196-how-many-apples-can-you-put-into-the-basket/index.md
 - 1213 intersection of three sorted array: leetcode/1213-intersection-of-three-sorted-array/index.md
+- 1272 remove interval: leetcode/1272-remove-interval/index.md
+- 1288 remove covered intervals: leetcode/1288-remove-covered-intervals/index.md
 - 1290 convert binary number in a linked list to integer: leetcode/1290-convert-binary-number-in-a-linked-list-to-integer/index.md
 - 1305 all elements in two binary search trees: leetcode/1305-all-elements-in-two-binary-search-trees/index.md
 - 1351 count negative numbers in a sorted matrix: leetcode/1351-count-negative-numbers-in-a-sorted-matrix/index.md
