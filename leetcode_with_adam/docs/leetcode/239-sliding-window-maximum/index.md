@@ -28,7 +28,7 @@ res: 记录max index for monotonic queue
 - 初始化第一个window
     - 如果新元素比queue中的最后一个元素大，pop掉最后一个元素，直到queue被清空或者新元素比queue中的最后一个元素小
     - 记录queue中的第一个元素到res中, 此时res长度为1
-- 从第2个 - 第(n-k+1)个 window
+- 从第2个 to 第(n-k+1)个 window
     - 如果queue中的第一个元素已经离开当前window, pop掉第一个元素
     - 如果新元素比queue中的最后一个元素大，pop掉最后一个元素，直到queue被清空或者新元素比queue中的最后一个元素小
     - 把新元素的index加入queue
@@ -44,13 +44,12 @@ res: 记录max index for monotonic queue
 from collections import deque
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
-        # 求每一个window中的最大值，所组成的Aray.
-
+        # 求每一个window中的最大值，所组成的Array.
         queue = deque()
         res = []
         n = len(nums)
 
-        # initialize the initial monotonic queue
+        # initialize the initial monotonic queue (in the first window of size k)
         for i in range(k):
             # pop 队列中小于新元素nums[i]的值, 直到结束
             while queue and nums[i] >= nums[queue[-1]]:
@@ -60,7 +59,7 @@ class Solution:
         res.append(nums[queue[0]])
 
         for i in range(k,n):
-            # 比较queue最左边值是否离开window
+            # 比较queue最左边值是否已经离开window
             if queue and queue[0] == i-k:
                 queue.popleft()
             while queue and nums[i] >= nums[queue[-1]]:

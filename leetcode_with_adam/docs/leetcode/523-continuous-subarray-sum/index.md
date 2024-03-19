@@ -10,6 +10,7 @@ tags:
 
 与[974 Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)相似.
 
+
 ## Approach 1: Prefix Sum + Hash Table
 
 ### Code Implementation

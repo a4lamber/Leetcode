@@ -6,7 +6,7 @@ tags:
 
 # [370 Range Addition](https://leetcode.com/problems/range-addition/description/)
 
-
+利用了segment tree里的lazy propagation的思想. 你不需要立刻更新所有的值，而是在需要的时候再更新.
 
 ## Approach 1: Brute Force
 
@@ -25,7 +25,20 @@ class Solution:
 
 ## Approach 2: Prefix Sum
 
-Prefix Sum with auxillary DS as array, + traverse backwards to get the final result
+Prefix Sum with auxillary DS as array, + traverse backwards to get the final result. For example,
+
+```
+Input: length = 5, updates = [[1,3,2],[2,4,3],[0,2,-2]]
+Output: [-2,0,3,5,3]
+```
+The intuition is that, we can maintain a `prefix` array to indicate at which index, we need to add the `inc` value. Then we can traverse backwards to get the final result.
+
+![](./assets/prefix_1.excalidraw.png)
+
+We don't need n `prefix` array to maintain. JUST apply superposition to combines states since we only interested in the final result and not caring about the intermediate states.
+
+![](./assets/prefix_2.excalidraw.png)
+
 
 ### Code Implementation
 
@@ -55,7 +68,7 @@ class Solution:
 
 ## Approach 3: Postfix Sum
 
-当你做post-fix sum就可以traverse forward.
+当你做post-fix sum就需要traverse forward.
 
 ```python
 class Solution:

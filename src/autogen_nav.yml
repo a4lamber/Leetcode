@@ -79,6 +79,7 @@
 - 203 remove linked list elements: leetcode/203-remove-linked-list-elements/index.md
 - 205 isomorphic strings: leetcode/205-isomorphic-strings/index.md
 - 206 reverse linked list: leetcode/206-reverse-linked-list/index.md
+- 209 minimum size subarray sum: leetcode/209-minimum-size-subarray-sum/index.md
 - 213 house robber II: leetcode/213-house-robber-II/index.md
 - 215 kth largest element in an array: leetcode/215-kth-largest-element-in-an-array/index.md
 - 217 contains duplicate: leetcode/217-contains-duplicate/index.md
@@ -93,6 +94,7 @@
 - 242 valid anagram: leetcode/242-valid-anagram/index.md
 - 243 shortest word distance: leetcode/243-shortest-word-distance/index.md
 - 252 meeting rooms: leetcode/252-meeting-rooms/index.md
+- 253 meeting rooms II: leetcode/253-meeting-rooms-II/index.md
 - 257 binary tree paths: leetcode/257-binary-tree-paths/index.md
 - 266 palindrome permutation: leetcode/266-palindrome-permutation/index.md
 - 268 missing number: leetcode/268-missing-number/index.md
@@ -100,6 +102,7 @@
 - 279 perfect squares: leetcode/279-perfect-squares/index.md
 - 283 Move Zeros: leetcode/283-Move-Zeros/index.md
 - 300 longest increasing subsequence: leetcode/300-longest-increasing-subsequence/index.md
+- 304 range sum query 2D immutable: leetcode/304-range-sum-query-2D-immutable/index.md
 - 328 odd even linked list: leetcode/328-odd-even-linked-list/index.md
 - 344 reverse string: leetcode/344-reverse-string/index.md
 - 346 moving average from data stream: leetcode/346-moving-average-from-data-stream/index.md
@@ -150,6 +153,7 @@
 - 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
 - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
 - 791 custom sort string: leetcode/791-custom-sort-string/index.md
+- 862 shortest subarray with sum at least K: leetcode/862-shortest-subarray-with-sum-at-least-K/index.md
 - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
 - 875 koko eating bananas: leetcode/875-koko-eating-bananas/index.md
 - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md

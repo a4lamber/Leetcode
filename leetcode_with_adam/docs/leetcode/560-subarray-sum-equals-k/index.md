@@ -7,6 +7,13 @@ tags:
 
 # [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
+这题几个思路:
+
+- brute force O(n^3). O(n^2) for traversing all subarraies, O(n) for sum
+- preprocessing prefix sum O(n) and traversal all subarraies O(n^2).
+- 利用two sum的思想，hashtable + prefix sum O(n) for time and space. 最优解.
+
+
 ## Approach 1: Prefix Sum + Hash Table
 
 Hash + prefix sum解法，思路有点像two sum, 由于是求两者之和等于target的题目，这一题有意思的是prefix sum的解法, 思路是这样的，如果你计算accumulative sum, 你可以这样做, 
