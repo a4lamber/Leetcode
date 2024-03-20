@@ -2,7 +2,8 @@
 
 > Line Sweep (扫描线)是一种算法技巧，隶属于computational geometry. 它的基本思想是通过扫描线的方式，在一个坐标系中扫来扫去，从而计算图形面积，周长，二位数点等问题.
 
-在OI中，计算几何可以单独拎出来讲，但这里就不展开了。
+在OI中，计算几何可以单独拎出来讲，但这里就不展开了。扫描线会经常和intervals打交道。这里我们会讲解一些常见的intervals题目，然后讲解一下扫描线的基本思想。
+
 
 !!! note "lintcode 391数飞机"
     给出飞机的起飞和降落时间的列表，用序列 interval 表示. 请计算出天上同时最多有多少架飞机？
@@ -33,6 +34,7 @@
 
 
 
+
 ## 相关题目
 
 - [252 Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/)
@@ -41,17 +43,18 @@
     - [LC 56 Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
     - [LC 57 Insert Interval](https://leetcode.com/problems/insert-interval/description/)
     - [LC 1272 Remove Interval](https://leetcode.com/problems/remove-interval/description/)
-- 435 Non-overlapping Intervals
+- cover? non-overlap?傻傻分不清楚
+    - [435 Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)
+    - [1288 Remove Covered Intervals](https://leetcode.com/submissions/detail/1208473214/)
 - 1229 Meeting Scheduler
 - 986 Interval List Intersections
 - 759 Employee Free Time
 - 218 The Skyline Problem
 
 
-|number|类型|description|solution|
-|---|---|---|-|
 
 ## Reference
 
+- [古城,基础算法一,扫描线](https://www.youtube.com/watch?v=ihf8JjQdta0&t=1942s)
 - [leetcode post by c0D3M, 一名C++选手](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
 - [OI wiki](https://oi-wiki.org/geometry/scanning/)

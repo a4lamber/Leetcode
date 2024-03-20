@@ -116,6 +116,7 @@
 - 387 first unique character in a string: leetcode/387-first-unique-character-in-a-string/index.md
 - 409 longest palindrome: leetcode/409-longest-palindrome/index.md
 - 412 fizz buzz: leetcode/412-fizz-buzz/index.md
+- 435 non overlapping intervals: leetcode/435-non-overlapping-intervals/index.md
 - 441 arranging coins: leetcode/441-arranging-coins/index.md
 - 442 find all duplicates in an array: leetcode/442-find-all-duplicates-in-an-array/index.md
 - 451 sort characters by frequency: leetcode/451-sort-characters-by-frequency/index.md
@@ -192,6 +193,7 @@
 - 1191 k concatenation maximum sum: leetcode/1191-k-concatenation-maximum-sum/index.md
 - 1196 how many apples can you put into the basket: leetcode/1196-how-many-apples-can-you-put-into-the-basket/index.md
 - 1213 intersection of three sorted array: leetcode/1213-intersection-of-three-sorted-array/index.md
+- 1229 meeting scheduler: leetcode/1229-meeting-scheduler/index.md
 - 1272 remove interval: leetcode/1272-remove-interval/index.md
 - 1288 remove covered intervals: leetcode/1288-remove-covered-intervals/index.md
 - 1290 convert binary number in a linked list to integer: leetcode/1290-convert-binary-number-in-a-linked-list-to-integer/index.md
@@ -210,6 +212,7 @@
 - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
 - 1609 even odd tree: leetcode/1609-even-odd-tree/index.md
 - 1642 furthest building you can reach: leetcode/1642-furthest-building-you-can-reach/index.md
+- 1669 merge in between linked lists: leetcode/1669-merge-in-between-linked-lists/index.md
 - 1750 minimum length of string after deleting similar ends: leetcode/1750-minimum-length-of-string-after-deleting-similar-ends/index.md
 - 1762 buildings with an ocean view: leetcode/1762-buildings-with-an-ocean-view/index.md
 - 1768 merge strings alternately: leetcode/1768-merge-strings-alternately/index.md
