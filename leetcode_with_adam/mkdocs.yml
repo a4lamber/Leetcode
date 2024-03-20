@@ -298,6 +298,7 @@ nav:
       - 977 squares of a sorted array: leetcode/977-squares-of-a-sorted-array/index.md
       - 978 longest turbulent subarray: leetcode/978-longest-turbulent-subarray/index.md
       - 983 minimum cost for tickets: leetcode/983-minimum-cost-for-tickets/index.md
+      - 986 interval list intersections: leetcode/986-interval-list-intersections/index.md
       - 997 find the town judge: leetcode/997-find-the-town-judge/index.md
       - 1011 capacity to ship packages within D days: leetcode/1011-capacity-to-ship-packages-within-D-days/index.md
       - 1014 best sightseeing pair: leetcode/1014-best-sightseeing-pair/index.md
@@ -362,5 +363,6 @@ nav:
       - 3043 find the length of the longest common prefix: leetcode/3043-find-the-length-of-the-longest-common-prefix/index.md
       - 3044 most frequent prime: leetcode/3044-most-frequent-prime/index.md
       - 3045 count prefix and suffix pairs II: leetcode/3045-count-prefix-and-suffix-pairs-II/index.md
+      - 3062 winner of the liked list game: leetcode/3062-winner-of-the-liked-list-game/index.md
       - 3066 minimum operations to exceed threshold value II: leetcode/3066-minimum-operations-to-exceed-threshold-value-II/index.md
       - 3085 minimum deletions to make string k special: leetcode/3085-minimum-deletions-to-make-string-k-special/index.md

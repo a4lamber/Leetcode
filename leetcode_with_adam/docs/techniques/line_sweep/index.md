@@ -33,9 +33,35 @@
 ![](./assets/airplane.excalidraw.png)
 
 
+## Interval技巧
+
+### 判断是否相交
+
+A = [a1, a2], B = [b1, b2], we can have the intersection of A and B as `[max(a1, b1), min(a2, b2)]. `
+
+$$
+y(A, B) = \begin{cases}
+ \text{overlap}\quad\max(A[0], B[0]) \leq \min(A[1], B[1]) \\
+ \text{cover}\quad \max(A[0], B[0]) = \min(A[1], B[1])\\
+ \text{non-overlap}\quad \max(A[0], B[0]) > \min(A[1], B[1])\\
+\end{cases}
+$$
+
+其中cover是overlap的特例, 这是interval中非常常用的一个技巧.
+
+```python
+def isIntersect(A, B):
+    return max(A[0], B[0]) <= min(A[1], B[1])
+```
+
+
+
+
 
 
 ## 相关题目
+
+line sweep的题目往往都是和intervals打交道的, 同时一题多解with heap or two pointers也很常见.
 
 - [252 Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/)
 - [253 Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)
@@ -46,8 +72,9 @@
 - cover? non-overlap?傻傻分不清楚
     - [435 Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)
     - [1288 Remove Covered Intervals](https://leetcode.com/submissions/detail/1208473214/)
-- 1229 Meeting Scheduler
-- 986 Interval List Intersections
+- [1229 Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/description/)
+- [986 Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/description/)
+    - line sweep可以做
 - 759 Employee Free Time
 - 218 The Skyline Problem
 

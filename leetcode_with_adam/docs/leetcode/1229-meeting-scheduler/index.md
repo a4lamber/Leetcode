@@ -13,7 +13,7 @@ tags:
 
 第一反应就是line sweep, 把所有时间点放进一个list, 排序后准备进行line sweep.
 
-## Approach 1 Line Sweep
+## Approach 1 Sweep Line
 
 对于sweep line, 我们只需要构建出能够描述系统内所有状态的cost function即可，假设
 
@@ -32,7 +32,7 @@ tags:
 - curr_sum == 3 and prev_sum != 3, 这个时候我们可以开始一个新的interval
 - curr_sum != 3 and prev_sum == 3, 这个时候我们可以结束一个interval
 
-根据这个就能判定出来怎么插入了, 如下图
+根据这个就能判定出来怎么插入了, 如下图所示，你看看`升到3`和`从3降到非3`的jump discontinuity.
 
 ![](./assets/2.excalidraw.png)
 
@@ -89,3 +89,47 @@ class Solution:
         
         return []
 ```
+
+看了[大神 top 0.3% xil899](https://leetcode.com/xil899/), 我发现我的答案实在太redundant了，他的答案更简洁，优化思路如下
+
+- 我们只关心两个人都有空的时间段, 所以cost function都可以赋值为1，-1 for both person 1 and person2. 这样我们能描述三个状态: 2 for 都有空， 1 for only one person has time, 0 for both don't have time. 但这一步无所谓，可以随便赋值其实。
+- 我们只需要判定第二个jump discontinuity(上一时步，两人都用空。当前步无所谓). 同时融合一下逻辑，判定一下时常是否满足条件即可。
+
+
+!!! note "complexity"
+    time complexity is $O((m+n)\log (m+n))$, space complexity is $O(m+n)$
+
+```python
+class Solution:
+    def minAvailableDuration(self, slots1: List[List[int]], slots2: List[List[int]], duration: int) -> List[int]:
+        times = []
+        # 不需要区别两个人中只有一个有空的状态
+        for start,end in slots1:
+            times.append((start,1))
+            times.append((end,-1))
+        
+        for start,end in slots2:
+            times.append((start,1))
+            times.append((end,-1))
+        times.sort()
+        
+        # 我们只需要在离开时进行添加即可, prev_status != 2, prev_status == 2
+        prev_time,prev_status = 0,0
+        for time,status in times:
+            if prev_status == 2 and time - prev_time >= duration:
+                return [prev_time,prev_time + duration]
+            # update status
+            prev_status += status
+            prev_time = time
+        
+        return []
+```
+
+
+## Approach 2 Two Pointers
+
+
+
+## Approach 3 Heap
+
+
