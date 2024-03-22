@@ -123,6 +123,7 @@ nav:
     - techniques/index.md
     - Prefix Sum: techniques/prefix_sum/index.md
     - Line Sweep: techniques/line_sweep/index.md
+    - Two Pointers: techniques/two_pointers/index.md
   - Leetcode:
       - leetcode/index.md
       - 1 two sum: leetcode/1-two-sum/index.md
@@ -268,7 +269,7 @@ nav:
       - 647 palindromic substrings: leetcode/647-palindromic-substrings/index.md
       - 653 two sum IV input is a BST: leetcode/653-two-sum-IV-input-is-a-BST/index.md
       - 673 number of longest increasing subsequence: leetcode/673-number-of-longest-increasing-subsequence/index.md
-      - 680 valid palindrome: leetcode/680-valid-palindrome/index.md
+      - 680 valid palindrome II: leetcode/680-valid-palindrome-II/index.md
       - 692 top k frequent words: leetcode/692-top-k-frequent-words/index.md
       - 700 search in a binary search tree: leetcode/700-search-in-a-binary-search-tree/index.md
       - 703 kth largest element in a stream: leetcode/703-kth-largest-element-in-a-stream/index.md

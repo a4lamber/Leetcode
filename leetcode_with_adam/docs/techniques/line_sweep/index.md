@@ -75,6 +75,7 @@ line sweep的题目往往都是和intervals打交道的, 同时一题多解with 
 - [1229 Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/description/)
 - [986 Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/description/)
     - line sweep可以做
+- 352 Data Stream as Disjoint Intervals
 - 759 Employee Free Time
 - 218 The Skyline Problem
 
