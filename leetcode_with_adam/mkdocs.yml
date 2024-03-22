@@ -339,6 +339,7 @@ nav:
       - 1481 least number of unique intergers after K removals: leetcode/1481-least-number-of-unique-intergers-after-K-removals/index.md
       - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
       - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
+      - 1570 dot product of two sparse vectors: leetcode/1570-dot-product-of-two-sparse-vectors/index.md
       - 1609 even odd tree: leetcode/1609-even-odd-tree/index.md
       - 1642 furthest building you can reach: leetcode/1642-furthest-building-you-can-reach/index.md
       - 1669 merge in between linked lists: leetcode/1669-merge-in-between-linked-lists/index.md

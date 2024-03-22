@@ -141,7 +141,7 @@
 - 647 palindromic substrings: leetcode/647-palindromic-substrings/index.md
 - 653 two sum IV input is a BST: leetcode/653-two-sum-IV-input-is-a-BST/index.md
 - 673 number of longest increasing subsequence: leetcode/673-number-of-longest-increasing-subsequence/index.md
-- 680 valid palindrome: leetcode/680-valid-palindrome/index.md
+- 680 valid palindrome II: leetcode/680-valid-palindrome-II/index.md
 - 692 top k frequent words: leetcode/692-top-k-frequent-words/index.md
 - 700 search in a binary search tree: leetcode/700-search-in-a-binary-search-tree/index.md
 - 703 kth largest element in a stream: leetcode/703-kth-largest-element-in-a-stream/index.md
@@ -211,6 +211,7 @@
 - 1481 least number of unique intergers after K removals: leetcode/1481-least-number-of-unique-intergers-after-K-removals/index.md
 - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
 - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
+- 1570 dot product of two sparse vectors: leetcode/1570-dot-product-of-two-sparse-vectors/index.md
 - 1609 even odd tree: leetcode/1609-even-odd-tree/index.md
 - 1642 furthest building you can reach: leetcode/1642-furthest-building-you-can-reach/index.md
 - 1669 merge in between linked lists: leetcode/1669-merge-in-between-linked-lists/index.md
