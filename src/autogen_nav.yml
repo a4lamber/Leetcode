@@ -62,12 +62,14 @@
 - 136 single number: leetcode/136-single-number/index.md
 - 141 linked list cycle: leetcode/141-linked-list-cycle/index.md
 - 142 linked list cycle II: leetcode/142-linked-list-cycle-II/index.md
+- 143 reorder list: leetcode/143-reorder-list/index.md
 - 144 binary tree preorder traversal: leetcode/144-binary-tree-preorder-traversal/index.md
 - 145 binary tree postorder traversal: leetcode/145-binary-tree-postorder-traversal/index.md
 - 146 lru cache: leetcode/146-lru-cache/index.md
 - 150 evaluate reverse polish notation: leetcode/150-evaluate-reverse-polish-notation/index.md
 - 152 maximum product subarray: leetcode/152-maximum-product-subarray/index.md
 - 153 find minimum in rotated sorted array: leetcode/153-find-minimum-in-rotated-sorted-array/index.md
+- 159 longest substring with at most two distinct characters: leetcode/159-longest-substring-with-at-most-two-distinct-characters/index.md
 - 160 intersection of two linked list: leetcode/160-intersection-of-two-linked-list/index.md
 - 161 one edit distance: leetcode/161-one-edit-distance/index.md
 - 164 maximum gap: leetcode/164-maximum-gap/index.md
@@ -102,9 +104,12 @@
 - 278 first bad version: leetcode/278-first-bad-version/index.md
 - 279 perfect squares: leetcode/279-perfect-squares/index.md
 - 283 Move Zeros: leetcode/283-Move-Zeros/index.md
+- 287 find the duplicate number: leetcode/287-find-the-duplicate-number/index.md
 - 300 longest increasing subsequence: leetcode/300-longest-increasing-subsequence/index.md
 - 304 range sum query 2D immutable: leetcode/304-range-sum-query-2D-immutable/index.md
+- 325 maximum size subarray sum equals k: leetcode/325-maximum-size-subarray-sum-equals-k/index.md
 - 328 odd even linked list: leetcode/328-odd-even-linked-list/index.md
+- 340 longest substring with at most k distinct characters: leetcode/340-longest-substring-with-at-most-k-distinct-characters/index.md
 - 344 reverse string: leetcode/344-reverse-string/index.md
 - 346 moving average from data stream: leetcode/346-moving-average-from-data-stream/index.md
 - 347 top k frequent elements: leetcode/347-top-k-frequent-elements/index.md
@@ -114,6 +119,8 @@
 - 374 guess number higher or lower: leetcode/374-guess-number-higher-or-lower/index.md
 - 383 ransom note: leetcode/383-ransom-note/index.md
 - 387 first unique character in a string: leetcode/387-first-unique-character-in-a-string/index.md
+- 395 longest substring with at least k repeating characters: leetcode/395-longest-substring-with-at-least-k-repeating-characters/index.md
+- 408 valid word abbreviation: leetcode/408-valid-word-abbreviation/index.md
 - 409 longest palindrome: leetcode/409-longest-palindrome/index.md
 - 412 fizz buzz: leetcode/412-fizz-buzz/index.md
 - 435 non overlapping intervals: leetcode/435-non-overlapping-intervals/index.md
@@ -240,3 +247,6 @@
 - 3062 winner of the liked list game: leetcode/3062-winner-of-the-liked-list-game/index.md
 - 3066 minimum operations to exceed threshold value II: leetcode/3066-minimum-operations-to-exceed-threshold-value-II/index.md
 - 3085 minimum deletions to make string k special: leetcode/3085-minimum-deletions-to-make-string-k-special/index.md
+- 3090 maximum length substring with two occurrences: leetcode/3090-maximum-length-substring-with-two-occurrences/index.md
+- 3091 apply operations to make sum of array greater than or equal to k: leetcode/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/index.md
+- 3092 most frequent ids: leetcode/3092-most-frequent-ids/index.md

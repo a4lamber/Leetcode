@@ -61,3 +61,32 @@ class Solution:
         
         return res
 ```
+
+你也可以维护一个dictionary, 但没有set clean.
+
+```python
+from collections import defaultdict
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        """
+        sliding window, same direction,
+        maintain a key space
+        """
+        left = 0
+        global_max = 0
+        uniques = defaultdict(int)
+        for right,char in enumerate(s):
+            if char not in uniques:
+                uniques[char] += 1
+            else:
+                # we have to move left pointer here
+                uniques[char] += 1
+                while left < right and uniques[char] > 1:
+                    uniques[s[left]] -= 1
+                    if uniques[s[left]] == 0:
+                        del uniques[s[left]]
+                    left += 1
+            # if reach here, everything in window is unique
+            global_max = max(global_max,right - left + 1)
+        return global_max
+```

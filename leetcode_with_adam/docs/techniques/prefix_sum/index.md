@@ -63,6 +63,7 @@ Range Sum利用了前缀和的一些性质, lazy propagation的思维在range up
 |number|类型|description|solution|
 |---|---|---|-|
 |[560 Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)||subarray sum equals k. 万物之源|[solution](../../leetcode/560-subarray-sum-equals-k/index.md)|
+|[325 Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/)||subarray sum equals k, 但是要求最大的subarray|[solution](../../leetcode/325-maximum-size-subarray-sum-equals-k/index.md)|
 |[974 Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)|-|转换divisible by k的条件为subarray sum equals k|[solution](../../leetcode/974-subarray-sums-divisible-by-K/index.md)|
 |[525 Contiguous Array](https://leetcode.com/problems/contiguous-array/description/?envType=daily-question&envId=2024-03-16)||trick, binary array of [0,1]转化为[-1,1]|[solution](../../leetcode/525-contiguous-array/index.md)|
 |[523 Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)||similar to 974 but with a length constrains|[solution](../../leetcode/523-continuous-subarray-sum/index.md)|
