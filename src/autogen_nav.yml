@@ -4,6 +4,7 @@
 - 5 longest palindromic substring: leetcode/5-longest-palindromic-substring/index.md
 - 6 zigzag conversion: leetcode/6-zigzag-conversion/index.md
 - 9 palindrome number: leetcode/9-palindrome-number/index.md
+- 11 container with most water: leetcode/11-container-with-most-water/index.md
 - 13 roman to integer: leetcode/13-roman-to-integer/index.md
 - 14 longest common prefix: leetcode/14-longest-common-prefix/index.md
 - 15 three sum: leetcode/15-three-sum/index.md
@@ -222,6 +223,7 @@
 - 1609 even odd tree: leetcode/1609-even-odd-tree/index.md
 - 1642 furthest building you can reach: leetcode/1642-furthest-building-you-can-reach/index.md
 - 1669 merge in between linked lists: leetcode/1669-merge-in-between-linked-lists/index.md
+- 1710 maximum units on a truck: leetcode/1710-maximum-units-on-a-truck/index.md
 - 1750 minimum length of string after deleting similar ends: leetcode/1750-minimum-length-of-string-after-deleting-similar-ends/index.md
 - 1762 buildings with an ocean view: leetcode/1762-buildings-with-an-ocean-view/index.md
 - 1768 merge strings alternately: leetcode/1768-merge-strings-alternately/index.md
@@ -233,6 +235,8 @@
 - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
 - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
 - 2540 minimum common value: leetcode/2540-minimum-common-value/index.md
+- 2739 total distance traveled: leetcode/2739-total-distance-traveled/index.md
+- 2740 find the value of the partition: leetcode/2740-find-the-value-of-the-partition/index.md
 - 2785 sort vowels in a string: leetcode/2785-sort-vowels-in-a-string/index.md
 - 2824 count pairs whose sum is less than target: leetcode/2824-count-pairs-whose-sum-is-less-than-target/index.md
 - 2864 maximum odd binary number: leetcode/2864-maximum-odd-binary-number/index.md

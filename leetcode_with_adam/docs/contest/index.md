@@ -26,6 +26,8 @@ For top 10 users (excluding LCCN users), your LeetCode ID will be colored orange
 Get your rating changes right after the completion of LeetCode contests, https://lccn.lbao.site
 
 
+
+
 ## Reference
 
 - [Youtuber TLE Eliminator](https://www.youtube.com/watch?v=2UsqgWKkZeA&ab_channel=TLEEliminators-byPriyansh) that updates weekly contest result
