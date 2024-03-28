@@ -109,6 +109,7 @@
 - 287 find the duplicate number: leetcode/287-find-the-duplicate-number/index.md
 - 300 longest increasing subsequence: leetcode/300-longest-increasing-subsequence/index.md
 - 304 range sum query 2D immutable: leetcode/304-range-sum-query-2D-immutable/index.md
+- 314 binary tree vertical order traversal: leetcode/314-binary-tree-vertical-order-traversal/index.md
 - 325 maximum size subarray sum equals k: leetcode/325-maximum-size-subarray-sum-equals-k/index.md
 - 328 odd even linked list: leetcode/328-odd-even-linked-list/index.md
 - 340 longest substring with at most k distinct characters: leetcode/340-longest-substring-with-at-most-k-distinct-characters/index.md
