@@ -3,7 +3,15 @@
 
 
 
+**weekly 351**
 
+
+|number|description|solution|
+|---|---|---|
+|[2748 Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)|-|[solution](../../leetcode/2748-number-of-beautiful-pairs/index.md)|
+|2749 Minimum Operations to make the integer zero|-|-|
+|2750 Ways to Split Array into Good Subarrays|-|-|
+|2751 Robot Collisions|-|-|
 
 
 **Weekly 350**

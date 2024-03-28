@@ -21,6 +21,7 @@
 - 34 find first and last position of element in sorted array: leetcode/34-find-first-and-last-position-of-element-in-sorted-array/index.md
 - 35 search insert position: leetcode/35-search-insert-position/index.md
 - 36 valid sudoku: leetcode/36-valid-sudoku/index.md
+- 41 first missing positive: leetcode/41-first-missing-positive/index.md
 - 46 permutations: leetcode/46-permutations/index.md
 - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
 - 55 jump game: leetcode/55-jump-game/index.md
@@ -154,6 +155,7 @@
 - 700 search in a binary search tree: leetcode/700-search-in-a-binary-search-tree/index.md
 - 703 kth largest element in a stream: leetcode/703-kth-largest-element-in-a-stream/index.md
 - 704 binary search: leetcode/704-binary-search/index.md
+- 713 subarray product less than k: leetcode/713-subarray-product-less-than-k/index.md
 - 718 maximum length of repeated subarray: leetcode/718-maximum-length-of-repeated-subarray/index.md
 - 724 find pivot index: leetcode/724-find-pivot-index/index.md
 - 739 daily temperatures: leetcode/739-daily-temperatures/index.md
@@ -167,6 +169,7 @@
 - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
 - 875 koko eating bananas: leetcode/875-koko-eating-bananas/index.md
 - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
+- 887 super egg drop: leetcode/887-super-egg-drop/index.md
 - 918 maximum sum circular subarray: leetcode/918-maximum-sum-circular-subarray/index.md
 - 930 binary subarrays with sum: leetcode/930-binary-subarrays-with-sum/index.md
 - 931 minimum falling path sum: leetcode/931-minimum-falling-path-sum/index.md
@@ -237,9 +240,11 @@
 - 2540 minimum common value: leetcode/2540-minimum-common-value/index.md
 - 2739 total distance traveled: leetcode/2739-total-distance-traveled/index.md
 - 2740 find the value of the partition: leetcode/2740-find-the-value-of-the-partition/index.md
+- 2748 number of beautiful pairs: leetcode/2748-number-of-beautiful-pairs/index.md
 - 2785 sort vowels in a string: leetcode/2785-sort-vowels-in-a-string/index.md
 - 2824 count pairs whose sum is less than target: leetcode/2824-count-pairs-whose-sum-is-less-than-target/index.md
 - 2864 maximum odd binary number: leetcode/2864-maximum-odd-binary-number/index.md
+- 2958 length of longest subarray with at most k frequency: leetcode/2958-length-of-longest-subarray-with-at-most-k-frequency/index.md
 - 2966 divide array into arrays with max difference: leetcode/2966-divide-array-into-arrays-with-max-difference/index.md
 - 2971 find polygon with the largest perimeter: leetcode/2971-find-polygon-with-the-largest-perimeter/index.md
 - 2974 minimum number game: leetcode/2974-minimum-number-game/index.md
