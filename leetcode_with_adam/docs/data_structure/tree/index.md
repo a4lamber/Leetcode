@@ -2,8 +2,6 @@
 
 > Tree是一种非线性的数据结构(1 to many), 和我们以前接触的
 
-
-
 ![](./assets/tree.png)
 
 

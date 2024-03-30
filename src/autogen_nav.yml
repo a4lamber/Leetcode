@@ -239,13 +239,17 @@
 - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
 - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
 - 2540 minimum common value: leetcode/2540-minimum-common-value/index.md
+- 2730 find the longest semi repetitive substring: leetcode/2730-find-the-longest-semi-repetitive-substring/index.md
 - 2739 total distance traveled: leetcode/2739-total-distance-traveled/index.md
 - 2740 find the value of the partition: leetcode/2740-find-the-value-of-the-partition/index.md
 - 2748 number of beautiful pairs: leetcode/2748-number-of-beautiful-pairs/index.md
 - 2785 sort vowels in a string: leetcode/2785-sort-vowels-in-a-string/index.md
+- 2799 count complete subarrays in an array: leetcode/2799-count-complete-subarrays-in-an-array/index.md
 - 2824 count pairs whose sum is less than target: leetcode/2824-count-pairs-whose-sum-is-less-than-target/index.md
+- 2831 find the longest equal subarray: leetcode/2831-find-the-longest-equal-subarray/index.md
 - 2864 maximum odd binary number: leetcode/2864-maximum-odd-binary-number/index.md
 - 2958 length of longest subarray with at most k frequency: leetcode/2958-length-of-longest-subarray-with-at-most-k-frequency/index.md
+- 2962 count subarrays where max element appears at least k times: leetcode/2962-count-subarrays-where-max-element-appears-at-least-k-times/index.md
 - 2966 divide array into arrays with max difference: leetcode/2966-divide-array-into-arrays-with-max-difference/index.md
 - 2971 find polygon with the largest perimeter: leetcode/2971-find-polygon-with-the-largest-perimeter/index.md
 - 2974 minimum number game: leetcode/2974-minimum-number-game/index.md

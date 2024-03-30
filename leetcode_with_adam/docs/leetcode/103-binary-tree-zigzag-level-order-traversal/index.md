@@ -1,41 +1,20 @@
 ---
-draft: true
-date: 2023-11-13
-authors:
-  - adam
-categories:
-  - python
+tags:
+    - Tree
+    - Binary Tree
+    - Breadth-First Search
 ---
 
-# Problem description
+# [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
 
-Given a binary tree, you are asked to do BFS search for the tree. You are traversing down layer by layer but in a zigzag format.
-
-Example: 
-```
-    3
-   / \
-  9  20
-    /  \
-   15   7
-```
-
-It returns as (excluding `None`)
-```
-[
-    [3],
-    [20,9],
-    [15,7]
-]
-```
-# Algorithm
 
 We don't know how to implement BFS in zigzag order but we could start from simpler BFS traversal. 
 
 For BFS, we are going to need,
+
 - queue as an auxillary to temporary hold the node
 
-![](BFS_zigzag.excalidraw.png)
+![](./assets/BFS_zigzag.excalidraw.png)
 
 After we figure the regular BFS out for the tree diagram above, we will have
 ```
@@ -55,7 +34,8 @@ After we figure the regular BFS out for the tree diagram above, we will have
 ```
 From observation, we just need to reverse the even rows to get the output for zigzag.
 
-# Code
+## Approach 1 BFS
+
 
 ```python
 # Definition for a binary tree node.

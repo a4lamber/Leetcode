@@ -1,6 +1,13 @@
 # Weekly History
 
+**weekly 352**
 
+|number|description|solution|
+|---|---|---|
+|2760 Longest Even Odd Subarray with Threshold|
+|2761 Prime Pairs with Target Sum|
+|2762 Continuous Subarray|
+|2763 Sum of inbalance number of all subarrays|
 
 
 **weekly 351**
