@@ -18,8 +18,6 @@ Sum of the following
 Since we want it to be exactly k, so while we are moving left pointer, we must went from having distinct elements in subarray x `x > k` to `x==k` to `x < k`. We can simulate this process
 
 
-
-
 ## Approach 1: simulation (TLE)
 
 copy hashmap的cost太高了.
@@ -115,3 +113,67 @@ class Solution:
         return helper(nums,k) - helper(nums,k-1)
 ```
 
+
+## Approach 3 Sliding Window with three pointers
+
+Approach 1的simulation:
+
+- initialize a burner left pointer and burner hashmap to simulate the process of moving left pointer
+
+What if we go that this route early and keep track of another pointer sitting in the middle of left and right pointer? 这就是three pointers思想.
+
+- `l_far`: the farthest left pointer such that `[l_far,right]` is the maximum subarray has k distinct elements in it
+- `l_near`: the left pointer such that `[l_near,right]` is the minimum subarray has k distinct elements in it
+
+而且你只维护的hashmap, 实际上是维护的是`[l_near,right]`中的信息. 两者唯一的区别是，维护`[l_far,right]`比维护`[l_near,right]`多了几个redundant元素. 
+
+
+Do a little dry run,
+
+```
+nums = [1,2,1,2,3], k = 2
+output = 7
+```
+
+|l_far|l_near|r|[l_far,r]|[l_near,r]|candidates|
+|---|---|---|---|---|---|
+|0|0|0|[1]|[1]||
+|0|0|1|[1,2]|[1,2]|`[1,2]`|
+|0|1|2|[1,2,1]|[2,1]|`[2,1]`,`[1,2,1]`|
+|0|2|3|[1,2,1,2]|[1,2]|`[1,2]`,`[2,1,2]`,`[1,2,1,2]`|
+|3|3|4|[2,3]|[2,3]|`[2,3]`|
+
+
+
+```python
+from collections import defaultdict
+class Solution:
+    def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
+        """
+        [l_far,l_near]: largest subarray that has k distinct elements in it
+        [l_near,r]: smallest subarray that has k distinct elements in it        
+        """
+        l_far = l_near = 0
+        res = 0
+        count = defaultdict(int)
+
+        for r in range(len(nums)):
+            count[nums[r]] += 1
+
+            while len(count) > k:
+                count[nums[l_near]] -= 1
+                if count[nums[l_near]] == 0:
+                    count.pop(nums[l_near])
+                l_near += 1
+                l_far = l_near
+            
+            while count[nums[l_near]] > 1:
+                count[nums[l_near]] -= 1
+                l_near += 1
+
+
+            if len(count) == k:
+                res += l_near - l_far + 1
+
+        return res
+```

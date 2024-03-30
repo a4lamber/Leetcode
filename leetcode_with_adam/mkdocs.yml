@@ -314,6 +314,7 @@ nav:
       - 978 longest turbulent subarray: leetcode/978-longest-turbulent-subarray/index.md
       - 983 minimum cost for tickets: leetcode/983-minimum-cost-for-tickets/index.md
       - 986 interval list intersections: leetcode/986-interval-list-intersections/index.md
+      - 992 subarrays with k different integers: leetcode/992-subarrays-with-k-different-integers/index.md
       - 997 find the town judge: leetcode/997-find-the-town-judge/index.md
       - 1011 capacity to ship packages within D days: leetcode/1011-capacity-to-ship-packages-within-D-days/index.md
       - 1014 best sightseeing pair: leetcode/1014-best-sightseeing-pair/index.md
