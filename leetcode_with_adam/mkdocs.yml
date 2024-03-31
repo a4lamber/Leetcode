@@ -115,9 +115,7 @@ nav:
       - Automata: string/automata/index.md
   - Contest:
     - contest/index.md
-    - biweekly:
-      - biweekly 123: contest/biweekly/biweekly_123.md
-      - biweekly 124: contest/biweekly/biweekly_124.md
+    - biweekly history: contest/biweekly/index.md
     - weekly history: contest/weekly/index.md
   - Techniques:
     - techniques/index.md
@@ -395,3 +393,6 @@ nav:
       - 3090 maximum length substring with two occurrences: leetcode/3090-maximum-length-substring-with-two-occurrences/index.md
       - 3091 apply operations to make sum of array greater than or equal to k: leetcode/3091-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/index.md
       - 3092 most frequent ids: leetcode/3092-most-frequent-ids/index.md
+      - 3095 shortest subarray with OR at least K I: leetcode/3095-shortest-subarray-with-OR-at-least-K-I/index.md
+      - 3096 minimum levels to gain more points: leetcode/3096-minimum-levels-to-gain-more-points/index.md
+      - 3097 shortest subarray with OR at least K II: leetcode/3097-shortest-subarray-with-OR-at-least-K-II/index.md

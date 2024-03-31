@@ -1,5 +1,15 @@
 # Weekly History
 
+
+**weekly 391**
+
+|number|description|solution|
+|---|---|---|
+|[3099 Harshad Number](https://leetcode.com/problems/harshad-number/description/)|simple math|[solution](../../leetcode/3099-harshad-number/index.md)|
+|[3100 Water Bottles II](https://leetcode.com/problems/water-bottles-ii/description/)|simulation, drinking phase + exchange phase|[solution](../../leetcode/3100-water-bottles-II/index.md)|
+|[3101 Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/description/)|sliding window|[solution](../../leetcode/3101-count-alternating-subarrays/index.md)|
+|3102 Minimize Manhattan Distances|-|-|
+
 **weekly 352**
 
 |number|description|solution|
