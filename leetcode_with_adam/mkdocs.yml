@@ -365,6 +365,7 @@ nav:
       - 2108 find the first palindromic string in the array: leetcode/2108-find-the-first-palindromic-string-in-the-array/index.md
       - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
       - 2149 rearrange array elements by sign: leetcode/2149-rearrange-array-elements-by-sign/index.md
+      - 2444 count subarrays with fixed bounds: leetcode/2444-count-subarrays-with-fixed-bounds/index.md
       - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
       - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
       - 2540 minimum common value: leetcode/2540-minimum-common-value/index.md
@@ -396,3 +397,6 @@ nav:
       - 3095 shortest subarray with OR at least K I: leetcode/3095-shortest-subarray-with-OR-at-least-K-I/index.md
       - 3096 minimum levels to gain more points: leetcode/3096-minimum-levels-to-gain-more-points/index.md
       - 3097 shortest subarray with OR at least K II: leetcode/3097-shortest-subarray-with-OR-at-least-K-II/index.md
+      - 3099 harshad number: leetcode/3099-harshad-number/index.md
+      - 3100 water bottles II: leetcode/3100-water-bottles-II/index.md
+      - 3101 count alternating subarrays: leetcode/3101-count-alternating-subarrays/index.md
