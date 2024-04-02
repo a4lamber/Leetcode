@@ -2,6 +2,7 @@
 tags:
     - String
 ---
+
 # [58 Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
 This question is kinda tricky, and i will introduce three solution 
@@ -18,11 +19,8 @@ This is the solution came to my mind when i saw it. $O(n)$ in time, $O(n)$ in sp
 ```python
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        res = s.split(" ")
-
-        for i in range(len(res)-1,-1,-1):
-            if len(res[i]) != 0:
-                return len(res[i])
+        words = s.strip().split()
+        return len(words[-1])
 ```
 
 ## Approach 2: two pass solution
