@@ -279,6 +279,7 @@ nav:
       - 647 palindromic substrings: leetcode/647-palindromic-substrings/index.md
       - 653 two sum IV input is a BST: leetcode/653-two-sum-IV-input-is-a-BST/index.md
       - 673 number of longest increasing subsequence: leetcode/673-number-of-longest-increasing-subsequence/index.md
+      - 678 valid parenthesis string: leetcode/678-valid-parenthesis-string/index.md
       - 680 valid palindrome II: leetcode/680-valid-palindrome-II/index.md
       - 692 top k frequent words: leetcode/692-top-k-frequent-words/index.md
       - 700 search in a binary search tree: leetcode/700-search-in-a-binary-search-tree/index.md
@@ -351,11 +352,14 @@ nav:
       - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
       - 1481 least number of unique intergers after K removals: leetcode/1481-least-number-of-unique-intergers-after-K-removals/index.md
       - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
+      - 1544 make the string great: leetcode/1544-make-the-string-great/index.md
       - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
       - 1570 dot product of two sparse vectors: leetcode/1570-dot-product-of-two-sparse-vectors/index.md
       - 1609 even odd tree: leetcode/1609-even-odd-tree/index.md
+      - 1614 maximum nesting depth of the parentheses: leetcode/1614-maximum-nesting-depth-of-the-parentheses/index.md
       - 1642 furthest building you can reach: leetcode/1642-furthest-building-you-can-reach/index.md
       - 1669 merge in between linked lists: leetcode/1669-merge-in-between-linked-lists/index.md
+      - 1700 number of students unable to eat lunch: leetcode/1700-number-of-students-unable-to-eat-lunch/index.md
       - 1710 maximum units on a truck: leetcode/1710-maximum-units-on-a-truck/index.md
       - 1750 minimum length of string after deleting similar ends: leetcode/1750-minimum-length-of-string-after-deleting-similar-ends/index.md
       - 1762 buildings with an ocean view: leetcode/1762-buildings-with-an-ocean-view/index.md
@@ -400,3 +404,6 @@ nav:
       - 3099 harshad number: leetcode/3099-harshad-number/index.md
       - 3100 water bottles II: leetcode/3100-water-bottles-II/index.md
       - 3101 count alternating subarrays: leetcode/3101-count-alternating-subarrays/index.md
+      - 3105 longest strictly increasing or strictly decreasing subarray: leetcode/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/index.md
+      - 3106 lexicographically smallest string after operations with constraint: leetcode/3106-lexicographically-smallest-string-after-operations-with-constraint/index.md
+      - 3107 minimum operations to make median of array equal to K: leetcode/3107-minimum-operations-to-make-median-of-array-equal-to-K/index.md
