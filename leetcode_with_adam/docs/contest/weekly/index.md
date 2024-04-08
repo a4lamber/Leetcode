@@ -1,6 +1,16 @@
 # Weekly History
 
 
+**weekly 392**
+
+|number|description|solution|
+|-|-|-|
+|[3105 Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/)|维护两个`int`来计算当前为止最长的严格单调递增和递减数组|[solution](../../leetcode/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/index.md)|
+|[3106 Lexicographically Smallest String After Operations With Constraint](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/description/)|从左到右的给`s`整容，每次整容先从`a`整到`z`. 需要做个计算distance的helper function.|[solution](../../leetcode/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/index.md)|
+|[3107 Minimum Operations to Make Median of Array Equal to K](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k/description/)|排序后，vertical line for `y = k`, 然后"移动"数组让`y=k`至少正好有超过数组一半的数|[solution](../../leetcode/3107-minimum-operations-to-make-median-of-array-equal-to-K/index.md)|
+|3108 Minimum Cost Walk in Weighted Graph|-|-|
+
+
 **weekly 391**
 
 |number|description|solution|
