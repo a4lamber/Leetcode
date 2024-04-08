@@ -228,6 +228,7 @@ nav:
       - 243 shortest word distance: leetcode/243-shortest-word-distance/index.md
       - 252 meeting rooms: leetcode/252-meeting-rooms/index.md
       - 253 meeting rooms II: leetcode/253-meeting-rooms-II/index.md
+      - 255 verify preorder sequence in binary search tree: leetcode/255-verify-preorder-sequence-in-binary-search-tree/index.md
       - 257 binary tree paths: leetcode/257-binary-tree-paths/index.md
       - 266 palindrome permutation: leetcode/266-palindrome-permutation/index.md
       - 268 missing number: leetcode/268-missing-number/index.md
