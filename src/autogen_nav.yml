@@ -239,6 +239,7 @@
 - 1768 merge strings alternately: leetcode/1768-merge-strings-alternately/index.md
 - 1876 substring of size three with distinct characters: leetcode/1876-substring-of-size-three-with-distinct-characters/index.md
 - 1971 find if path exists in graph: leetcode/1971-find-if-path-exists-in-graph/index.md
+- 2073 time needed to buy tickets: leetcode/2073-time-needed-to-buy-tickets/index.md
 - 2108 find the first palindromic string in the array: leetcode/2108-find-the-first-palindromic-string-in-the-array/index.md
 - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
 - 2149 rearrange array elements by sign: leetcode/2149-rearrange-array-elements-by-sign/index.md
