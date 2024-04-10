@@ -5,7 +5,7 @@ tags:
     - Simulation
 ---
 
-# 2073 Time Needed to Buy Tickets
+# [2073 Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/?envType=daily-question&envId=2024-04-09)
 
 ## Approach 1 One Pass
 
