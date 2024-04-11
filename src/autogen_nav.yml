@@ -124,6 +124,7 @@
 - 383 ransom note: leetcode/383-ransom-note/index.md
 - 387 first unique character in a string: leetcode/387-first-unique-character-in-a-string/index.md
 - 395 longest substring with at least k repeating characters: leetcode/395-longest-substring-with-at-least-k-repeating-characters/index.md
+- 402 remove k digits: leetcode/402-remove-k-digits/index.md
 - 408 valid word abbreviation: leetcode/408-valid-word-abbreviation/index.md
 - 409 longest palindrome: leetcode/409-longest-palindrome/index.md
 - 412 fizz buzz: leetcode/412-fizz-buzz/index.md
@@ -179,6 +180,7 @@
 - 938 range sum of BST: leetcode/938-range-sum-of-BST/index.md
 - 941 valid mountain array: leetcode/941-valid-mountain-array/index.md
 - 948 bag of tokens: leetcode/948-bag-of-tokens/index.md
+- 950 reveal cards in increasing order: leetcode/950-reveal-cards-in-increasing-order/index.md
 - 953 verifying an alien dictionary: leetcode/953-verifying-an-alien-dictionary/index.md
 - 973 K closest points to origin: leetcode/973-K-closest-points-to-origin/index.md
 - 974 subarray sums divisible by K: leetcode/974-subarray-sums-divisible-by-K/index.md
