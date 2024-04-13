@@ -22,6 +22,7 @@
 - 35 search insert position: leetcode/35-search-insert-position/index.md
 - 36 valid sudoku: leetcode/36-valid-sudoku/index.md
 - 41 first missing positive: leetcode/41-first-missing-positive/index.md
+- 42 trapping rain water: leetcode/42-trapping-rain-water/index.md
 - 46 permutations: leetcode/46-permutations/index.md
 - 53 maximum subarray: leetcode/53-maximum-subarray/index.md
 - 55 jump game: leetcode/55-jump-game/index.md
@@ -42,6 +43,7 @@
 - 78 subsets: leetcode/78-subsets/index.md
 - 79 word search: leetcode/79-word-search/index.md
 - 83 remove duplicates from sorted list: leetcode/83-remove-duplicates-from-sorted-list/index.md
+- 85 maximal rectangle: leetcode/85-maximal-rectangle/index.md
 - 92 reverse linked list II: leetcode/92-reverse-linked-list-II/index.md
 - 94 binary tree inorder traversal: leetcode/94-binary-tree-inorder-traversal/index.md
 - 100 same tree: leetcode/100-same-tree/index.md
