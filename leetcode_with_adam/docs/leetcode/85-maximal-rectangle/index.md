@@ -8,7 +8,7 @@ tags:
 ---
 # 85 Maximal Rectangle
 
-和[84 largest rectangle in histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)算是姐妹题了.
+和[84 largest rectangle in histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)算是姐妹题了. 这题还没完全吃透，需要再看看。
 
 ## Approach 1 DP 
 
@@ -27,7 +27,6 @@ It's state transition function is
 
 $$
 \begin{equation}
-
 \text{{dp}}[i][j] = \begin{cases} 
 0 & \text{if } \text{{matrix}}[i][j] = "0" \\
 1 & \text{if } j = 0 \text{ (i.e., first column)} \\
@@ -35,6 +34,7 @@ $$
 \end{cases}
 \end{equation}
 $$
+
 
 !!! tip
     有时候，dp的定义不一定是最终的答案，但是可以帮助我们找到最终的答案。这里的`dp[i][j]`是最大宽度，但是最终的答案是面积，所以我们要在dp的基础上，再次计算面积。我fell into the trap of 想直接定义`dp[i][j]`为面积，但是这样的话，`dp[i][j]`的状态转移方程就无法定义了.
