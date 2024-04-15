@@ -46,7 +46,7 @@ $$
 !!! note "复杂度分析"
 
     - time complexity: $O(m^2n)$, 由于我们需要往上traverse一个`len(matrix)`. 
-    - space complexity: $O(mn)$
+    - space complexity: $O(mn)$.
 
 
 ### Code Implementation
@@ -87,3 +87,11 @@ class Solution:
                     maxarea = max(maxarea,width * (i-k+1))
         return maxarea
 ```
+
+## Approach 2 DP maximum height
+
+
+```python
+
+```
+

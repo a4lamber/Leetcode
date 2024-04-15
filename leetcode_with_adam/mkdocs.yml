@@ -255,6 +255,7 @@ nav:
       - 387 first unique character in a string: leetcode/387-first-unique-character-in-a-string/index.md
       - 395 longest substring with at least k repeating characters: leetcode/395-longest-substring-with-at-least-k-repeating-characters/index.md
       - 402 remove k digits: leetcode/402-remove-k-digits/index.md
+      - 404 sum of left leaves: leetcode/404-sum-of-left-leaves/index.md
       - 408 valid word abbreviation: leetcode/408-valid-word-abbreviation/index.md
       - 409 longest palindrome: leetcode/409-longest-palindrome/index.md
       - 412 fizz buzz: leetcode/412-fizz-buzz/index.md
@@ -413,3 +414,6 @@ nav:
       - 3105 longest strictly increasing or strictly decreasing subarray: leetcode/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/index.md
       - 3106 lexicographically smallest string after operations with constraint: leetcode/3106-lexicographically-smallest-string-after-operations-with-constraint/index.md
       - 3107 minimum operations to make median of array equal to K: leetcode/3107-minimum-operations-to-make-median-of-array-equal-to-K/index.md
+      - 3110 score of a string: leetcode/3110-score-of-a-string/index.md
+      - 3111 minimum rectangles to cover points: leetcode/3111-minimum-rectangles-to-cover-points/index.md
+      - 3113 Find the Number of Subarrays Where Boundary Elements Are Maximum: leetcode/3113-Find-the-Number-of-Subarrays-Where-Boundary-Elements-Are-Maximum/index.md
