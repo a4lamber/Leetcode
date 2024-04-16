@@ -18,7 +18,22 @@ Tree的题型分成以下几类:
 
 ## Traversal
 
-这一类算是基础，闭着眼睛也要traverse出来.
+Traversal是最基础的树的题型, 其分类大体为:
+
+```mermaid
+flowchart TD
+root(Traversal) --> DFS
+root --> BFS
+dfs_1("iterative with stack")
+dfs_2("recursive")
+bfs_1("iterative with queue")
+
+DFS --> dfs_1 & dfs_2
+BFS --> bfs_1
+```
+
+对于DFS来说，无论是iterative还是recursive, 都需要somehow go back to the nodes visited before, 所以要么需要一个explicit stack来存储 (iterative DFS), 要么需要一个recursive call stack来存储 (recursive DFS).
+
 
 |number|类型|思路|solution|
 |---|---|---|---|
@@ -30,7 +45,9 @@ Tree的题型分成以下几类:
 |[103 Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|BFS|maintain `flip = True` and `flip = not flip` on each level即可|[solution](../../leetcode/103-binary-tree-zigzag-level-order-traversal/index.md)|
 |[314 Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/)|BFS|2D matrix for tree, intuition是tree traversal中, 路过left child, matrix往左扩展1，路过right child, 往右扩展1， 可以通过这个性质知道matrix的span|[solution](../../leetcode/314-binary-tree-vertical-order-traversal/index.md)|
 
-还有些advanced traversal, DFS (top down) + tail recursion (bottom up). 先按下不表.
+
+!!! warning
+    还有些advanced traversal method, 如Morris Traversal, 但是不常考, 也不是必须的.
 
 ## 结构转换树, serialize/deserialize
 

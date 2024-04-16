@@ -150,6 +150,7 @@
 - 617 merge two binary trees: leetcode/617-merge-two-binary-trees/index.md
 - 621 task scheduler: leetcode/621-task-scheduler/index.md
 - 622 design circular queue: leetcode/622-design-circular-queue/index.md
+- 623 add one row to tree: leetcode/623-add-one-row-to-tree/index.md
 - 629 k inverse pair array: leetcode/629-k-inverse-pair-array/index.md
 - 643 maximum average subarray I: leetcode/643-maximum-average-subarray-I/index.md
 - 645 set mismatch: leetcode/645-set-mismatch/index.md
@@ -193,6 +194,7 @@
 - 986 interval list intersections: leetcode/986-interval-list-intersections/index.md
 - 992 subarrays with k different integers: leetcode/992-subarrays-with-k-different-integers/index.md
 - 997 find the town judge: leetcode/997-find-the-town-judge/index.md
+- 1004 Max Consecutive Ones III: leetcode/1004-Max-Consecutive-Ones-III/index.md
 - 1011 capacity to ship packages within D days: leetcode/1011-capacity-to-ship-packages-within-D-days/index.md
 - 1014 best sightseeing pair: leetcode/1014-best-sightseeing-pair/index.md
 - 1025 divisor game: leetcode/1025-divisor-game/index.md
@@ -225,6 +227,7 @@
 - 1457 pseudo palindrome paths in a binary tree: leetcode/1457-pseudo-palindrome-paths-in-a-binary-tree/index.md
 - 1463 cherry pickup II: leetcode/1463-cherry-pickup-II/index.md
 - 1464 maximum product of two elements in an array: leetcode/1464-maximum-product-of-two-elements-in-an-array/index.md
+- 1469 find all the lonely nodes: leetcode/1469-find-all-the-lonely-nodes/index.md
 - 1474 delete N nodes after M nodes of a linked list: leetcode/1474-delete-N-nodes-after-M-nodes-of-a-linked-list/index.md
 - 1475 final prices with a special discount in a shop: leetcode/1475-final-prices-with-a-special-discount-in-a-shop/index.md
 - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
@@ -237,6 +240,7 @@
 - 1614 maximum nesting depth of the parentheses: leetcode/1614-maximum-nesting-depth-of-the-parentheses/index.md
 - 1642 furthest building you can reach: leetcode/1642-furthest-building-you-can-reach/index.md
 - 1669 merge in between linked lists: leetcode/1669-merge-in-between-linked-lists/index.md
+- 1685 sum of absolute differences in a sorted array: leetcode/1685-sum-of-absolute-differences-in-a-sorted-array/index.md
 - 1700 number of students unable to eat lunch: leetcode/1700-number-of-students-unable-to-eat-lunch/index.md
 - 1710 maximum units on a truck: leetcode/1710-maximum-units-on-a-truck/index.md
 - 1750 minimum length of string after deleting similar ends: leetcode/1750-minimum-length-of-string-after-deleting-similar-ends/index.md
