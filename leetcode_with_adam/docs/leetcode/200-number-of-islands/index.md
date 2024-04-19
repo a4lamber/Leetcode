@@ -15,11 +15,13 @@ tags:
     - 用HashSet记录visited, O(MN), O(MN)
     - in-place修改grid, O(MN), O(min(M,N))
 - DFS
+    - in-place修改grid, O(MN), O(1)
 - Union Find
 
-!!! tip
-    Graph algorithm学起来很上头，这个在porous medium之中计算pore size distribution等，可以说非常有帮助. Percolation theory etc.
+!!! tip "DFS vs BFS"
+    Graph algorithm学起来很上头，这个在porous medium之中计算pore size distribution等，可以说非常有帮助. Percolation theory etc. 
 
+DFS是一条路走到黑之后(base case)，再回来去另一个方向. BFS是的如中心向外辐射.
 
 ## Approach 1: Breadth-first Search
 
@@ -126,3 +128,40 @@ class Solution:
 
 ## Approach 2: DFS
 
+in-place modification, O(MN), O(1)
+
+```python
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        if not grid:
+            return 0
+        
+        islands = 0
+        rows,cols = len(grid),len(grid[0])
+
+        def dfs(r,c):
+            """只负责mark
+            """
+            # invalid, or encounter sea
+            if r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] != '1':
+                return
+            # in-place modification
+            grid[r][c] = '+'
+            dfs(r+1,c)
+            dfs(r-1,c)
+            dfs(r,c+1)
+            dfs(r,c-1)
+
+        for i in range(rows):
+            for j in range(cols):
+                if grid[i][j] == '1':
+                    dfs(i,j)
+                    islands += 1
+        return islands
+```
+
+## Approach 3 Union Find
+
+
+```python
+```

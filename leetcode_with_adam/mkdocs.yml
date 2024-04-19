@@ -219,6 +219,7 @@ nav:
       - 213 house robber II: leetcode/213-house-robber-II/index.md
       - 215 kth largest element in an array: leetcode/215-kth-largest-element-in-an-array/index.md
       - 217 contains duplicate: leetcode/217-contains-duplicate/index.md
+      - 219 contain duplicate II: leetcode/219-contain-duplicate-II/index.md
       - 221 maximum square: leetcode/221-maximum-square/index.md
       - 226 invert binary tree: leetcode/226-invert-binary-tree/index.md
       - 230 kth smallest element in BST: leetcode/230-kth-smallest-element-in-BST/index.md
@@ -383,6 +384,7 @@ nav:
       - 2108 find the first palindromic string in the array: leetcode/2108-find-the-first-palindromic-string-in-the-array/index.md
       - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
       - 2149 rearrange array elements by sign: leetcode/2149-rearrange-array-elements-by-sign/index.md
+      - 2219 maximum sum score of array: leetcode/2219-maximum-sum-score-of-array/index.md
       - 2444 count subarrays with fixed bounds: leetcode/2444-count-subarrays-with-fixed-bounds/index.md
       - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
       - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
