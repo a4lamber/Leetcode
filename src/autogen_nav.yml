@@ -221,6 +221,7 @@
 - 1196 how many apples can you put into the basket: leetcode/1196-how-many-apples-can-you-put-into-the-basket/index.md
 - 1213 intersection of three sorted array: leetcode/1213-intersection-of-three-sorted-array/index.md
 - 1229 meeting scheduler: leetcode/1229-meeting-scheduler/index.md
+- 1248 count number of nice subarrays: leetcode/1248-count-number-of-nice-subarrays/index.md
 - 1272 remove interval: leetcode/1272-remove-interval/index.md
 - 1288 remove covered intervals: leetcode/1288-remove-covered-intervals/index.md
 - 1290 convert binary number in a linked list to integer: leetcode/1290-convert-binary-number-in-a-linked-list-to-integer/index.md
@@ -252,6 +253,7 @@
 - 1768 merge strings alternately: leetcode/1768-merge-strings-alternately/index.md
 - 1876 substring of size three with distinct characters: leetcode/1876-substring-of-size-three-with-distinct-characters/index.md
 - 1971 find if path exists in graph: leetcode/1971-find-if-path-exists-in-graph/index.md
+- 1992 find all groups of farmland: leetcode/1992-find-all-groups-of-farmland/index.md
 - 2073 time needed to buy tickets: leetcode/2073-time-needed-to-buy-tickets/index.md
 - 2108 find the first palindromic string in the array: leetcode/2108-find-the-first-palindromic-string-in-the-array/index.md
 - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
@@ -260,6 +262,7 @@
 - 2444 count subarrays with fixed bounds: leetcode/2444-count-subarrays-with-fixed-bounds/index.md
 - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
 - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
+- 2516 take k of each characters from left and right: leetcode/2516-take-k-of-each-characters-from-left-and-right/index.md
 - 2540 minimum common value: leetcode/2540-minimum-common-value/index.md
 - 2730 find the longest semi repetitive substring: leetcode/2730-find-the-longest-semi-repetitive-substring/index.md
 - 2739 total distance traveled: leetcode/2739-total-distance-traveled/index.md
