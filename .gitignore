@@ -3,3 +3,6 @@
 .venv/
 
 leetcode_blog.egg-info/
+
+# build html for mkdocs. kinda bloated
+public/

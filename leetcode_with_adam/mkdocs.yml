@@ -301,6 +301,7 @@ nav:
       - 740 delete and earn: leetcode/740-delete-and-earn/index.md
       - 744 find smallest letter greater than target: leetcode/744-find-smallest-letter-greater-than-target/index.md
       - 746 min cost climbing stairs: leetcode/746-min-cost-climbing-stairs/index.md
+      - 752 open the lock: leetcode/752-open-the-lock/index.md
       - 771 jewels and stones: leetcode/771-jewels-and-stones/index.md
       - 783 minimum distance between BST nodes: leetcode/783-minimum-distance-between-BST-nodes/index.md
       - 791 custom sort string: leetcode/791-custom-sort-string/index.md

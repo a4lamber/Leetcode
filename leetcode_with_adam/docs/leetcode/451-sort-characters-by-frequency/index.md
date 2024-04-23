@@ -51,7 +51,8 @@ s = "tree"
 #         0      1       2    3   4
 bucket = [[],["t","r"],["e"],[], []]
 ```
-Similar idea, 
+Similar idea,
+ 
 - hashmap with key-value pair as `char:count`
 - use bucket sort with array
 
