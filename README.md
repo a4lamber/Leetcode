@@ -5,7 +5,12 @@ A static web-app for
 - storing Leetcode solution
 - DSA notes
 
+
 ![](./assets/demo.png)
+
+> [!TIP]
+> Deployed to [here](https://a4lamber.github.io/Leetcode/), currently in a hybrid of Chinese of English.
+
 
 
 ## How to run locally
