@@ -3,9 +3,9 @@
  # @ Create Time: 2024-02-05 16:41:35
  # @ Modified by: Adam Zhang
  # @ Modified time: 2024-02-05 16:41:39
- # @ Description: to generate the navigation bar automatically
- like 
- 
+ # @ Description: scan the folder to generate the a yaml file for navigation bar 
+ # automatically like the following: 
+
 nav:
   - Home: 
     - index.md
@@ -13,6 +13,7 @@ nav:
       - leetcode/index.md
       - 1 two sum: leetcode/1-two-sum/index.md
       - 2 add two numbers: leetcode/2-add-two-numbers/index.md
+      ....
 """
 
 import os
