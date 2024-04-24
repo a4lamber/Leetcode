@@ -20,9 +20,11 @@ theme:
     # nav bar的设置 
     - navigation.footer
     - navigation.indexes
-    - navigation.instant
+    # Comment out instant navigation it appears to be in a
+    # bug for latex rendering
+    # - navigation.instant
     # - navigation.instant.prefetch
-    - navigation.instant.progress
+    # - navigation.instant.progress
     # - navigation.prune
     # - navigation.sections
     - navigation.tabs
@@ -53,7 +55,7 @@ theme:
 plugins:
   - search
   - tags
-  
+
 # markdown extensions        
 extra:
   generator: True

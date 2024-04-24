@@ -28,5 +28,7 @@ mkdocs serve --config-file ./leetcode_with_adam/mkdocs.yml -a 0.0.0.0:8001
 ```bash
 docker image build -t leetcode .
 
-docker container run -p 8000:8000 leetcode 
+# burner container
+docker container run -p 8000:8000 --rm leetcode 
 ```
+
