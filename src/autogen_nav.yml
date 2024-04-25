@@ -262,6 +262,7 @@
 - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
 - 2149 rearrange array elements by sign: leetcode/2149-rearrange-array-elements-by-sign/index.md
 - 2219 maximum sum score of array: leetcode/2219-maximum-sum-score-of-array/index.md
+- 2370 longest ideal subsequence: leetcode/2370-longest-ideal-subsequence/index.md
 - 2444 count subarrays with fixed bounds: leetcode/2444-count-subarrays-with-fixed-bounds/index.md
 - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
 - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md

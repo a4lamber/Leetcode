@@ -244,6 +244,7 @@ nav:
       - 287 find the duplicate number: leetcode/287-find-the-duplicate-number/index.md
       - 300 longest increasing subsequence: leetcode/300-longest-increasing-subsequence/index.md
       - 304 range sum query 2D immutable: leetcode/304-range-sum-query-2D-immutable/index.md
+      - 310 minimum height tree: leetcode/310-minimum-height-tree/index.md
       - 314 binary tree vertical order traversal: leetcode/314-binary-tree-vertical-order-traversal/index.md
       - 325 maximum size subarray sum equals k: leetcode/325-maximum-size-subarray-sum-equals-k/index.md
       - 328 odd even linked list: leetcode/328-odd-even-linked-list/index.md
@@ -289,6 +290,7 @@ nav:
       - 645 set mismatch: leetcode/645-set-mismatch/index.md
       - 647 palindromic substrings: leetcode/647-palindromic-substrings/index.md
       - 653 two sum IV input is a BST: leetcode/653-two-sum-IV-input-is-a-BST/index.md
+      - 658 Find K Closest Elements: leetcode/658-Find-K-Closest-Elements/index.md
       - 673 number of longest increasing subsequence: leetcode/673-number-of-longest-increasing-subsequence/index.md
       - 678 valid parenthesis string: leetcode/678-valid-parenthesis-string/index.md
       - 680 valid palindrome II: leetcode/680-valid-palindrome-II/index.md
@@ -390,6 +392,7 @@ nav:
       - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
       - 2149 rearrange array elements by sign: leetcode/2149-rearrange-array-elements-by-sign/index.md
       - 2219 maximum sum score of array: leetcode/2219-maximum-sum-score-of-array/index.md
+      - 2370 longest ideal subsequence: leetcode/2370-longest-ideal-subsequence/index.md
       - 2444 count subarrays with fixed bounds: leetcode/2444-count-subarrays-with-fixed-bounds/index.md
       - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
       - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
