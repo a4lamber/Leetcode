@@ -227,6 +227,7 @@
 - 1248 count number of nice subarrays: leetcode/1248-count-number-of-nice-subarrays/index.md
 - 1272 remove interval: leetcode/1272-remove-interval/index.md
 - 1288 remove covered intervals: leetcode/1288-remove-covered-intervals/index.md
+- 1289 minimum falling path sum II: leetcode/1289-minimum-falling-path-sum-II/index.md
 - 1290 convert binary number in a linked list to integer: leetcode/1290-convert-binary-number-in-a-linked-list-to-integer/index.md
 - 1305 all elements in two binary search trees: leetcode/1305-all-elements-in-two-binary-search-trees/index.md
 - 1351 count negative numbers in a sorted matrix: leetcode/1351-count-negative-numbers-in-a-sorted-matrix/index.md
@@ -255,8 +256,10 @@
 - 1762 buildings with an ocean view: leetcode/1762-buildings-with-an-ocean-view/index.md
 - 1768 merge strings alternately: leetcode/1768-merge-strings-alternately/index.md
 - 1876 substring of size three with distinct characters: leetcode/1876-substring-of-size-three-with-distinct-characters/index.md
+- 1915 number of wonderful substrings: leetcode/1915-number-of-wonderful-substrings/index.md
 - 1971 find if path exists in graph: leetcode/1971-find-if-path-exists-in-graph/index.md
 - 1992 find all groups of farmland: leetcode/1992-find-all-groups-of-farmland/index.md
+- 2000 reverse prefix of word: leetcode/2000-reverse-prefix-of-word/index.md
 - 2073 time needed to buy tickets: leetcode/2073-time-needed-to-buy-tickets/index.md
 - 2108 find the first palindromic string in the array: leetcode/2108-find-the-first-palindromic-string-in-the-array/index.md
 - 2130 maximum twin sum of a linked list: leetcode/2130-maximum-twin-sum-of-a-linked-list/index.md
@@ -282,6 +285,7 @@
 - 2966 divide array into arrays with max difference: leetcode/2966-divide-array-into-arrays-with-max-difference/index.md
 - 2971 find polygon with the largest perimeter: leetcode/2971-find-polygon-with-the-largest-perimeter/index.md
 - 2974 minimum number game: leetcode/2974-minimum-number-game/index.md
+- 2997 minimum number of operations to make array XOR equal to k: leetcode/2997-minimum-number-of-operations-to-make-array-XOR-equal-to-k/index.md
 - 3005 count elements with maximum frequency: leetcode/3005-count-elements-with-maximum-frequency/index.md
 - 3042 count prefix and suffix pairs II: leetcode/3042-count-prefix-and-suffix-pairs-II/index.md
 - 3043 find the length of the longest common prefix: leetcode/3043-find-the-length-of-the-longest-common-prefix/index.md
