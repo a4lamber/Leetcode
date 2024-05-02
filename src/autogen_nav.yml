@@ -242,6 +242,7 @@
 - 1480 running sum of 1d array: leetcode/1480-running-sum-of-1d-array/index.md
 - 1481 least number of unique intergers after K removals: leetcode/1481-least-number-of-unique-intergers-after-K-removals/index.md
 - 1512 number of good pairs: leetcode/1512-number-of-good-pairs/index.md
+- 1542 number of subarrays with odd sum: leetcode/1542-number-of-subarrays-with-odd-sum/index.md
 - 1544 make the string great: leetcode/1544-make-the-string-great/index.md
 - 1567 maximum length of subarray with positive product: leetcode/1567-maximum-length-of-subarray-with-positive-product/index.md
 - 1570 dot product of two sparse vectors: leetcode/1570-dot-product-of-two-sparse-vectors/index.md
