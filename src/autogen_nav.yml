@@ -77,6 +77,7 @@
 - 160 intersection of two linked list: leetcode/160-intersection-of-two-linked-list/index.md
 - 161 one edit distance: leetcode/161-one-edit-distance/index.md
 - 164 maximum gap: leetcode/164-maximum-gap/index.md
+- 165 compare version numbers: leetcode/165-compare-version-numbers/index.md
 - 167 two sum II input array is sorted: leetcode/167-two-sum-II-input-array-is-sorted/index.md
 - 169 majority element: leetcode/169-majority-element/index.md
 - 191 number of 1 bits: leetcode/191-number-of-1-bits/index.md
@@ -267,6 +268,7 @@
 - 2149 rearrange array elements by sign: leetcode/2149-rearrange-array-elements-by-sign/index.md
 - 2219 maximum sum score of array: leetcode/2219-maximum-sum-score-of-array/index.md
 - 2370 longest ideal subsequence: leetcode/2370-longest-ideal-subsequence/index.md
+- 2441 largest possible integer: leetcode/2441-largest-possible-integer/index.md
 - 2444 count subarrays with fixed bounds: leetcode/2444-count-subarrays-with-fixed-bounds/index.md
 - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
 - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
