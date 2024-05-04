@@ -314,6 +314,7 @@ nav:
       - 873 length of longest fibonacci subsequence: leetcode/873-length-of-longest-fibonacci-subsequence/index.md
       - 875 koko eating bananas: leetcode/875-koko-eating-bananas/index.md
       - 876 middle of the linked list: leetcode/876-middle-of-the-linked-list/index.md
+      - 881 boats to save people: leetcode/881-boats-to-save-people/index.md
       - 887 super egg drop: leetcode/887-super-egg-drop/index.md
       - 918 maximum sum circular subarray: leetcode/918-maximum-sum-circular-subarray/index.md
       - 930 binary subarrays with sum: leetcode/930-binary-subarrays-with-sum/index.md
