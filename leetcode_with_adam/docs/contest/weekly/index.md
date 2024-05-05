@@ -1,5 +1,15 @@
 # Weekly History
 
+**weekly 396**
+
+|number|description|solution|
+|-|-|-|
+|[3136 Valid Word](https://leetcode.com/problems/valid-word/description/)|set some flags and one-pass scan|[solution](../../leetcode/3137-minimum-number-of-operations-to-make-word-k-periodic/index.md)|
+|[3137 Minimum Number of Operations to make word k-periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/description/)|frequency map of each segment,找到最大频率的字段`word[i:i+k]`|[solution](../../leetcode/3137-minimum-number-of-operations-to-make-word-k-periodic/index.md)|
+|[3138 Minimum Length of Anagram Concatenation](https://leetcode.com/problems/minimum-length-of-anagram-concatenation/description/)|找到一个string中的最长anagram, 等价在所有char的频率hash表里，找到频率的gcd(greatest common divisor)|[solution](../../leetcode/3138-minimum-length-of-anagram-concatenation/index.md)|
+|3139 Minimum Cost to Equalize Array|-|-|
+
+
 
 **weekly 392**
 
