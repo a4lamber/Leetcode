@@ -229,6 +229,7 @@ nav:
       - 231 power of two: leetcode/231-power-of-two/index.md
       - 232 implement queue using stacks: leetcode/232-implement-queue-using-stacks/index.md
       - 234 palindrome linked list: leetcode/234-palindrome-linked-list/index.md
+      - 237 delete node in a linked list: leetcode/237-delete-node-in-a-linked-list/index.md
       - 238 product of array except self: leetcode/238-product-of-array-except-self/index.md
       - 239 sliding window maximum: leetcode/239-sliding-window-maximum/index.md
       - 242 valid anagram: leetcode/242-valid-anagram/index.md
@@ -402,6 +403,7 @@ nav:
       - 2441 largest possible integer: leetcode/2441-largest-possible-integer/index.md
       - 2444 count subarrays with fixed bounds: leetcode/2444-count-subarrays-with-fixed-bounds/index.md
       - 2485 find the pivot integer: leetcode/2485-find-the-pivot-integer/index.md
+      - 2487 remove nodes from linked list: leetcode/2487-remove-nodes-from-linked-list/index.md
       - 2512 reward top k students: leetcode/2512-reward-top-k-students/index.md
       - 2516 take k of each characters from left and right: leetcode/2516-take-k-of-each-characters-from-left-and-right/index.md
       - 2540 minimum common value: leetcode/2540-minimum-common-value/index.md
@@ -443,3 +445,6 @@ nav:
       - 3110 score of a string: leetcode/3110-score-of-a-string/index.md
       - 3111 minimum rectangles to cover points: leetcode/3111-minimum-rectangles-to-cover-points/index.md
       - 3113 Find the Number of Subarrays Where Boundary Elements Are Maximum: leetcode/3113-Find-the-Number-of-Subarrays-Where-Boundary-Elements-Are-Maximum/index.md
+      - 3136 valid word: leetcode/3136-valid-word/index.md
+      - 3137 minimum number of operations to make word k periodic: leetcode/3137-minimum-number-of-operations-to-make-word-k-periodic/index.md
+      - 3138 minimum length of anagram concatenation: leetcode/3138-minimum-length-of-anagram-concatenation/index.md
