@@ -4,5 +4,9 @@
 
 leetcode_blog.egg-info/
 
-# build html for mkdocs. kinda bloated
+# build html for mkdocs. prevent from being really bloated
 public/
+
+# not mature enough, not gonna release
+design_pattern/
+

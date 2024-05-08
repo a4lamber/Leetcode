@@ -126,6 +126,11 @@ nav:
     - Two Pointers: techniques/two_pointers/index.md
     - Sliding Window: techniques/sliding_window/index.md
     - Greedy: techniques/greedy/index.md
+  - Design Pattern:
+    - design_pattern/index.md
+    - Singleton: design_pattern/singleton/index.md
+    - Factories: design_pattern/factories/index.md
+    - Builder: design_pattern/builder/index.md
   - Leetcode:
       - leetcode/index.md
       - 1 two sum: leetcode/1-two-sum/index.md
