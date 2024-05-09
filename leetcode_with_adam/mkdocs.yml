@@ -55,6 +55,9 @@ theme:
 plugins:
   - search
   - tags
+  - enumerate-headings:
+      increment_across_pages: False
+  
 
 # markdown extensions        
 extra:
