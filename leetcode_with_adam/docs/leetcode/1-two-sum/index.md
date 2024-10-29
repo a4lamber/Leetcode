@@ -16,8 +16,10 @@ tags:
 
 ## Brute force
 这一题我下意识的解法是, traverse这个list twice with nested loop, 然后根据题目做两个if判断:
+
 - 两个element之和等于本身
 - 不能用同样的element twice
+- 
 之后只需要break out the nested loop就可以了, 代码如下
 
 ```python

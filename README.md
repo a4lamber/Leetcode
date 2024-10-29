@@ -46,3 +46,10 @@ docker container run -p 8000:8000 --rm leetcode
 - `String`: dedicated page for string matching like KMP and Rabin-Karp
 - `Techniques`: techniques that can't be categorized into the algorithm but useful in solving problems
 - `Contest`: contest solution and self-reflection.
+
+
+## Features to add
+
+- need to add a feature to group by topic or something
+
+

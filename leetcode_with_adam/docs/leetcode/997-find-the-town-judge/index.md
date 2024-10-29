@@ -5,7 +5,7 @@ tags:
     - Hash Table
 ---
 
-## 997 Find the Town Judge
+# 997 Find the Town Judge
 
 入门的图论题目, 有向图的入度和出度的关系, 重点在于理解judge的定义:
 

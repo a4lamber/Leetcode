@@ -3,6 +3,7 @@ Condition:
 - You may not use the same element twice
 """
 
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # declare a hashmap
@@ -29,5 +30,4 @@ class Solution:
             # check both conditions
             # check 为了met condition的条件是否存在于hash中，以及hash是否等于其本身
             if condition in hashmap and hashmap[condition] != i:
-                return [i,hashmap[condition]]
-
+                return [i, hashmap[condition]]

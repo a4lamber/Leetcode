@@ -23,10 +23,11 @@ It rounds to $O(kn^2)$ and If we look at the constraint of the problem,
 It's too much so we have to find a better solution.
 
 ## Approach 2: Sliding Window 
+
 Sliding window problem 有以下几个条件要判断作为framework:
 
 - 选什么Auxillary DS (data structure)做window?
-    - sliding windowing, 可以选用`list()`或者`set()`来做这件事情，但是由于我们需要判断一个character是否是duplicate inside a string，如果用list作为sliding window, 要做linear search $O(n)$, 然而hashset 为 $O(1), 所以我们prefer `set()`.
+    - sliding windowing, 可以选用`list()`或者`set()`来做这件事情，但是由于我们需要判断一个character是否是duplicate inside a string，如果用list作为sliding window, 要做linear search $O(n)$, 然而hashset 为 $O(1)$, 所以我们prefer `set()`.
 - 什么做window的boundary?
     - maintain `left` and `right` pointer (sliding window可以说是双指针法的variation)
 - 最简单的case是什么?怎么implement?
@@ -88,5 +89,43 @@ class Solution:
                     left += 1
             # if reach here, everything in window is unique
             global_max = max(global_max,right - left + 1)
+        return global_max
+```
+
+## Approach 3 hashtable + queue
+
+把set的功能用queue + hashtable来实现，这个方法的好处是"画蛇添足". 但这也是我二刷时候的解. 
+
+```python
+from collections import deque
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        """
+        - maintain a variable for maximum length of non-repearing substring
+        - maintain a hashset until we found a match
+        - for each char, 
+            - if not in hashset, increment counter by 1
+            - if in hashset, we need to find the last index of what we found
+        """
+        global_max = 0
+        hashtable = dict()
+        queue = deque([])
+        for i,c in enumerate(s):
+            if c not in hashtable:
+                queue.append(c)
+                hashtable[c] = i
+            else:
+                # we have to reset by
+                # - popping left until we pop out 
+                global_max = max(global_max,len(queue))                
+                while queue and queue[0] != c:
+                    tmp = queue.popleft()
+                    del hashtable[tmp]
+                if queue:
+                    tmp = queue.popleft()                    
+                hashtable[c] = i
+                queue.append(c)
+            # if longest substring is suffix of s
+            global_max = max(global_max,len(queue))
         return global_max
 ```

@@ -6,11 +6,36 @@ tags:
 ---
 # [15 Three Sum](https://leetcode.com/problems/3sum/description/)
 
+几种解法, 
+
+- brute force
+- hashset
+- sort + two pointer
+- no sort
 
 ## Approach 1 Brute Force
 
 暴力解法就是三循环，然后找到所有的组合，然后去重，这个方法的时间复杂度是O(n^3)
 
+```python
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        """
+        - 1. two pointer i,j 
+            - starting at 0,1
+            - maintain a hashset to store O(n^2) solution.
+            - 包括nums[0]的所有数...
+            - 包括nums[1]的所有数...
+            - 包括nums[2]的所有数...
+        """
+        res = set()
+        for i in range(len(nums)):
+            for j in range(i+1,len(nums)):
+                for k in range(j+1,len(nums)):
+                    if nums[i] + nums[j] + nums[k] == 0:
+                        res.add(tuple(sorted([nums[i],nums[j],nums[k]])))
+        return res
+```
 
 ## Approach 2 Hashset
 
@@ -91,9 +116,48 @@ class Solution:
 
 
 
-## Approach 2 Two Pointer
+## Approach 3 Sort + Two Pointer
 
 这题combine了two sum and two sum II, 
+
+```python
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        """
+        1: create a twoSumII function for fun        
+        """
+        nums.sort()
+        res = set()
+
+        def twosum_ii(nums,i,res):
+            l,r = i+1,len(nums)-1
+            while l < r:
+                total = nums[i] + nums[l] + nums[r]
+                if total < 0:
+                    l+=1
+                elif total >0:
+                    r-=1
+                else:
+                    res.add(tuple(sorted([nums[i],nums[l],nums[r]])))
+                    l += 1
+                    r -= 1
+                    while l < r and nums[l] == nums[l-1]:
+                        l += 1
+                    while l < r and nums[r] == nums[r+1]:
+                        r -= 1
+
+        for i in range(len(nums)):            
+            if nums[i] > 0:
+                # 最小的数字必然是负数
+                break
+            if i == 0 or nums[i-1] != nums[i]:
+                # duplicate没必要算了
+                twosum_ii(nums,i,res)
+        return res
+```
+
+## Approach 4 No Sort
+
 
 
 ## Reference
