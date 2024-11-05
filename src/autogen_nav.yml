@@ -64,6 +64,7 @@
 - 121 best time to buy and sell stock: leetcode/121-best-time-to-buy-and-sell-stock/index.md
 - 122 best time to buy and sell stock II: leetcode/122-best-time-to-buy-and-sell-stock-II/index.md
 - 125 valid palindrome: leetcode/125-valid-palindrome/index.md
+- 127 word ladder: leetcode/127-word-ladder/index.md
 - 128 longest consecutive sequence: leetcode/128-longest-consecutive-sequence/index.md
 - 129 sum root to leaf numbers: leetcode/129-sum-root-to-leaf-numbers/index.md
 - 136 single number: leetcode/136-single-number/index.md
@@ -132,6 +133,7 @@
 - 346 moving average from data stream: leetcode/346-moving-average-from-data-stream/index.md
 - 347 top k frequent elements: leetcode/347-top-k-frequent-elements/index.md
 - 349 intersection of two arrays: leetcode/349-intersection-of-two-arrays/index.md
+- 365 water and jug problem: leetcode/365-water-and-jug-problem/index.md
 - 368 largest divisible subset: leetcode/368-largest-divisible-subset/index.md
 - 370 range addition: leetcode/370-range-addition/index.md
 - 374 guess number higher or lower: leetcode/374-guess-number-higher-or-lower/index.md
@@ -282,6 +284,7 @@
 - 1762 buildings with an ocean view: leetcode/1762-buildings-with-an-ocean-view/index.md
 - 1768 merge strings alternately: leetcode/1768-merge-strings-alternately/index.md
 - 1876 substring of size three with distinct characters: leetcode/1876-substring-of-size-three-with-distinct-characters/index.md
+- 1882 process tasks using servers: leetcode/1882-process-tasks-using-servers/index.md
 - 1915 number of wonderful substrings: leetcode/1915-number-of-wonderful-substrings/index.md
 - 1971 find if path exists in graph: leetcode/1971-find-if-path-exists-in-graph/index.md
 - 1992 find all groups of farmland: leetcode/1992-find-all-groups-of-farmland/index.md
